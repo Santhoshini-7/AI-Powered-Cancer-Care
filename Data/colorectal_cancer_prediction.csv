@@ -1,0 +1,1001 @@
+Patient_ID,Age,Gender,Race,Region,Urban_or_Rural,Socioeconomic_Status,Family_History,Previous_Cancer_History,Stage_at_Diagnosis,Tumor_Aggressiveness,Colonoscopy_Access,Screening_Regularity,Diet_Type,BMI,Physical_Activity_Level,Smoking_Status,Alcohol_Consumption,Red_Meat_Consumption,Fiber_Consumption,Insurance_Coverage,Time_to_Diagnosis,Treatment_Access,Chemotherapy_Received,Radiotherapy_Received,Surgery_Received,Follow_Up_Adherence,Survival_Status,Recurrence,Time_to_Recurrence
+1,71,Male,Other,Europe,Urban,Middle,Yes,No,III,High,No,Regular,Western,33,Low,Never,Low,Low,Low,Yes,Delayed,Good,Yes,No,No,Good,Survived,No,16
+2,34,Female,Black,North America,Urban,Middle,No,No,I,Medium,Yes,Regular,Western,33.1,Medium,Never,Low,Low,Low,No,Timely,Good,No,Yes,Yes,Poor,Deceased,No,28
+3,80,Female,White,North America,Urban,Middle,No,No,III,Low,Yes,Regular,Balanced,20.7,Medium,Never,Low,Low,Medium,Yes,Timely,Limited,No,Yes,Yes,Good,Survived,No,26
+4,40,Male,Black,North America,Rural,Low,No,No,I,Medium,Yes,Never,Traditional,38.9,Medium,Former,Low,Low,High,Yes,Delayed,Limited,Yes,No,Yes,Poor,Deceased,No,44
+5,43,Female,White,Europe,Urban,High,Yes,No,III,Low,Yes,Never,Traditional,24.8,Medium,Former,High,Medium,Low,No,Delayed,Good,Yes,No,Yes,Poor,Deceased,Yes,20
+6,22,Female,White,Asia Pacific,Rural,Low,No,No,I,Low,No,Never,Traditional,34.5,Low,Former,High,Medium,Medium,No,Delayed,Good,Yes,No,Yes,Good,Survived,No,35
+7,41,Male,Hispanic,Europe,Rural,Low,No,No,II,Medium,Yes,Never,Traditional,24,Low,Never,Low,Low,Low,Yes,Timely,Good,No,Yes,Yes,Good,Survived,Yes,10
+8,72,Male,Asian,Latin America,Rural,Middle,No,No,III,Medium,Yes,Regular,Balanced,24.1,Low,Never,Medium,High,High,Yes,Delayed,Limited,No,No,Yes,Poor,Survived,Yes,6
+9,21,Male,White,Europe,Urban,Middle,No,No,IV,Low,No,Irregular,Western,29.2,Low,Former,Low,Medium,High,Yes,Timely,Good,No,No,Yes,Good,Survived,No,23
+10,49,Female,Hispanic,Asia Pacific,Urban,High,Yes,No,II,High,Yes,Never,Traditional,30.8,Medium,Never,High,High,Low,No,Delayed,Good,No,Yes,Yes,Good,Deceased,Yes,27
+11,57,Female,Hispanic,North America,Rural,Low,Yes,No,I,Low,Yes,Regular,Western,25.1,Low,Never,Medium,Low,Medium,Yes,Timely,Good,No,No,Yes,Good,Deceased,No,40
+12,21,Female,Black,Europe,Urban,Middle,No,No,II,Low,Yes,Regular,Traditional,34.1,High,Never,Low,Low,Low,Yes,Delayed,Good,No,No,No,Good,Survived,Yes,12
+13,83,Female,Asian,Latin America,Urban,Middle,No,No,IV,Medium,Yes,Regular,Balanced,26.6,Low,Never,Medium,Medium,Low,No,Delayed,Limited,No,No,No,Good,Survived,No,36
+14,79,Male,Black,North America,Rural,High,No,No,I,High,Yes,Irregular,Traditional,21.5,Medium,Former,Low,High,Medium,Yes,Timely,Limited,No,Yes,No,Poor,Survived,No,25
+15,40,Male,Asian,North America,Urban,Low,No,No,I,Medium,Yes,Regular,Western,36.5,Medium,Never,Medium,High,Medium,Yes,Delayed,Good,No,Yes,Yes,Poor,Survived,No,11
+16,52,Female,Black,Asia Pacific,Rural,High,No,No,I,Low,Yes,Never,Western,22.8,Low,Never,High,Medium,Low,Yes,Timely,Limited,Yes,Yes,Yes,Good,Survived,No,7
+17,77,Male,White,North America,Rural,Middle,No,No,III,High,Yes,Irregular,Western,38.5,Medium,Former,Medium,Medium,Medium,Yes,Timely,Good,No,No,Yes,Good,Deceased,No,23
+18,41,Male,White,Europe,Urban,High,No,No,II,Low,No,Irregular,Western,37.5,High,Never,Low,High,Medium,Yes,Delayed,Good,Yes,No,Yes,Poor,Survived,Yes,30
+19,68,Male,White,North America,Urban,High,Yes,No,IV,Medium,Yes,Never,Western,27.5,High,Never,Medium,Medium,High,Yes,Timely,Good,No,No,Yes,Good,Survived,No,7
+20,78,Female,White,Asia Pacific,Urban,Low,Yes,No,II,Medium,Yes,Regular,Western,30.7,High,Never,Low,Medium,Medium,Yes,Timely,Limited,Yes,No,Yes,Good,Deceased,No,37
+21,61,Female,White,Europe,Rural,Middle,No,No,III,Medium,No,Regular,Western,28,High,Current,Low,Low,Medium,No,Timely,Good,No,No,No,Good,Deceased,Yes,34
+22,79,Male,Black,Asia Pacific,Urban,Low,No,No,II,Medium,Yes,Regular,Western,27.8,Low,Never,Low,Low,Medium,Yes,Delayed,Good,Yes,Yes,Yes,Poor,Survived,Yes,6
+23,34,Male,White,North America,Urban,Middle,No,No,II,Medium,Yes,Irregular,Western,25.5,Medium,Never,Low,Medium,Low,Yes,Delayed,Good,Yes,Yes,Yes,Good,Survived,Yes,36
+24,81,Female,White,Asia Pacific,Urban,Middle,No,No,I,Medium,Yes,Regular,Western,22.4,High,Current,Low,Medium,Medium,Yes,Timely,Good,Yes,No,Yes,Good,Survived,No,16
+25,81,Male,White,North America,Urban,Middle,Yes,No,I,High,No,Regular,Balanced,32.4,Medium,Never,Low,Low,Medium,Yes,Delayed,Good,No,No,Yes,Good,Survived,No,44
+26,66,Female,White,North America,Urban,Low,No,No,IV,Low,Yes,Never,Balanced,24.8,Low,Former,Medium,Low,High,Yes,Timely,Limited,No,No,No,Poor,Survived,No,57
+27,81,Female,White,North America,Urban,Low,No,No,IV,Medium,Yes,Regular,Balanced,32.6,Medium,Never,Low,High,Low,No,Timely,Good,No,No,Yes,Poor,Deceased,No,1
+28,70,Male,Asian,Asia Pacific,Urban,Low,No,No,I,Medium,Yes,Never,Balanced,18.6,Low,Never,Medium,Low,Medium,Yes,Timely,Good,No,Yes,Yes,Good,Survived,No,28
+29,74,Male,Asian,Europe,Urban,Low,Yes,No,I,Low,Yes,Irregular,Western,38.1,Low,Former,Medium,Low,Low,Yes,Delayed,Limited,Yes,No,Yes,Good,Survived,No,41
+30,83,Male,Black,Europe,Urban,Middle,No,No,I,Medium,Yes,Irregular,Western,35.7,Low,Former,High,Low,Medium,Yes,Timely,Good,Yes,Yes,Yes,Good,Survived,No,12
+31,22,Male,White,North America,Urban,Middle,No,No,I,Low,Yes,Irregular,Balanced,27.8,Medium,Current,Low,Medium,Medium,No,Delayed,Good,Yes,Yes,No,Poor,Survived,No,3
+32,70,Male,White,North America,Rural,Middle,No,No,II,Medium,Yes,Regular,Western,28.8,High,Former,Low,Low,Low,Yes,Timely,Good,No,No,Yes,Poor,Deceased,No,5
+33,26,Male,White,Latin America,Urban,High,Yes,Yes,III,Medium,Yes,Irregular,Balanced,25.6,Low,Former,Medium,Medium,High,No,Timely,Good,No,No,Yes,Good,Survived,No,54
+34,40,Female,Hispanic,Europe,Urban,Low,Yes,No,I,Medium,Yes,Never,Traditional,23.9,Low,Former,High,Medium,Medium,No,Timely,Good,Yes,No,No,Poor,Survived,Yes,16
+35,58,Female,Black,Latin America,Urban,Middle,No,No,I,Medium,Yes,Regular,Western,21,Low,Never,High,Medium,Medium,Yes,Delayed,Good,No,No,Yes,Good,Survived,Yes,36
+36,37,Female,White,Africa,Urban,High,No,No,I,Low,Yes,Never,Western,26.2,Low,Never,High,Medium,Low,No,Delayed,Limited,No,No,No,Good,Survived,No,9
+37,23,Female,Black,North America,Urban,High,No,Yes,I,High,Yes,Regular,Western,22.8,Low,Never,High,High,Medium,No,Delayed,Good,No,No,Yes,Good,Survived,No,54
+38,79,Female,White,Africa,Rural,High,No,No,II,Medium,Yes,Regular,Western,21.2,Low,Never,Medium,Low,Medium,Yes,Delayed,Good,Yes,Yes,Yes,Good,Survived,Yes,11
+39,33,Female,White,Asia Pacific,Urban,Middle,Yes,No,II,Medium,Yes,Regular,Western,33.1,Low,Current,High,High,Low,Yes,Timely,Good,Yes,Yes,No,Good,Deceased,No,54
+40,28,Male,White,North America,Urban,Middle,No,No,III,Medium,Yes,Regular,Traditional,33.3,Low,Never,Medium,High,Medium,Yes,Delayed,Good,No,No,Yes,Poor,Survived,Yes,21
+41,72,Female,Asian,North America,Urban,Low,No,No,IV,Low,Yes,Regular,Western,27.4,Medium,Former,Low,Low,Low,Yes,Delayed,Limited,No,Yes,No,Poor,Survived,No,36
+42,21,Female,White,Europe,Rural,Middle,No,No,II,Medium,Yes,Irregular,Balanced,30.2,High,Never,Medium,Low,Low,Yes,Timely,Limited,Yes,No,No,Good,Survived,No,54
+43,79,Female,White,North America,Rural,Middle,No,No,I,High,Yes,Regular,Western,35.3,Low,Former,Low,Low,Medium,Yes,Timely,Good,Yes,Yes,Yes,Good,Deceased,Yes,53
+44,63,Male,Hispanic,Asia Pacific,Rural,High,Yes,No,I,Low,Yes,Regular,Traditional,21.1,Low,Current,Medium,High,Medium,Yes,Delayed,Good,No,Yes,Yes,Good,Deceased,No,46
+45,27,Female,White,Europe,Urban,Middle,No,No,IV,Medium,No,Irregular,Western,39.6,Medium,Never,Medium,Low,Low,Yes,Delayed,Good,No,Yes,Yes,Good,Survived,No,14
+46,66,Male,White,Latin America,Urban,Low,No,No,IV,Medium,No,Regular,Western,22.5,Medium,Current,High,Medium,Low,Yes,Delayed,Good,No,Yes,No,Good,Survived,No,40
+47,54,Male,Hispanic,North America,Urban,Middle,Yes,No,III,Low,Yes,Never,Western,35.8,Medium,Never,Medium,Low,Medium,Yes,Delayed,Good,No,Yes,No,Good,Survived,Yes,28
+48,55,Male,White,Africa,Urban,Middle,Yes,No,II,Medium,No,Regular,Balanced,35.4,Medium,Never,Low,High,High,Yes,Timely,Good,No,No,Yes,Poor,Survived,No,7
+49,69,Female,White,Asia Pacific,Urban,Middle,No,No,I,Medium,No,Never,Western,38.9,Medium,Current,Low,Low,Low,No,Timely,Good,Yes,No,Yes,Good,Survived,No,42
+50,23,Female,White,Europe,Urban,Low,Yes,No,II,Low,Yes,Irregular,Balanced,26.8,Low,Never,High,Low,Low,No,Timely,Limited,Yes,Yes,Yes,Good,Survived,Yes,40
+51,21,Male,White,Latin America,Urban,Middle,No,No,I,High,Yes,Irregular,Western,18.8,High,Former,Medium,Low,Medium,Yes,Timely,Good,No,Yes,Yes,Good,Survived,No,31
+52,25,Male,Hispanic,North America,Urban,Low,No,No,III,Medium,Yes,Regular,Western,35,Medium,Never,Medium,High,Medium,Yes,Timely,Good,Yes,Yes,No,Poor,Survived,No,20
+53,73,Female,Black,Asia Pacific,Urban,Middle,Yes,No,I,High,Yes,Irregular,Balanced,31.1,Low,Former,Medium,Low,Medium,Yes,Timely,Limited,No,No,Yes,Good,Survived,No,22
+54,23,Female,White,Asia Pacific,Urban,Middle,No,No,IV,Medium,Yes,Never,Balanced,27.7,Medium,Former,Low,Medium,Low,Yes,Timely,Good,No,No,Yes,Good,Survived,Yes,54
+55,73,Male,White,North America,Urban,Middle,No,No,II,Low,Yes,Irregular,Western,39,Low,Current,Medium,Medium,Low,Yes,Timely,Good,No,No,Yes,Good,Survived,No,24
+56,82,Male,White,Europe,Urban,Middle,No,No,II,Low,Yes,Never,Western,37.9,Medium,Former,Low,Medium,High,No,Timely,Good,No,No,Yes,Poor,Survived,No,13
+57,37,Female,White,Europe,Urban,Middle,No,No,III,High,Yes,Regular,Balanced,21,High,Never,High,High,Medium,Yes,Timely,Good,Yes,No,Yes,Poor,Survived,No,10
+58,63,Female,Other,North America,Urban,High,No,Yes,II,Low,Yes,Regular,Traditional,25.8,Low,Never,Low,High,High,Yes,Timely,Good,No,No,Yes,Good,Deceased,No,32
+59,53,Male,Other,Europe,Urban,Low,No,No,III,Low,Yes,Irregular,Western,35.1,Low,Never,Low,Low,Medium,Yes,Timely,Good,No,Yes,Yes,Poor,Survived,No,36
+60,81,Female,White,Asia Pacific,Urban,Middle,No,No,III,High,Yes,Regular,Western,20.6,Medium,Never,Low,High,Medium,Yes,Delayed,Good,No,Yes,Yes,Poor,Survived,No,25
+61,33,Female,White,Europe,Rural,Middle,No,No,I,Low,Yes,Regular,Western,22.6,Low,Never,Low,Low,Low,Yes,Timely,Good,No,No,No,Poor,Survived,No,17
+62,67,Male,Other,Europe,Urban,Low,No,No,I,High,Yes,Irregular,Western,20.4,Low,Former,Medium,Medium,Medium,Yes,Delayed,Good,Yes,Yes,Yes,Good,Survived,No,4
+63,34,Female,White,North America,Rural,Middle,No,No,II,Medium,Yes,Irregular,Traditional,39.6,Low,Never,High,Low,Low,Yes,Delayed,Good,No,Yes,Yes,Poor,Deceased,No,16
+64,81,Male,White,Europe,Rural,High,Yes,No,III,High,Yes,Irregular,Western,34,Low,Never,Medium,High,Medium,Yes,Timely,Good,Yes,No,Yes,Good,Deceased,Yes,39
+65,59,Female,White,Europe,Urban,Middle,No,No,II,Medium,No,Regular,Balanced,27.3,Medium,Never,Low,Low,Medium,Yes,Timely,Good,Yes,No,Yes,Good,Survived,Yes,58
+66,72,Female,White,Asia Pacific,Rural,Low,No,No,I,Medium,No,Regular,Western,25.4,Low,Never,Medium,Medium,Low,Yes,Delayed,Good,Yes,Yes,Yes,Poor,Deceased,No,54
+67,43,Female,White,Europe,Rural,Middle,Yes,No,II,Low,Yes,Never,Balanced,24.5,Medium,Never,Low,Low,Medium,Yes,Timely,Limited,Yes,No,Yes,Poor,Deceased,No,1
+68,45,Male,Black,Europe,Rural,Middle,No,No,I,Low,Yes,Irregular,Western,27.4,Medium,Former,High,Medium,Low,Yes,Timely,Limited,Yes,No,Yes,Poor,Survived,Yes,8
+69,79,Male,Black,Asia Pacific,Rural,Low,No,No,II,High,Yes,Regular,Western,22.1,Medium,Never,Low,Low,Medium,Yes,Timely,Good,Yes,No,Yes,Good,Survived,Yes,28
+70,60,Male,Asian,Asia Pacific,Urban,Low,No,No,IV,High,Yes,Irregular,Balanced,34.7,Low,Current,Low,Low,Low,Yes,Delayed,Good,No,No,Yes,Good,Survived,No,19
+71,48,Female,White,North America,Urban,Middle,Yes,No,III,Medium,Yes,Irregular,Traditional,31.7,Low,Never,High,Medium,Low,Yes,Timely,Good,No,No,Yes,Poor,Survived,No,38
+72,34,Female,Black,North America,Urban,Middle,No,No,I,Medium,Yes,Irregular,Balanced,24.3,Medium,Former,Low,Low,Medium,Yes,Delayed,Good,No,No,Yes,Poor,Survived,No,3
+73,64,Female,White,Latin America,Rural,Middle,No,No,III,Medium,Yes,Irregular,Balanced,23.9,Medium,Never,High,Low,Low,Yes,Timely,Limited,No,Yes,Yes,Good,Survived,No,45
+74,84,Female,White,Europe,Urban,Low,Yes,Yes,III,Medium,No,Regular,Balanced,21,High,Never,Low,High,Medium,No,Timely,Good,No,Yes,Yes,Poor,Deceased,Yes,30
+75,28,Male,Black,North America,Rural,Middle,No,No,II,High,Yes,Regular,Traditional,38.8,Low,Former,Medium,Medium,Medium,No,Delayed,Limited,Yes,Yes,No,Good,Deceased,Yes,54
+76,20,Female,White,Asia Pacific,Urban,Middle,No,No,III,Low,Yes,Regular,Western,24.5,High,Never,Medium,Medium,High,Yes,Delayed,Limited,Yes,Yes,Yes,Poor,Survived,Yes,50
+77,27,Female,Asian,Africa,Rural,Middle,No,No,IV,Low,Yes,Regular,Western,34.9,Medium,Never,Low,Medium,Medium,Yes,Delayed,Good,No,Yes,No,Poor,Survived,No,7
+78,82,Male,Asian,Asia Pacific,Urban,Middle,Yes,No,III,Low,Yes,Never,Traditional,34.2,Low,Former,Low,High,Medium,Yes,Delayed,Good,Yes,Yes,No,Poor,Survived,Yes,42
+79,30,Female,White,Europe,Urban,Middle,No,No,I,High,Yes,Irregular,Western,37.4,Low,Former,Medium,Low,Low,Yes,Timely,Good,Yes,No,Yes,Good,Survived,No,24
+80,27,Male,Asian,Asia Pacific,Urban,Middle,No,No,III,Medium,Yes,Regular,Traditional,29.2,Low,Never,Medium,High,Medium,No,Timely,Good,No,No,Yes,Poor,Survived,No,19
+81,54,Male,Hispanic,Asia Pacific,Rural,Middle,No,No,I,Low,No,Regular,Balanced,36.5,Low,Former,Low,Low,High,Yes,Timely,Good,No,Yes,Yes,Good,Survived,No,11
+82,54,Male,Asian,Europe,Urban,Middle,No,No,I,Low,No,Never,Balanced,21,Low,Current,High,Low,Medium,Yes,Delayed,Good,No,Yes,Yes,Good,Survived,No,6
+83,52,Female,White,Latin America,Urban,Low,No,No,II,High,Yes,Regular,Western,35,Low,Former,High,High,High,Yes,Delayed,Limited,Yes,Yes,Yes,Good,Survived,Yes,38
+84,24,Female,Asian,Latin America,Urban,High,Yes,Yes,II,Medium,Yes,Irregular,Traditional,21.5,Low,Current,Medium,Medium,High,Yes,Timely,Good,No,No,Yes,Good,Survived,No,39
+85,60,Male,White,Europe,Urban,Low,No,Yes,IV,Low,Yes,Regular,Traditional,24.5,Medium,Never,Low,Low,Medium,Yes,Timely,Good,No,No,Yes,Poor,Survived,No,26
+86,47,Female,Black,Latin America,Urban,High,No,No,III,Medium,Yes,Regular,Western,31.5,Medium,Current,Low,High,High,Yes,Timely,Limited,Yes,No,Yes,Poor,Survived,No,18
+87,26,Male,Black,North America,Urban,Middle,No,No,III,Low,No,Never,Balanced,36.5,Medium,Former,High,Medium,Low,Yes,Delayed,Good,No,No,No,Good,Survived,Yes,19
+88,31,Male,White,North America,Rural,Middle,No,No,III,Low,Yes,Regular,Balanced,23.7,Low,Former,Low,Low,Medium,Yes,Timely,Good,No,No,Yes,Good,Deceased,Yes,22
+89,53,Male,Black,North America,Urban,High,No,No,I,Medium,No,Irregular,Western,29.5,Medium,Current,Low,Medium,Medium,Yes,Delayed,Good,No,No,Yes,Poor,Survived,No,43
+90,52,Male,Black,Asia Pacific,Rural,Low,No,Yes,III,High,Yes,Regular,Balanced,20.6,Low,Never,Low,Low,Medium,Yes,Timely,Good,Yes,Yes,Yes,Poor,Deceased,Yes,3
+91,67,Female,Black,Europe,Urban,Middle,No,No,I,Low,Yes,Irregular,Balanced,37.4,Medium,Never,Low,High,Low,Yes,Delayed,Limited,No,No,Yes,Good,Survived,No,23
+92,42,Female,White,North America,Urban,Low,No,No,IV,Medium,Yes,Never,Western,20.8,Medium,Current,Medium,Low,Medium,Yes,Timely,Good,Yes,No,Yes,Good,Deceased,No,22
+93,81,Male,Hispanic,North America,Urban,Middle,Yes,Yes,II,High,Yes,Regular,Western,40,Medium,Never,Low,Low,Medium,Yes,Timely,Limited,No,No,Yes,Poor,Survived,Yes,53
+94,56,Male,White,Asia Pacific,Urban,Low,No,No,II,Low,Yes,Never,Traditional,36.1,Medium,Former,High,Low,Medium,Yes,Delayed,Good,No,No,Yes,Poor,Survived,No,20
+95,63,Male,White,Europe,Urban,Low,Yes,No,IV,Low,Yes,Never,Balanced,23.4,High,Former,Medium,Low,High,Yes,Delayed,Good,Yes,Yes,No,Good,Survived,No,31
+96,54,Female,Asian,North America,Urban,High,No,No,III,High,Yes,Never,Balanced,27.2,Medium,Current,Low,Low,Medium,Yes,Delayed,Good,No,Yes,Yes,Poor,Survived,No,59
+97,84,Male,Asian,North America,Rural,Low,No,No,III,High,Yes,Regular,Western,27.6,Low,Never,Medium,Low,Low,No,Delayed,Good,Yes,Yes,No,Good,Survived,No,49
+98,66,Male,White,North America,Urban,Low,Yes,No,IV,Medium,Yes,Never,Balanced,25.9,Medium,Never,Low,Low,Medium,Yes,Timely,Good,No,No,No,Poor,Deceased,Yes,10
+99,22,Female,White,Europe,Urban,High,No,No,II,Low,Yes,Regular,Traditional,39,Low,Former,Low,Low,High,Yes,Delayed,Good,Yes,No,Yes,Poor,Deceased,No,59
+100,20,Male,White,Europe,Urban,Middle,No,No,IV,Medium,Yes,Regular,Western,30.5,Low,Never,Low,Low,Medium,Yes,Timely,Limited,Yes,Yes,Yes,Good,Survived,No,9
+101,24,Female,White,Latin America,Urban,Middle,Yes,No,III,Medium,Yes,Regular,Balanced,19.2,Medium,Never,Medium,Medium,Medium,Yes,Delayed,Good,No,Yes,Yes,Good,Survived,No,1
+102,33,Male,Black,Asia Pacific,Urban,Middle,No,No,III,Medium,Yes,Never,Western,31.6,Medium,Current,Medium,Low,Medium,No,Delayed,Good,Yes,No,No,Poor,Survived,Yes,26
+103,46,Male,Asian,North America,Urban,High,Yes,Yes,I,Medium,Yes,Regular,Western,33.9,High,Never,Medium,Medium,Low,No,Delayed,Good,Yes,No,No,Poor,Survived,No,28
+104,28,Male,Asian,North America,Urban,Low,No,No,III,Low,Yes,Regular,Balanced,38.2,Low,Never,Medium,Medium,Low,Yes,Delayed,Good,Yes,Yes,No,Poor,Survived,No,38
+105,34,Male,Asian,Europe,Rural,Low,No,No,III,High,Yes,Irregular,Western,33.1,High,Never,High,Low,High,Yes,Delayed,Good,Yes,No,Yes,Good,Survived,No,32
+106,61,Male,White,Europe,Rural,Low,Yes,No,IV,Medium,Yes,Regular,Balanced,29.8,Low,Never,Medium,High,Medium,Yes,Delayed,Limited,No,No,Yes,Poor,Survived,No,2
+107,70,Male,White,Europe,Urban,Middle,No,No,III,Medium,Yes,Regular,Western,19,Low,Never,Low,High,High,Yes,Timely,Good,No,Yes,No,Good,Survived,No,5
+108,82,Male,Asian,Europe,Rural,High,No,No,I,Low,No,Irregular,Western,26.6,Low,Never,Low,High,Low,Yes,Timely,Limited,Yes,Yes,No,Poor,Survived,Yes,50
+109,71,Female,White,Europe,Urban,Low,No,Yes,IV,Medium,Yes,Never,Traditional,38.6,Low,Never,Low,High,Medium,Yes,Timely,Good,Yes,Yes,Yes,Poor,Survived,No,7
+110,23,Female,White,North America,Rural,High,Yes,No,IV,Medium,Yes,Irregular,Balanced,18.7,Low,Never,High,Medium,Medium,Yes,Timely,Good,Yes,Yes,Yes,Good,Survived,No,31
+111,42,Male,Black,North America,Urban,Middle,Yes,No,II,Medium,Yes,Never,Traditional,37.6,Medium,Never,Medium,Medium,Low,Yes,Timely,Good,Yes,No,No,Good,Survived,No,57
+112,34,Male,Black,Latin America,Urban,Middle,Yes,No,I,Low,Yes,Regular,Western,25.2,Medium,Current,Medium,Low,Low,Yes,Timely,Good,No,Yes,Yes,Poor,Survived,Yes,52
+113,62,Female,Hispanic,Asia Pacific,Urban,Middle,Yes,No,IV,Medium,No,Regular,Western,23.1,Low,Never,High,Medium,Medium,Yes,Timely,Limited,No,No,No,Good,Survived,No,20
+114,48,Female,White,Europe,Urban,Low,No,No,I,Medium,Yes,Irregular,Western,23.7,Medium,Former,Low,Low,High,No,Delayed,Good,No,No,Yes,Good,Deceased,Yes,29
+115,55,Female,White,Asia Pacific,Urban,Low,No,Yes,IV,Medium,Yes,Regular,Balanced,35.8,Low,Never,Medium,Low,Medium,Yes,Timely,Good,Yes,No,Yes,Poor,Deceased,No,34
+116,32,Male,White,Asia Pacific,Rural,Middle,No,Yes,II,Low,Yes,Never,Western,28.6,Low,Former,Medium,Medium,Medium,Yes,Timely,Limited,Yes,No,Yes,Good,Survived,No,36
+117,51,Male,Asian,Latin America,Urban,Middle,No,No,II,Low,No,Regular,Western,20.3,Low,Never,Low,Low,Low,Yes,Timely,Good,Yes,Yes,Yes,Good,Survived,No,32
+118,78,Male,Asian,Europe,Urban,Middle,No,No,I,High,No,Irregular,Traditional,37.8,Low,Never,High,Low,Medium,No,Timely,Good,No,No,No,Poor,Survived,Yes,31
+119,47,Male,White,Europe,Urban,High,No,Yes,III,Medium,No,Irregular,Western,38.7,Medium,Current,Medium,Low,High,Yes,Timely,Limited,No,Yes,Yes,Poor,Survived,Yes,10
+120,85,Female,White,North America,Urban,Middle,Yes,No,I,Medium,No,Regular,Western,33.5,Medium,Never,Low,Medium,Medium,Yes,Timely,Good,Yes,No,Yes,Poor,Survived,No,49
+121,61,Female,Asian,Europe,Urban,Low,No,No,II,Low,Yes,Never,Balanced,30.9,Medium,Never,Low,Low,Low,Yes,Timely,Good,No,No,Yes,Poor,Survived,Yes,8
+122,64,Male,White,Asia Pacific,Urban,High,Yes,No,IV,Medium,Yes,Regular,Balanced,24.1,Low,Former,Medium,Low,Medium,Yes,Delayed,Good,No,No,No,Good,Survived,No,38
+123,81,Female,Black,North America,Rural,Low,No,No,II,Medium,Yes,Regular,Western,33.7,Medium,Never,Medium,High,High,Yes,Timely,Good,No,Yes,Yes,Poor,Deceased,No,10
+124,76,Male,Hispanic,North America,Urban,High,No,No,II,Low,Yes,Regular,Western,24,Low,Never,Low,Low,Medium,Yes,Delayed,Good,Yes,Yes,No,Poor,Deceased,Yes,0
+125,25,Female,Hispanic,Europe,Urban,High,No,No,II,Medium,Yes,Regular,Balanced,39.2,Medium,Never,High,Medium,Low,Yes,Timely,Good,Yes,No,Yes,Poor,Survived,Yes,45
+126,47,Female,Black,North America,Urban,Low,No,No,III,Low,Yes,Regular,Traditional,37.2,Low,Former,High,Medium,Low,Yes,Timely,Good,No,Yes,Yes,Good,Survived,No,29
+127,47,Male,White,Europe,Urban,Low,No,No,II,Low,Yes,Never,Balanced,21.9,Low,Former,Low,Medium,Medium,Yes,Delayed,Good,No,No,Yes,Poor,Survived,No,11
+128,63,Female,White,Europe,Urban,Low,Yes,Yes,I,High,No,Irregular,Traditional,21.5,Medium,Never,Medium,High,Low,Yes,Timely,Limited,Yes,No,Yes,Good,Survived,Yes,17
+129,49,Female,Asian,North America,Rural,Low,Yes,No,III,Low,Yes,Regular,Balanced,31.3,High,Never,Low,High,Medium,Yes,Timely,Good,No,No,No,Poor,Deceased,No,37
+130,81,Male,Black,North America,Urban,Low,No,No,I,Low,Yes,Regular,Western,33.8,Medium,Never,Low,Low,Medium,Yes,Delayed,Good,Yes,No,Yes,Poor,Survived,No,4
+131,81,Male,White,Latin America,Rural,Low,Yes,No,III,High,Yes,Irregular,Western,23,Low,Never,Low,High,Medium,Yes,Timely,Good,No,No,Yes,Good,Deceased,No,59
+132,20,Male,Other,Europe,Urban,Low,Yes,No,I,Medium,Yes,Regular,Western,19.7,Medium,Current,Low,Medium,High,Yes,Delayed,Good,No,No,No,Good,Survived,No,34
+133,46,Male,Asian,Asia Pacific,Urban,Middle,No,No,III,Medium,Yes,Regular,Western,22,Low,Never,Low,Medium,Medium,Yes,Timely,Limited,No,No,No,Poor,Survived,No,39
+134,81,Male,Black,North America,Urban,High,No,No,IV,Low,No,Never,Balanced,32.4,Low,Former,Low,Medium,Low,No,Timely,Limited,Yes,No,No,Good,Deceased,No,26
+135,22,Male,Hispanic,Asia Pacific,Urban,Middle,No,Yes,II,Medium,Yes,Irregular,Traditional,30.1,Low,Never,Medium,Medium,Medium,No,Timely,Limited,No,Yes,No,Poor,Survived,No,5
+136,89,Male,Black,Europe,Urban,Low,No,No,I,Low,Yes,Irregular,Western,21.6,Low,Former,Medium,Low,High,Yes,Delayed,Good,No,No,Yes,Good,Deceased,No,22
+137,46,Female,White,Europe,Urban,Middle,No,No,II,Low,Yes,Never,Balanced,20.7,Low,Former,Medium,Medium,Medium,Yes,Timely,Good,Yes,No,Yes,Poor,Deceased,Yes,28
+138,28,Male,White,Asia Pacific,Rural,Middle,No,No,IV,Medium,Yes,Never,Traditional,33.5,Low,Former,Low,Low,High,Yes,Timely,Good,No,No,Yes,Poor,Survived,Yes,9
+139,81,Female,Asian,North America,Urban,High,No,No,IV,Low,Yes,Regular,Balanced,37.6,High,Never,Low,Medium,High,Yes,Timely,Good,No,Yes,Yes,Poor,Survived,No,12
+140,56,Female,White,North America,Urban,Middle,No,No,IV,Medium,Yes,Irregular,Traditional,38.9,Low,Current,Medium,Medium,Medium,No,Timely,Good,Yes,No,No,Poor,Survived,No,13
+141,70,Female,White,North America,Rural,Middle,No,No,III,Low,Yes,Regular,Balanced,35.7,Medium,Never,Low,Low,Low,Yes,Timely,Good,Yes,Yes,Yes,Good,Survived,No,42
+142,63,Male,Hispanic,Asia Pacific,Urban,Low,No,No,III,Low,Yes,Irregular,Western,37.5,Low,Current,Medium,Low,Medium,Yes,Delayed,Limited,Yes,No,Yes,Good,Survived,No,41
+143,43,Female,White,Europe,Urban,Low,No,No,II,Low,Yes,Never,Western,22.1,Low,Never,Low,High,Medium,Yes,Timely,Good,No,Yes,Yes,Good,Survived,No,29
+144,78,Male,White,North America,Urban,High,No,No,I,Medium,Yes,Never,Western,19.9,Low,Current,Low,Medium,Low,Yes,Timely,Limited,No,No,Yes,Poor,Survived,No,17
+145,51,Female,Black,Europe,Rural,High,No,No,II,Medium,No,Never,Western,27.8,Medium,Never,Low,Medium,Medium,Yes,Timely,Good,No,No,Yes,Good,Survived,Yes,43
+146,71,Female,White,North America,Urban,High,No,No,III,High,Yes,Irregular,Balanced,32.1,Low,Never,High,Medium,Medium,Yes,Timely,Good,Yes,Yes,Yes,Poor,Survived,Yes,31
+147,81,Male,White,Asia Pacific,Urban,Middle,Yes,No,II,Medium,Yes,Regular,Western,36.2,Medium,Never,Medium,Medium,High,Yes,Delayed,Good,No,No,Yes,Good,Survived,No,44
+148,77,Female,Other,North America,Urban,Low,No,No,III,Medium,No,Never,Western,37.9,Low,Never,Low,High,Medium,Yes,Timely,Good,No,Yes,Yes,Poor,Survived,Yes,48
+149,71,Female,White,North America,Rural,Middle,No,No,III,High,Yes,Regular,Balanced,33.6,Low,Never,Low,Low,Medium,No,Timely,Limited,No,Yes,Yes,Poor,Survived,No,36
+150,31,Male,White,Asia Pacific,Urban,Low,No,No,II,Medium,Yes,Regular,Traditional,27.3,High,Former,Low,Low,Low,Yes,Delayed,Good,No,No,No,Poor,Survived,No,22
+151,58,Female,White,North America,Rural,Low,Yes,No,I,Low,No,Regular,Western,19.1,Medium,Never,Low,Medium,Low,Yes,Timely,Good,Yes,No,Yes,Good,Deceased,Yes,23
+152,21,Female,White,Latin America,Rural,Middle,No,No,IV,High,Yes,Never,Western,30.3,Low,Former,High,High,Low,Yes,Delayed,Good,No,Yes,Yes,Good,Survived,No,31
+153,22,Male,Asian,Europe,Urban,Low,No,No,I,Medium,Yes,Irregular,Western,28.5,Medium,Never,Low,Medium,High,Yes,Timely,Limited,Yes,No,No,Good,Survived,No,6
+154,75,Female,White,Asia Pacific,Urban,Low,No,No,I,Low,Yes,Regular,Western,26.4,Medium,Never,Medium,Medium,Medium,Yes,Delayed,Limited,No,No,Yes,Good,Survived,No,4
+155,78,Male,Black,North America,Urban,Middle,No,No,II,Medium,No,Irregular,Western,34.3,Medium,Current,High,High,Medium,No,Delayed,Good,No,No,Yes,Good,Survived,Yes,41
+156,21,Female,White,Europe,Urban,Middle,Yes,No,III,Low,Yes,Irregular,Western,36.3,Medium,Never,Low,Low,Medium,Yes,Timely,Limited,Yes,No,Yes,Good,Survived,Yes,52
+157,21,Male,Black,North America,Urban,Middle,No,No,III,High,Yes,Regular,Western,37.8,Medium,Never,Low,Medium,Low,Yes,Timely,Limited,Yes,Yes,Yes,Good,Survived,No,51
+158,73,Male,White,North America,Rural,Middle,No,Yes,I,Medium,Yes,Regular,Western,36.3,Medium,Never,Low,High,Medium,Yes,Delayed,Good,No,No,Yes,Poor,Survived,No,41
+159,20,Male,White,North America,Urban,Low,No,No,IV,Medium,Yes,Irregular,Traditional,20.1,Low,Never,Medium,Medium,High,Yes,Delayed,Limited,Yes,No,No,Good,Deceased,No,18
+160,38,Male,Black,Latin America,Rural,Middle,Yes,No,IV,Low,Yes,Regular,Balanced,28,Medium,Never,Low,Low,Medium,No,Timely,Good,Yes,Yes,Yes,Good,Survived,Yes,45
+161,21,Male,Asian,Latin America,Urban,Low,No,No,I,High,Yes,Irregular,Traditional,37.6,High,Former,Low,Low,Low,Yes,Delayed,Good,Yes,No,No,Poor,Deceased,No,35
+162,72,Male,White,Asia Pacific,Rural,Low,Yes,No,I,Low,Yes,Never,Balanced,39.3,Medium,Former,Medium,Low,Medium,No,Timely,Limited,Yes,No,Yes,Good,Survived,No,26
+163,63,Female,White,Asia Pacific,Urban,High,No,No,IV,Medium,Yes,Irregular,Balanced,28.4,Medium,Former,Low,Medium,Medium,Yes,Timely,Good,No,Yes,No,Good,Deceased,No,19
+164,51,Female,White,Asia Pacific,Rural,Middle,No,No,IV,Medium,Yes,Irregular,Traditional,20.3,Low,Never,Low,Medium,Medium,Yes,Timely,Good,Yes,No,Yes,Good,Survived,No,34
+165,89,Male,White,Europe,Urban,High,Yes,No,III,High,Yes,Irregular,Western,35.5,Medium,Former,Medium,Medium,Low,Yes,Timely,Good,Yes,No,No,Poor,Survived,No,31
+166,51,Female,Other,Latin America,Urban,Middle,No,No,II,High,No,Never,Western,32.8,Low,Former,Low,High,Medium,Yes,Timely,Good,Yes,No,Yes,Good,Survived,Yes,56
+167,87,Female,White,North America,Urban,High,No,No,III,High,Yes,Regular,Western,34.2,Medium,Never,Medium,High,Medium,Yes,Delayed,Good,No,No,Yes,Poor,Deceased,No,52
+168,74,Female,White,Asia Pacific,Urban,Low,No,No,IV,Low,Yes,Regular,Balanced,26.1,Low,Current,High,High,High,No,Timely,Good,Yes,Yes,Yes,Good,Survived,No,30
+169,75,Male,White,Europe,Urban,Middle,No,No,IV,Low,No,Regular,Western,25.4,Medium,Never,Low,Medium,High,No,Timely,Limited,Yes,No,Yes,Poor,Survived,No,43
+170,36,Male,White,Europe,Urban,Low,No,No,I,High,Yes,Regular,Western,24,Low,Former,Low,Medium,Low,Yes,Timely,Limited,Yes,No,No,Poor,Survived,No,1
+171,57,Male,Hispanic,Latin America,Rural,Middle,No,No,I,Low,No,Regular,Western,26,Medium,Former,High,Medium,Medium,Yes,Delayed,Good,No,Yes,No,Poor,Survived,Yes,38
+172,43,Female,Black,Europe,Urban,Low,Yes,No,III,Medium,Yes,Irregular,Western,37.6,Low,Never,Low,Low,Low,Yes,Timely,Limited,No,No,Yes,Good,Survived,No,35
+173,88,Male,Hispanic,North America,Rural,Middle,No,No,III,Medium,Yes,Regular,Western,36.8,High,Never,High,Low,Low,Yes,Timely,Good,Yes,No,No,Poor,Deceased,No,35
+174,89,Male,Other,North America,Urban,Middle,No,No,III,Low,No,Irregular,Balanced,29.9,Medium,Never,Medium,Medium,Low,Yes,Timely,Good,No,No,Yes,Poor,Deceased,No,5
+175,30,Male,White,North America,Urban,High,Yes,No,II,High,Yes,Never,Balanced,28.1,Low,Former,Low,Medium,Low,Yes,Timely,Good,No,No,No,Good,Deceased,No,33
+176,35,Male,Black,Europe,Urban,Middle,No,No,III,Low,No,Never,Balanced,23.3,High,Former,Medium,Low,Medium,Yes,Timely,Good,Yes,Yes,No,Poor,Survived,No,47
+177,78,Female,Hispanic,Europe,Rural,Low,No,No,I,Medium,Yes,Regular,Traditional,28,Low,Never,Medium,Low,Medium,Yes,Timely,Good,Yes,Yes,Yes,Good,Survived,No,19
+178,89,Male,Black,North America,Urban,Low,No,Yes,IV,Low,Yes,Regular,Traditional,38.4,Medium,Never,Medium,Low,High,Yes,Delayed,Good,Yes,Yes,Yes,Good,Deceased,No,26
+179,22,Female,Asian,Asia Pacific,Urban,High,No,No,I,Low,No,Regular,Western,20.5,Low,Never,Low,Low,Low,No,Delayed,Limited,Yes,No,Yes,Good,Deceased,No,37
+180,39,Female,Black,Europe,Urban,Middle,No,No,IV,Low,Yes,Regular,Balanced,19.8,Medium,Former,Medium,Low,Medium,Yes,Timely,Limited,Yes,No,Yes,Good,Deceased,No,0
+181,78,Male,Hispanic,North America,Urban,Middle,Yes,No,II,Medium,Yes,Irregular,Balanced,32.9,Medium,Former,High,High,Low,Yes,Timely,Good,Yes,No,Yes,Good,Survived,Yes,53
+182,55,Male,Hispanic,North America,Urban,Middle,Yes,No,II,Medium,No,Regular,Traditional,29.5,High,Never,Medium,High,Low,Yes,Timely,Limited,Yes,Yes,No,Poor,Survived,No,24
+183,38,Female,White,Asia Pacific,Rural,Low,No,No,I,Low,No,Never,Western,21,Medium,Never,Medium,Low,Low,Yes,Delayed,Good,No,Yes,Yes,Good,Survived,No,31
+184,86,Male,White,North America,Rural,Middle,No,No,I,High,Yes,Regular,Balanced,21.4,Low,Current,Medium,High,High,No,Delayed,Good,Yes,Yes,No,Good,Survived,No,34
+185,38,Male,White,North America,Urban,Low,No,No,III,High,Yes,Regular,Balanced,22.2,Low,Never,High,Medium,Low,Yes,Timely,Limited,Yes,No,Yes,Good,Survived,Yes,3
+186,39,Female,Asian,Europe,Urban,High,No,No,IV,Medium,Yes,Regular,Balanced,39.8,Low,Never,Low,Medium,High,Yes,Timely,Good,Yes,No,No,Poor,Survived,Yes,44
+187,71,Male,White,Europe,Urban,Middle,No,No,III,Low,Yes,Regular,Western,31.3,Medium,Never,High,Low,Low,Yes,Timely,Good,Yes,Yes,Yes,Good,Survived,Yes,28
+188,52,Female,Asian,North America,Urban,Middle,No,Yes,I,Medium,Yes,Irregular,Balanced,34.9,High,Former,Medium,High,Medium,Yes,Timely,Good,No,Yes,Yes,Poor,Survived,No,41
+189,59,Male,Black,North America,Rural,Low,Yes,No,II,High,No,Regular,Western,34.1,High,Never,Medium,Medium,Medium,Yes,Delayed,Limited,No,Yes,Yes,Poor,Deceased,Yes,6
+190,58,Male,Asian,North America,Urban,High,No,No,I,Low,No,Irregular,Balanced,26.2,Low,Former,Medium,High,Medium,Yes,Timely,Good,No,No,Yes,Poor,Survived,Yes,13
+191,20,Female,Black,North America,Rural,High,No,No,IV,Low,Yes,Irregular,Western,34.8,Low,Former,Medium,Low,Low,Yes,Timely,Good,No,No,Yes,Poor,Survived,No,24
+192,30,Female,White,North America,Rural,High,Yes,No,III,Medium,Yes,Never,Western,24.8,Medium,Current,High,Low,High,Yes,Delayed,Limited,No,Yes,Yes,Poor,Deceased,No,6
+193,76,Male,Other,Europe,Urban,Middle,No,No,IV,Low,Yes,Irregular,Balanced,31.8,Low,Never,Low,Low,Medium,Yes,Delayed,Good,No,Yes,Yes,Good,Survived,No,30
+194,69,Male,White,North America,Urban,High,Yes,No,I,High,Yes,Never,Traditional,20.7,Low,Former,High,Low,Medium,No,Timely,Good,No,Yes,Yes,Good,Survived,Yes,45
+195,42,Female,Black,Asia Pacific,Urban,Middle,No,No,II,High,No,Irregular,Balanced,31.3,Low,Never,Medium,Medium,High,Yes,Timely,Limited,No,No,No,Poor,Survived,Yes,40
+196,50,Female,Hispanic,Latin America,Rural,Low,No,No,IV,Low,Yes,Regular,Balanced,24.7,Low,Former,High,Low,Medium,Yes,Timely,Good,Yes,No,Yes,Good,Survived,No,30
+197,61,Female,White,Europe,Urban,Low,No,No,I,High,Yes,Regular,Traditional,30.6,Low,Never,High,Medium,Medium,Yes,Delayed,Good,No,No,No,Good,Survived,No,14
+198,26,Male,Asian,North America,Rural,Middle,Yes,No,I,Low,Yes,Never,Western,25,Medium,Current,Medium,Low,Low,No,Timely,Limited,Yes,No,Yes,Good,Survived,No,29
+199,35,Female,White,Latin America,Rural,Middle,Yes,No,II,Medium,Yes,Regular,Traditional,19.6,Medium,Former,High,Low,Medium,Yes,Delayed,Good,Yes,No,Yes,Good,Survived,No,38
+200,79,Female,Black,Europe,Urban,Middle,No,No,IV,Low,Yes,Never,Balanced,37.6,Medium,Former,Low,Medium,Low,Yes,Timely,Good,No,No,Yes,Poor,Survived,No,52
+201,21,Female,Hispanic,North America,Rural,Middle,No,No,II,High,Yes,Irregular,Western,37.3,Low,Former,High,Medium,Medium,Yes,Delayed,Good,No,Yes,Yes,Good,Survived,No,2
+202,20,Male,Black,North America,Urban,Low,Yes,No,I,Low,Yes,Regular,Balanced,28.6,Medium,Current,Low,Medium,Medium,Yes,Timely,Good,No,No,No,Good,Survived,No,10
+203,67,Male,White,North America,Urban,Middle,No,No,II,Medium,No,Regular,Traditional,24.7,Low,Never,Low,High,Low,No,Delayed,Good,No,Yes,Yes,Poor,Survived,No,3
+204,31,Female,White,North America,Urban,Middle,No,No,III,Medium,Yes,Regular,Traditional,27,Medium,Never,Medium,Low,Medium,Yes,Delayed,Limited,No,No,Yes,Good,Survived,No,1
+205,88,Female,Black,Europe,Rural,Middle,Yes,No,IV,Low,Yes,Never,Western,31.6,High,Never,Medium,Low,Low,No,Delayed,Good,Yes,No,Yes,Poor,Survived,No,22
+206,56,Male,White,North America,Urban,Middle,No,No,III,Medium,No,Irregular,Western,26.5,Low,Current,Low,Medium,Low,Yes,Timely,Good,Yes,Yes,Yes,Good,Survived,Yes,20
+207,51,Female,White,Asia Pacific,Urban,Middle,Yes,No,III,Low,Yes,Never,Traditional,33.6,Low,Former,Low,High,Medium,Yes,Timely,Limited,No,No,Yes,Good,Survived,No,21
+208,28,Male,Black,North America,Rural,Middle,No,No,IV,Low,No,Irregular,Western,36.2,High,Current,Medium,Medium,Medium,Yes,Timely,Limited,Yes,Yes,No,Good,Survived,No,52
+209,38,Male,Black,North America,Urban,Low,No,Yes,II,Low,No,Irregular,Traditional,34.5,Low,Former,High,Medium,Medium,Yes,Delayed,Good,No,No,Yes,Good,Deceased,No,18
+210,67,Male,Asian,Europe,Urban,Middle,No,No,IV,High,Yes,Regular,Western,27.5,Medium,Never,High,Medium,Medium,Yes,Timely,Limited,Yes,Yes,Yes,Good,Survived,No,19
+211,22,Male,White,Europe,Urban,Middle,No,No,IV,Low,Yes,Irregular,Western,32.9,Low,Never,High,Low,High,Yes,Delayed,Good,No,No,Yes,Good,Deceased,No,58
+212,39,Female,Hispanic,Europe,Rural,Middle,No,No,I,Low,Yes,Regular,Traditional,23.2,High,Never,High,Low,Low,Yes,Delayed,Good,Yes,No,Yes,Poor,Survived,No,51
+213,43,Male,White,North America,Urban,Middle,No,No,III,High,Yes,Irregular,Western,28.5,Low,Never,Medium,High,Medium,Yes,Delayed,Limited,Yes,No,Yes,Good,Survived,No,53
+214,73,Male,White,Latin America,Rural,Middle,Yes,No,I,Medium,Yes,Never,Balanced,26.5,Low,Current,High,Low,Medium,Yes,Timely,Limited,No,No,Yes,Good,Survived,No,6
+215,52,Male,Other,Latin America,Urban,High,No,No,II,Medium,Yes,Never,Western,37.8,Low,Never,High,High,Medium,Yes,Timely,Limited,Yes,No,Yes,Poor,Survived,Yes,16
+216,43,Female,White,Africa,Urban,Middle,No,No,III,Low,Yes,Irregular,Western,26.7,Low,Never,Medium,Low,Low,Yes,Delayed,Limited,Yes,No,Yes,Good,Survived,Yes,17
+217,55,Male,Asian,Europe,Urban,High,No,No,I,Medium,No,Regular,Western,18.8,Low,Never,Low,Low,Low,No,Delayed,Good,No,No,Yes,Good,Survived,No,40
+218,57,Female,White,Africa,Urban,Low,No,No,I,High,Yes,Regular,Western,37.5,Medium,Never,Low,Low,Medium,Yes,Delayed,Limited,Yes,Yes,Yes,Poor,Survived,No,22
+219,44,Male,Black,North America,Urban,Low,No,No,II,Medium,No,Irregular,Western,36.9,Medium,Never,Low,Low,High,Yes,Delayed,Good,No,Yes,Yes,Poor,Survived,No,52
+220,37,Male,Black,Latin America,Rural,Low,No,No,III,Low,No,Irregular,Western,39.4,Low,Never,Low,High,Low,Yes,Timely,Limited,Yes,No,No,Poor,Deceased,No,8
+221,85,Female,Asian,Europe,Rural,Low,No,No,II,Medium,Yes,Regular,Western,24.1,Low,Never,Low,Low,Medium,No,Delayed,Good,Yes,No,Yes,Poor,Deceased,No,39
+222,73,Female,White,North America,Urban,Low,No,No,II,Medium,Yes,Irregular,Traditional,28.2,Medium,Current,Medium,Medium,Low,No,Timely,Good,No,No,No,Poor,Deceased,No,54
+223,54,Male,White,Asia Pacific,Urban,Middle,Yes,No,IV,Medium,No,Regular,Balanced,29.6,Low,Never,Medium,High,Medium,No,Delayed,Limited,Yes,No,No,Good,Survived,Yes,49
+224,80,Male,White,Europe,Urban,Low,Yes,No,II,High,Yes,Regular,Western,21.3,High,Former,Medium,Low,Medium,Yes,Delayed,Good,No,No,No,Good,Survived,No,8
+225,60,Male,White,Latin America,Urban,Middle,No,No,IV,Medium,Yes,Regular,Traditional,19.9,Low,Former,Low,High,Medium,No,Timely,Good,No,Yes,Yes,Poor,Survived,No,38
+226,52,Male,Asian,Africa,Urban,Middle,No,No,III,Medium,Yes,Regular,Western,36.7,Medium,Former,High,Medium,Low,Yes,Delayed,Limited,Yes,No,No,Good,Survived,No,47
+227,87,Male,Hispanic,Asia Pacific,Urban,Middle,No,Yes,III,Low,No,Irregular,Western,19.4,Low,Current,Low,Low,Low,Yes,Timely,Good,Yes,No,Yes,Good,Survived,Yes,51
+228,52,Male,White,Europe,Urban,Low,No,No,II,Medium,No,Regular,Balanced,25.1,Low,Never,Medium,Low,High,Yes,Timely,Good,No,No,Yes,Good,Survived,No,56
+229,33,Male,Hispanic,North America,Urban,Middle,No,No,IV,High,Yes,Irregular,Traditional,38,Low,Never,High,Low,Medium,No,Timely,Good,No,Yes,Yes,Good,Deceased,No,57
+230,40,Female,Asian,North America,Rural,Low,No,Yes,I,High,Yes,Irregular,Balanced,18.8,Medium,Current,Medium,Medium,Medium,Yes,Timely,Good,Yes,No,No,Poor,Deceased,No,52
+231,67,Male,Black,Europe,Rural,Middle,No,No,II,Low,Yes,Regular,Balanced,26.3,Medium,Former,Low,Medium,Low,Yes,Timely,Good,Yes,No,Yes,Poor,Deceased,No,19
+232,39,Male,White,Latin America,Urban,Middle,No,No,IV,Medium,Yes,Irregular,Balanced,39.1,Low,Former,Low,Medium,Low,No,Delayed,Good,Yes,No,Yes,Good,Survived,No,8
+233,27,Male,Other,Europe,Rural,High,Yes,No,III,Low,Yes,Irregular,Balanced,29.2,Low,Former,Medium,Low,Medium,Yes,Delayed,Good,Yes,No,Yes,Poor,Survived,No,55
+234,26,Male,Other,North America,Rural,Low,No,No,III,Medium,Yes,Regular,Western,34.2,High,Current,Low,High,High,Yes,Timely,Good,Yes,No,Yes,Poor,Survived,Yes,13
+235,86,Female,Hispanic,Europe,Rural,Low,No,No,II,High,Yes,Never,Western,21.3,High,Former,Medium,Medium,High,Yes,Timely,Good,Yes,No,Yes,Good,Deceased,No,32
+236,36,Male,Hispanic,North America,Rural,Low,No,No,IV,Low,Yes,Never,Balanced,28.1,Medium,Former,Medium,Medium,Medium,Yes,Timely,Good,Yes,Yes,Yes,Good,Survived,Yes,13
+237,52,Male,Asian,North America,Urban,High,No,Yes,III,Medium,No,Regular,Western,24.2,Low,Never,High,High,Low,No,Timely,Limited,Yes,Yes,Yes,Good,Survived,No,23
+238,67,Female,Asian,Asia Pacific,Urban,Low,No,No,IV,Low,Yes,Irregular,Balanced,20.6,Medium,Never,Low,Medium,Medium,No,Delayed,Good,Yes,No,Yes,Good,Survived,No,1
+239,78,Female,White,Europe,Urban,High,Yes,No,I,High,Yes,Regular,Balanced,39.6,Low,Never,High,Medium,Low,Yes,Timely,Limited,No,No,Yes,Poor,Survived,No,31
+240,41,Female,White,Africa,Urban,Low,No,No,II,Medium,Yes,Irregular,Western,26.9,Medium,Never,Medium,Low,Medium,Yes,Timely,Good,No,No,Yes,Poor,Survived,No,50
+241,49,Female,White,Europe,Urban,Middle,No,No,I,High,Yes,Irregular,Western,26.7,Medium,Former,High,Low,High,Yes,Delayed,Good,Yes,Yes,Yes,Poor,Deceased,Yes,54
+242,57,Male,Asian,Europe,Urban,Low,No,No,II,Medium,Yes,Regular,Western,28.7,Medium,Never,Medium,Low,Low,Yes,Timely,Good,No,No,No,Good,Survived,No,7
+243,70,Female,Hispanic,North America,Urban,Low,No,No,IV,Medium,Yes,Regular,Western,33.3,High,Former,Low,Medium,Low,Yes,Timely,Good,No,No,Yes,Poor,Survived,No,49
+244,73,Female,White,North America,Urban,Low,No,No,I,Medium,Yes,Irregular,Balanced,29.2,Low,Never,Medium,Low,Low,Yes,Timely,Limited,No,Yes,Yes,Good,Survived,No,58
+245,27,Male,White,Europe,Rural,Low,No,No,I,Medium,No,Regular,Western,39.3,Low,Current,Low,Low,High,Yes,Timely,Good,Yes,No,Yes,Poor,Survived,No,14
+246,46,Male,Other,Latin America,Urban,High,No,No,IV,High,No,Never,Balanced,25.9,Medium,Former,Low,Low,Low,Yes,Delayed,Limited,Yes,No,Yes,Good,Survived,No,35
+247,46,Male,White,Africa,Rural,Low,No,No,I,Medium,No,Never,Balanced,22.8,Low,Former,Low,High,Medium,Yes,Delayed,Good,No,Yes,Yes,Good,Deceased,No,45
+248,40,Female,Black,Latin America,Urban,Middle,Yes,No,I,Low,Yes,Regular,Balanced,39.3,Low,Former,Low,Low,Medium,Yes,Timely,Good,No,Yes,Yes,Good,Survived,No,40
+249,49,Female,White,Europe,Urban,Middle,No,No,II,Medium,Yes,Never,Traditional,28.1,Medium,Never,Medium,Low,Medium,Yes,Delayed,Good,Yes,No,Yes,Good,Survived,No,57
+250,47,Male,White,Africa,Urban,Middle,Yes,No,III,Low,Yes,Never,Western,34.5,Medium,Never,Medium,High,High,Yes,Timely,Good,Yes,Yes,Yes,Good,Survived,Yes,28
+251,83,Female,Other,Europe,Urban,Middle,No,No,III,Low,Yes,Never,Western,24.1,Low,Former,Medium,High,Medium,Yes,Delayed,Good,Yes,No,No,Good,Survived,Yes,33
+252,88,Male,White,North America,Rural,Low,Yes,No,IV,Medium,No,Irregular,Western,38.4,Medium,Former,High,Medium,Low,Yes,Delayed,Good,No,No,No,Good,Survived,No,48
+253,80,Female,White,Latin America,Rural,Low,No,No,II,Medium,Yes,Regular,Western,20.2,Low,Never,Low,High,Low,Yes,Timely,Limited,Yes,Yes,No,Poor,Survived,No,42
+254,67,Female,White,Africa,Rural,Middle,No,No,III,Medium,Yes,Never,Traditional,38.7,Medium,Never,Low,Low,High,Yes,Timely,Limited,No,No,Yes,Poor,Survived,Yes,55
+255,38,Female,White,Europe,Urban,High,Yes,No,II,Low,No,Never,Balanced,21.4,Low,Never,Low,Low,High,Yes,Delayed,Limited,Yes,No,Yes,Poor,Survived,Yes,57
+256,23,Male,Hispanic,North America,Urban,Middle,Yes,No,III,Medium,Yes,Regular,Western,24.7,Low,Current,Low,Medium,High,No,Timely,Good,Yes,No,Yes,Poor,Survived,Yes,47
+257,54,Female,White,Latin America,Urban,Low,No,No,III,Medium,Yes,Regular,Western,33.5,Low,Former,Low,Medium,Low,Yes,Delayed,Good,Yes,No,Yes,Good,Deceased,No,58
+258,83,Female,White,Europe,Urban,Middle,No,No,IV,Medium,Yes,Regular,Traditional,28.9,Medium,Never,Medium,Low,Low,Yes,Delayed,Good,Yes,Yes,Yes,Poor,Survived,No,34
+259,68,Male,White,Latin America,Urban,Low,No,No,I,Low,No,Regular,Western,33.7,Low,Never,Low,Medium,Medium,Yes,Timely,Good,Yes,No,Yes,Poor,Survived,No,30
+260,36,Male,White,Asia Pacific,Rural,High,No,No,IV,Medium,Yes,Irregular,Balanced,21.1,Low,Never,High,High,High,No,Timely,Good,Yes,No,Yes,Good,Deceased,No,50
+261,63,Male,Asian,Europe,Rural,Middle,No,No,III,Medium,Yes,Regular,Western,30.5,Medium,Never,Low,Low,Low,No,Timely,Good,No,No,Yes,Good,Deceased,No,4
+262,49,Male,White,North America,Urban,Middle,Yes,Yes,III,Low,Yes,Irregular,Traditional,18.7,Medium,Current,Medium,Low,Medium,No,Delayed,Good,Yes,Yes,Yes,Good,Deceased,No,42
+263,65,Male,White,Asia Pacific,Urban,Low,No,Yes,II,High,Yes,Never,Traditional,39,High,Former,Low,Low,Medium,Yes,Delayed,Good,No,No,Yes,Good,Survived,Yes,24
+264,25,Male,Asian,Asia Pacific,Urban,Middle,No,No,IV,High,No,Regular,Traditional,26.9,Medium,Never,Medium,High,Low,Yes,Delayed,Limited,Yes,No,Yes,Good,Survived,No,52
+265,56,Female,White,Asia Pacific,Rural,Middle,No,No,II,Low,Yes,Regular,Traditional,21.2,Low,Never,Low,Medium,Medium,Yes,Timely,Good,Yes,Yes,Yes,Poor,Survived,No,37
+266,43,Female,Asian,North America,Urban,High,Yes,No,II,High,Yes,Regular,Western,19.7,Medium,Never,Medium,Low,Medium,Yes,Timely,Good,No,Yes,Yes,Poor,Survived,No,41
+267,65,Male,Asian,Europe,Urban,High,Yes,No,III,Medium,Yes,Irregular,Traditional,26.7,Medium,Former,High,Low,Medium,Yes,Delayed,Good,No,Yes,Yes,Good,Deceased,Yes,25
+268,72,Male,Black,Europe,Urban,Middle,No,No,IV,Low,No,Regular,Western,39.6,Low,Never,High,Low,Low,Yes,Timely,Good,Yes,No,Yes,Good,Survived,No,45
+269,79,Male,Asian,North America,Rural,Middle,No,No,IV,Low,Yes,Regular,Western,22.5,Low,Former,Medium,Low,Medium,No,Timely,Good,No,No,No,Poor,Survived,No,3
+270,82,Male,White,North America,Rural,Low,No,No,III,High,Yes,Regular,Balanced,22.3,Low,Never,Medium,Low,Medium,No,Delayed,Good,No,Yes,Yes,Good,Deceased,Yes,12
+271,51,Male,White,North America,Rural,Low,Yes,No,III,High,Yes,Regular,Balanced,27.3,Medium,Current,Low,Medium,Low,Yes,Timely,Limited,No,No,No,Good,Survived,Yes,57
+272,52,Female,Black,Europe,Urban,Low,Yes,No,IV,Low,Yes,Regular,Western,19.9,Low,Never,Low,High,Medium,Yes,Delayed,Good,No,No,No,Good,Survived,Yes,1
+273,86,Female,White,Europe,Urban,Middle,No,No,I,Medium,Yes,Irregular,Balanced,29.6,High,Never,Low,Medium,Medium,Yes,Timely,Good,No,Yes,Yes,Poor,Survived,No,43
+274,37,Male,Hispanic,North America,Urban,High,No,No,II,Low,No,Regular,Western,30.1,Low,Former,High,Medium,Medium,Yes,Timely,Limited,Yes,No,No,Poor,Survived,Yes,0
+275,44,Male,Black,Latin America,Rural,Middle,No,Yes,II,Low,No,Never,Balanced,19.1,Low,Former,High,Low,Low,Yes,Delayed,Good,No,No,Yes,Good,Deceased,Yes,22
+276,73,Male,Asian,Asia Pacific,Urban,Middle,No,No,I,Medium,Yes,Regular,Western,31.3,Low,Former,Medium,Low,Medium,Yes,Timely,Good,No,Yes,Yes,Good,Survived,No,14
+277,77,Male,White,North America,Urban,Low,No,No,II,Low,Yes,Never,Western,22.7,Medium,Former,Medium,Medium,High,Yes,Delayed,Good,No,Yes,Yes,Good,Survived,No,7
+278,86,Male,Other,Europe,Urban,Low,No,No,I,Medium,Yes,Regular,Balanced,37.1,Low,Never,Medium,Low,Low,No,Timely,Good,Yes,No,No,Poor,Survived,No,37
+279,65,Male,White,Europe,Urban,Low,No,No,III,High,Yes,Irregular,Balanced,35,Medium,Never,Medium,High,Medium,No,Delayed,Limited,No,No,No,Good,Survived,No,1
+280,43,Male,White,Europe,Urban,Low,Yes,Yes,I,Medium,Yes,Never,Western,25.7,Medium,Former,Medium,Low,Low,Yes,Timely,Good,Yes,No,Yes,Poor,Survived,No,4
+281,51,Male,White,Europe,Urban,Middle,No,No,IV,Low,Yes,Irregular,Balanced,25.1,Low,Never,Medium,Medium,Medium,Yes,Timely,Good,No,Yes,Yes,Poor,Deceased,No,33
+282,66,Female,White,Latin America,Urban,Low,No,No,II,High,Yes,Regular,Traditional,24,Medium,Never,Low,Low,Low,Yes,Timely,Good,No,Yes,Yes,Good,Deceased,No,44
+283,42,Female,White,North America,Urban,High,No,No,II,Medium,No,Never,Western,39.4,Low,Never,High,Low,Low,Yes,Timely,Good,Yes,No,Yes,Poor,Survived,No,8
+284,85,Male,Hispanic,Europe,Rural,Low,No,No,I,Low,Yes,Never,Balanced,29,Low,Never,Low,Medium,High,Yes,Delayed,Good,Yes,Yes,Yes,Good,Survived,Yes,49
+285,46,Male,Black,North America,Urban,Low,No,No,II,Medium,Yes,Never,Western,34.6,Low,Current,Low,Medium,Low,Yes,Timely,Limited,Yes,Yes,Yes,Good,Deceased,Yes,49
+286,21,Female,White,Latin America,Urban,Middle,No,No,IV,Medium,Yes,Regular,Balanced,33.9,High,Never,High,Medium,Medium,Yes,Delayed,Good,Yes,Yes,Yes,Good,Survived,No,22
+287,36,Female,White,Europe,Urban,Low,No,No,II,Medium,Yes,Irregular,Balanced,21.6,Low,Former,Low,Medium,Medium,No,Delayed,Limited,Yes,No,No,Poor,Survived,No,21
+288,52,Male,White,Asia Pacific,Urban,Low,No,No,II,Medium,Yes,Regular,Western,38,High,Former,High,Medium,Medium,Yes,Timely,Good,No,No,Yes,Good,Survived,Yes,24
+289,28,Female,White,Asia Pacific,Rural,Middle,No,No,IV,Medium,Yes,Never,Western,39.5,Low,Never,Low,High,Medium,Yes,Timely,Good,Yes,Yes,Yes,Good,Survived,No,13
+290,62,Male,Black,Latin America,Urban,Middle,No,No,I,Medium,Yes,Irregular,Traditional,19.4,Medium,Never,High,High,High,Yes,Timely,Good,Yes,No,Yes,Poor,Survived,No,22
+291,67,Male,Other,North America,Urban,Low,No,No,I,Low,Yes,Never,Western,38.4,High,Never,Medium,Medium,Medium,Yes,Timely,Limited,No,No,No,Poor,Survived,No,41
+292,58,Female,White,Latin America,Urban,Middle,Yes,No,III,Low,Yes,Regular,Traditional,34.1,Low,Former,High,High,Medium,No,Timely,Limited,Yes,No,Yes,Poor,Survived,Yes,26
+293,61,Male,White,North America,Urban,High,No,No,III,Low,Yes,Irregular,Western,23.3,High,Never,Medium,Low,High,Yes,Timely,Good,No,No,Yes,Poor,Survived,No,46
+294,45,Male,White,Latin America,Urban,High,Yes,No,II,Low,Yes,Regular,Balanced,38.6,Low,Current,Low,Medium,Medium,Yes,Delayed,Good,Yes,Yes,Yes,Poor,Survived,No,20
+295,69,Female,White,North America,Rural,Middle,No,No,IV,Medium,Yes,Regular,Traditional,39,Medium,Never,Low,Medium,Medium,Yes,Delayed,Good,No,No,No,Good,Deceased,No,44
+296,44,Male,White,Asia Pacific,Urban,High,No,No,II,Low,No,Irregular,Western,21.4,Medium,Current,Medium,Low,Medium,Yes,Delayed,Good,Yes,No,Yes,Poor,Deceased,Yes,29
+297,43,Male,White,North America,Urban,High,No,No,II,Medium,Yes,Regular,Western,22.2,Low,Never,Low,Low,Low,Yes,Timely,Good,No,Yes,Yes,Good,Survived,No,32
+298,32,Female,White,Europe,Urban,Middle,Yes,No,I,Medium,No,Irregular,Western,32.9,Low,Never,Low,Medium,High,Yes,Timely,Limited,Yes,No,Yes,Poor,Survived,No,44
+299,79,Male,Asian,North America,Rural,Middle,Yes,No,IV,Low,No,Regular,Western,32.3,Medium,Never,Low,High,Low,Yes,Timely,Limited,Yes,No,No,Good,Survived,Yes,25
+300,26,Male,Asian,Europe,Urban,High,No,No,III,Medium,Yes,Never,Western,38.9,Low,Never,Low,Medium,Low,Yes,Timely,Good,Yes,No,No,Poor,Deceased,No,46
+301,76,Female,White,Europe,Rural,High,No,No,II,High,Yes,Regular,Balanced,31.3,Low,Never,Medium,Low,Medium,Yes,Timely,Limited,Yes,Yes,No,Poor,Survived,No,3
+302,55,Female,White,Europe,Urban,Middle,No,No,I,High,Yes,Irregular,Balanced,37,Low,Never,Medium,Low,Medium,Yes,Timely,Good,No,No,Yes,Good,Survived,No,6
+303,64,Male,White,Asia Pacific,Rural,Middle,No,No,III,High,No,Regular,Balanced,21.1,Medium,Current,Low,High,Medium,Yes,Delayed,Good,No,No,Yes,Good,Survived,Yes,29
+304,39,Male,Asian,North America,Rural,High,Yes,Yes,III,Medium,No,Regular,Balanced,19.6,Low,Never,High,Low,Medium,Yes,Timely,Good,Yes,No,No,Poor,Survived,No,36
+305,84,Male,White,North America,Urban,Middle,Yes,No,IV,Low,Yes,Regular,Western,32,Low,Former,Medium,High,High,Yes,Timely,Good,Yes,Yes,No,Poor,Deceased,No,4
+306,27,Male,Asian,Europe,Urban,Middle,Yes,No,III,Medium,No,Never,Western,19.7,Medium,Former,Low,High,High,No,Timely,Limited,Yes,Yes,Yes,Poor,Deceased,No,59
+307,35,Male,Black,North America,Urban,High,No,No,III,Low,No,Irregular,Balanced,35.8,Low,Never,Low,Low,High,Yes,Timely,Limited,Yes,Yes,No,Poor,Survived,Yes,20
+308,33,Female,White,Europe,Urban,Middle,No,No,II,Medium,Yes,Never,Balanced,21,Low,Never,Low,Medium,Low,Yes,Delayed,Good,No,No,Yes,Poor,Deceased,No,28
+309,34,Male,Hispanic,North America,Urban,Low,No,No,I,Medium,Yes,Never,Balanced,38,Low,Never,Low,Medium,Medium,Yes,Delayed,Limited,Yes,No,Yes,Good,Survived,No,17
+310,85,Male,Asian,North America,Urban,Low,Yes,No,III,Low,Yes,Never,Western,23.8,Medium,Never,Low,Low,Low,Yes,Delayed,Limited,Yes,No,Yes,Poor,Survived,Yes,11
+311,51,Female,Black,North America,Urban,High,Yes,No,II,Low,Yes,Irregular,Traditional,28.7,Medium,Former,Low,Medium,Medium,Yes,Delayed,Good,No,No,No,Good,Survived,Yes,4
+312,82,Female,White,Europe,Urban,High,No,No,II,Low,Yes,Regular,Western,32.7,Medium,Never,High,Medium,High,Yes,Timely,Good,No,Yes,Yes,Poor,Survived,No,20
+313,70,Female,White,Europe,Urban,High,No,No,III,Medium,No,Never,Balanced,28.5,Medium,Never,High,High,High,No,Timely,Good,Yes,No,No,Poor,Survived,No,27
+314,44,Male,White,Asia Pacific,Rural,Low,Yes,No,III,Medium,Yes,Regular,Western,34,Low,Never,Medium,High,High,No,Timely,Limited,No,No,Yes,Poor,Survived,No,21
+315,77,Female,Hispanic,Europe,Urban,Low,No,No,II,Low,Yes,Never,Balanced,21.3,Low,Never,High,High,Low,Yes,Timely,Limited,Yes,Yes,No,Good,Deceased,No,1
+316,82,Female,Asian,Asia Pacific,Rural,Low,Yes,No,II,Low,Yes,Never,Traditional,29.3,High,Never,Medium,Medium,High,Yes,Timely,Limited,No,Yes,No,Good,Survived,Yes,47
+317,81,Female,Asian,Africa,Urban,High,No,No,II,Low,Yes,Irregular,Balanced,23.3,Medium,Former,Low,Medium,Low,Yes,Delayed,Good,Yes,No,Yes,Good,Deceased,No,22
+318,41,Male,White,Asia Pacific,Rural,Middle,No,No,III,Low,No,Irregular,Balanced,28,High,Never,Low,Medium,High,Yes,Timely,Good,Yes,No,No,Poor,Survived,No,29
+319,77,Male,White,Asia Pacific,Rural,Middle,Yes,No,II,Low,Yes,Regular,Traditional,38.1,Medium,Current,High,Low,High,Yes,Timely,Good,Yes,No,Yes,Good,Deceased,No,44
+320,77,Male,Other,North America,Rural,Middle,Yes,No,I,Low,Yes,Never,Western,39.4,Medium,Former,High,Medium,Medium,Yes,Timely,Limited,No,No,Yes,Good,Survived,Yes,36
+321,68,Male,Other,North America,Urban,High,Yes,Yes,III,Low,Yes,Regular,Balanced,35.3,Low,Never,High,Low,Medium,No,Timely,Good,No,No,Yes,Poor,Survived,Yes,4
+322,71,Female,Black,Europe,Urban,High,No,No,III,Medium,Yes,Never,Western,33.8,Low,Never,Low,Low,High,Yes,Delayed,Good,No,No,Yes,Good,Survived,No,0
+323,61,Female,Hispanic,Europe,Urban,Low,No,No,I,Medium,Yes,Regular,Balanced,37,Low,Current,High,Medium,Low,No,Timely,Good,Yes,Yes,Yes,Poor,Deceased,No,55
+324,89,Female,Asian,Asia Pacific,Urban,High,Yes,No,III,Medium,Yes,Regular,Western,23.8,Medium,Never,High,Low,Medium,Yes,Timely,Good,Yes,No,Yes,Good,Survived,No,47
+325,34,Male,Hispanic,Latin America,Urban,Middle,No,No,I,High,Yes,Regular,Western,33,Medium,Former,High,High,Low,Yes,Timely,Good,Yes,No,Yes,Poor,Deceased,Yes,38
+326,73,Female,Black,Europe,Urban,Low,No,No,II,Low,Yes,Regular,Traditional,20,Low,Never,High,Medium,Medium,Yes,Timely,Limited,No,No,No,Good,Survived,Yes,1
+327,79,Male,White,Europe,Rural,Middle,Yes,No,IV,Medium,Yes,Regular,Western,26.2,Low,Former,Medium,Low,Medium,Yes,Timely,Good,No,No,Yes,Good,Survived,Yes,12
+328,27,Male,Asian,North America,Urban,Middle,No,No,IV,Medium,No,Regular,Balanced,25.8,Low,Former,Medium,Medium,High,No,Timely,Good,No,Yes,No,Poor,Survived,No,51
+329,72,Male,Asian,Europe,Rural,Middle,No,No,I,Medium,Yes,Regular,Balanced,26.8,High,Former,Medium,High,High,Yes,Timely,Good,No,No,Yes,Good,Deceased,Yes,50
+330,79,Male,White,Europe,Urban,Middle,No,No,III,Medium,Yes,Irregular,Traditional,39.1,Medium,Never,Low,Low,Medium,Yes,Timely,Good,No,Yes,Yes,Poor,Deceased,No,57
+331,24,Male,White,Europe,Urban,Middle,No,No,IV,High,No,Regular,Balanced,32.8,Low,Former,Medium,Medium,Low,Yes,Delayed,Good,No,No,Yes,Good,Survived,No,4
+332,87,Female,Asian,Europe,Urban,Middle,Yes,No,III,High,Yes,Regular,Balanced,22,Medium,Former,Medium,Low,Low,Yes,Timely,Good,Yes,No,No,Good,Deceased,No,14
+333,25,Male,Black,North America,Urban,High,No,No,I,Low,No,Regular,Western,39.7,Medium,Never,Low,Low,Medium,Yes,Delayed,Limited,No,Yes,Yes,Good,Survived,No,31
+334,66,Male,White,North America,Urban,High,No,No,II,Low,Yes,Regular,Balanced,19.3,Low,Never,Low,Medium,Medium,No,Delayed,Limited,No,No,Yes,Good,Survived,Yes,17
+335,74,Male,White,North America,Urban,Middle,No,Yes,II,Low,No,Regular,Balanced,34.5,Low,Never,Medium,Low,Medium,Yes,Timely,Good,No,Yes,No,Good,Deceased,No,29
+336,59,Female,Asian,Europe,Rural,Low,No,No,IV,Medium,Yes,Irregular,Balanced,36.1,Low,Never,Low,Medium,Low,Yes,Delayed,Good,Yes,No,Yes,Good,Deceased,No,1
+337,71,Female,White,Latin America,Rural,High,No,No,I,Low,Yes,Never,Balanced,19.7,Low,Never,Medium,Medium,Low,Yes,Timely,Good,No,No,No,Good,Deceased,Yes,28
+338,35,Female,Black,North America,Rural,Middle,Yes,No,II,High,Yes,Never,Western,35.5,High,Never,Medium,High,Medium,No,Timely,Good,Yes,No,No,Good,Survived,No,32
+339,32,Female,Hispanic,North America,Urban,Middle,Yes,No,II,Medium,Yes,Regular,Western,25.9,Medium,Current,High,Medium,Low,Yes,Timely,Good,No,No,No,Good,Deceased,No,19
+340,49,Male,Black,Asia Pacific,Urban,Low,Yes,Yes,IV,High,Yes,Regular,Western,27.5,Low,Never,Low,Low,Medium,No,Delayed,Limited,Yes,No,Yes,Good,Survived,No,0
+341,38,Male,Black,North America,Urban,Middle,No,No,I,Low,No,Never,Traditional,29.1,Low,Former,Low,Medium,High,Yes,Timely,Limited,Yes,Yes,No,Poor,Survived,No,30
+342,36,Male,Other,Europe,Urban,Middle,No,No,I,Low,Yes,Irregular,Western,23.5,Medium,Never,Low,Medium,High,Yes,Delayed,Good,Yes,No,Yes,Good,Survived,No,17
+343,82,Male,White,Europe,Rural,High,No,No,II,Medium,Yes,Never,Balanced,39.4,Medium,Never,Medium,High,Medium,Yes,Delayed,Limited,No,Yes,No,Poor,Deceased,No,51
+344,38,Male,Asian,North America,Urban,Low,No,No,IV,Low,No,Regular,Western,21.4,Medium,Never,Low,Medium,Medium,Yes,Timely,Good,No,No,Yes,Poor,Survived,No,2
+345,77,Female,White,Asia Pacific,Urban,Middle,No,No,III,Low,Yes,Irregular,Traditional,28.2,Medium,Current,High,High,Low,Yes,Delayed,Limited,Yes,Yes,No,Good,Survived,Yes,49
+346,74,Female,White,North America,Rural,Middle,No,No,I,Medium,Yes,Regular,Western,33.8,Low,Never,Medium,Low,Medium,Yes,Timely,Limited,Yes,Yes,Yes,Good,Deceased,No,47
+347,81,Female,White,North America,Urban,Low,Yes,No,III,Medium,Yes,Regular,Western,27.7,Low,Current,Medium,Medium,High,Yes,Delayed,Limited,Yes,Yes,Yes,Good,Survived,No,22
+348,42,Male,White,Latin America,Urban,Low,Yes,No,III,Low,Yes,Never,Balanced,30.1,Low,Never,Low,Medium,Medium,Yes,Timely,Good,Yes,Yes,Yes,Good,Survived,Yes,16
+349,28,Female,Asian,Asia Pacific,Urban,High,No,No,II,High,Yes,Irregular,Western,37.7,Low,Never,Low,Low,Low,Yes,Delayed,Good,No,No,Yes,Good,Deceased,No,14
+350,31,Male,White,North America,Urban,Middle,Yes,No,III,Medium,No,Regular,Western,32,Low,Never,Low,Medium,Low,Yes,Timely,Good,Yes,Yes,Yes,Good,Deceased,No,13
+351,20,Male,White,North America,Rural,Low,No,No,II,Medium,Yes,Regular,Western,32.2,Low,Never,Medium,Low,Low,No,Timely,Good,Yes,No,No,Good,Survived,Yes,55
+352,77,Male,Black,North America,Urban,Middle,No,No,II,Medium,Yes,Regular,Western,27.7,Medium,Never,Low,High,Medium,Yes,Timely,Good,Yes,No,Yes,Good,Survived,No,21
+353,20,Female,White,Europe,Urban,Middle,No,No,II,Medium,No,Regular,Balanced,27.7,Low,Former,Low,Low,High,Yes,Delayed,Good,No,No,Yes,Good,Survived,No,1
+354,53,Male,Black,North America,Urban,Middle,No,No,IV,Medium,Yes,Regular,Western,31.1,Medium,Former,Low,Low,Medium,Yes,Delayed,Good,No,No,Yes,Good,Deceased,No,6
+355,67,Female,White,Europe,Urban,High,No,No,III,Low,Yes,Irregular,Balanced,22,Medium,Former,Low,Low,Medium,Yes,Delayed,Limited,Yes,No,Yes,Poor,Survived,No,56
+356,20,Female,Hispanic,North America,Urban,Middle,No,Yes,IV,Low,Yes,Regular,Balanced,20.3,Low,Never,Medium,Medium,Low,Yes,Delayed,Limited,Yes,Yes,Yes,Good,Survived,No,28
+357,35,Male,White,North America,Urban,High,No,No,II,Low,Yes,Irregular,Western,26.2,Medium,Never,High,Low,Medium,Yes,Timely,Good,Yes,No,Yes,Good,Survived,No,53
+358,80,Male,Hispanic,Europe,Urban,Low,Yes,No,IV,High,No,Never,Traditional,31.4,Medium,Never,Medium,High,High,Yes,Timely,Limited,No,Yes,Yes,Good,Survived,No,57
+359,83,Male,Other,North America,Urban,Low,No,Yes,III,Medium,Yes,Regular,Western,19,Low,Never,Low,Low,High,No,Timely,Good,No,Yes,Yes,Good,Deceased,Yes,46
+360,82,Female,White,North America,Urban,Middle,No,No,IV,Medium,Yes,Regular,Western,26.5,Medium,Former,Medium,Medium,Low,Yes,Timely,Good,No,Yes,No,Good,Deceased,Yes,21
+361,88,Male,White,Europe,Urban,Low,Yes,No,I,Medium,Yes,Never,Western,21.7,Low,Never,Low,Medium,Low,No,Timely,Limited,Yes,Yes,Yes,Good,Deceased,No,52
+362,41,Female,Black,North America,Rural,Middle,No,No,II,Low,No,Never,Western,32.6,Medium,Current,Medium,Medium,High,Yes,Delayed,Good,Yes,Yes,Yes,Good,Survived,No,13
+363,86,Male,White,North America,Rural,Middle,No,No,IV,Low,Yes,Never,Western,38.9,Medium,Current,Medium,Medium,Medium,No,Delayed,Good,No,Yes,Yes,Good,Survived,Yes,54
+364,45,Male,Other,Europe,Urban,Middle,Yes,No,I,Low,No,Regular,Western,37.1,Low,Current,Medium,High,Medium,Yes,Delayed,Good,No,Yes,No,Good,Survived,Yes,19
+365,35,Female,White,Asia Pacific,Urban,High,No,No,II,Medium,Yes,Regular,Western,21.5,Low,Never,Low,Medium,High,Yes,Delayed,Good,Yes,No,No,Good,Survived,No,2
+366,70,Female,Black,North America,Rural,Middle,No,No,II,Low,Yes,Regular,Traditional,25.3,Low,Current,Low,High,High,Yes,Delayed,Good,No,No,Yes,Good,Deceased,Yes,45
+367,76,Male,White,Europe,Urban,Middle,Yes,No,I,Low,Yes,Regular,Traditional,34.4,High,Never,High,Medium,High,Yes,Timely,Good,Yes,Yes,Yes,Poor,Survived,Yes,39
+368,48,Female,Hispanic,Europe,Urban,Low,No,No,I,High,Yes,Never,Western,28.6,Low,Former,High,High,Medium,Yes,Delayed,Good,No,No,Yes,Good,Deceased,No,10
+369,88,Female,Asian,North America,Urban,Middle,No,No,IV,Low,No,Irregular,Balanced,34.9,High,Never,High,Medium,Medium,Yes,Timely,Good,Yes,Yes,Yes,Good,Survived,No,2
+370,66,Male,Other,Latin America,Urban,High,No,No,II,Low,Yes,Irregular,Balanced,22,Low,Current,Low,High,High,Yes,Delayed,Good,No,No,Yes,Poor,Survived,Yes,20
+371,81,Female,Black,North America,Urban,Low,No,No,IV,Medium,Yes,Regular,Western,32.1,Low,Former,Low,Low,Low,Yes,Timely,Limited,Yes,No,Yes,Good,Survived,No,29
+372,88,Male,White,Europe,Rural,High,No,No,III,Low,Yes,Never,Western,39.9,Medium,Former,High,High,Low,Yes,Timely,Good,No,Yes,Yes,Good,Deceased,Yes,28
+373,35,Male,White,North America,Urban,Middle,No,No,IV,Low,Yes,Irregular,Western,25.2,Low,Former,Low,Low,Low,Yes,Delayed,Good,No,Yes,Yes,Poor,Survived,No,3
+374,67,Male,Other,Asia Pacific,Urban,High,No,No,I,Low,Yes,Never,Balanced,20.4,Low,Current,Low,Medium,High,No,Timely,Good,No,Yes,Yes,Good,Survived,No,34
+375,58,Male,Black,North America,Rural,Middle,Yes,No,III,Low,Yes,Never,Traditional,25.4,Medium,Current,Medium,Medium,Medium,Yes,Timely,Limited,Yes,No,Yes,Poor,Survived,No,20
+376,52,Female,White,North America,Rural,High,No,No,IV,Medium,No,Never,Traditional,29.5,Low,Former,High,Low,High,No,Delayed,Limited,No,Yes,No,Good,Deceased,No,44
+377,42,Female,Asian,North America,Rural,High,No,No,III,High,Yes,Regular,Western,36.5,Low,Current,Medium,Low,Medium,Yes,Timely,Limited,No,No,Yes,Good,Deceased,Yes,20
+378,29,Female,Black,Asia Pacific,Urban,Middle,No,No,II,Medium,Yes,Regular,Western,28.4,Low,Former,Low,Low,Medium,No,Delayed,Good,Yes,No,Yes,Poor,Survived,Yes,28
+379,88,Female,White,Latin America,Urban,Low,No,No,I,Medium,Yes,Irregular,Western,20,High,Former,Low,Medium,Medium,Yes,Timely,Good,Yes,Yes,No,Poor,Deceased,Yes,11
+380,53,Female,Black,Europe,Rural,High,No,No,II,Medium,Yes,Never,Balanced,33.1,Low,Never,Medium,Low,Low,Yes,Timely,Good,Yes,Yes,Yes,Poor,Survived,No,37
+381,71,Male,Black,Europe,Rural,Middle,No,No,IV,Low,Yes,Regular,Western,27.8,Medium,Never,High,Medium,High,Yes,Timely,Good,No,No,Yes,Good,Survived,No,14
+382,29,Female,Other,Asia Pacific,Urban,Middle,No,No,II,High,Yes,Irregular,Western,38.2,Low,Never,High,Medium,Low,Yes,Timely,Good,Yes,No,No,Good,Deceased,No,59
+383,38,Female,Asian,North America,Rural,Middle,No,No,I,Low,Yes,Regular,Western,27.2,Medium,Never,Medium,Low,Medium,No,Delayed,Good,Yes,Yes,Yes,Good,Survived,No,30
+384,77,Female,Asian,Asia Pacific,Urban,Middle,No,No,II,Low,Yes,Irregular,Western,34.5,Low,Former,High,Medium,Low,No,Delayed,Limited,Yes,No,Yes,Poor,Survived,No,48
+385,20,Male,Black,Europe,Rural,High,Yes,No,II,Medium,Yes,Never,Balanced,24.7,Low,Never,High,High,Medium,Yes,Timely,Good,No,No,Yes,Good,Deceased,Yes,2
+386,88,Male,White,North America,Urban,Middle,No,No,II,Low,Yes,Regular,Western,29.1,High,Never,Medium,Medium,Medium,Yes,Timely,Good,No,Yes,Yes,Good,Survived,Yes,15
+387,23,Male,White,North America,Urban,Middle,No,Yes,II,Medium,Yes,Never,Western,29.2,Low,Current,Low,Medium,Medium,Yes,Timely,Good,No,No,No,Good,Deceased,Yes,24
+388,35,Male,White,Europe,Rural,Low,Yes,No,III,High,Yes,Irregular,Western,21.8,High,Current,Low,Medium,Medium,Yes,Timely,Good,No,No,Yes,Good,Survived,No,49
+389,43,Female,White,North America,Urban,Middle,No,No,II,Low,Yes,Never,Western,27.5,Medium,Never,Low,Medium,Medium,No,Timely,Good,Yes,No,No,Poor,Survived,No,53
+390,21,Male,Asian,North America,Urban,Low,No,No,II,High,Yes,Irregular,Balanced,26.2,Low,Former,Medium,Low,Medium,Yes,Delayed,Good,Yes,No,No,Good,Survived,Yes,53
+391,51,Female,White,Europe,Rural,Low,No,No,II,Medium,No,Never,Balanced,21.1,High,Former,Medium,High,Medium,Yes,Delayed,Limited,Yes,No,Yes,Poor,Survived,No,58
+392,43,Male,Asian,Europe,Urban,Middle,No,No,II,Low,Yes,Regular,Balanced,38.1,High,Never,Low,High,Medium,Yes,Delayed,Good,No,Yes,Yes,Good,Survived,No,46
+393,31,Male,Hispanic,Asia Pacific,Rural,Middle,No,Yes,I,Low,Yes,Never,Western,36.6,Low,Never,High,Medium,Low,Yes,Delayed,Good,No,Yes,Yes,Poor,Survived,No,27
+394,69,Male,White,Latin America,Urban,Low,No,No,III,High,Yes,Irregular,Traditional,35.5,High,Current,High,High,Medium,No,Delayed,Good,No,Yes,Yes,Good,Survived,Yes,0
+395,54,Female,Other,Europe,Rural,Middle,Yes,No,IV,Low,Yes,Irregular,Western,33.5,Low,Never,Medium,Low,Medium,Yes,Timely,Good,No,No,Yes,Good,Survived,No,30
+396,52,Female,White,Africa,Rural,Middle,Yes,No,II,Low,Yes,Never,Western,26.3,Low,Current,Medium,Medium,Medium,No,Timely,Limited,Yes,Yes,Yes,Poor,Survived,No,6
+397,52,Male,Asian,North America,Urban,Middle,Yes,No,I,High,Yes,Never,Western,26.8,Medium,Former,Medium,High,Low,Yes,Delayed,Good,No,Yes,Yes,Poor,Survived,No,45
+398,80,Male,Other,North America,Rural,High,No,No,II,Low,Yes,Irregular,Balanced,22.9,High,Current,Low,Low,Low,Yes,Timely,Limited,Yes,No,Yes,Good,Deceased,No,24
+399,70,Female,White,Asia Pacific,Rural,Middle,No,No,III,Low,Yes,Regular,Western,34.6,Low,Never,High,High,High,Yes,Timely,Good,Yes,Yes,No,Poor,Deceased,No,53
+400,62,Male,Other,Europe,Urban,Middle,Yes,No,I,Medium,Yes,Never,Western,29.6,Medium,Never,Medium,Medium,Low,Yes,Timely,Good,Yes,No,Yes,Good,Survived,No,26
+401,31,Female,Asian,Latin America,Urban,Low,Yes,No,IV,Medium,No,Irregular,Traditional,27.9,High,Former,Medium,High,Medium,Yes,Delayed,Good,No,No,Yes,Poor,Survived,No,58
+402,86,Male,Black,Asia Pacific,Urban,Middle,No,No,II,Medium,Yes,Never,Western,30.3,Low,Never,Medium,Low,Medium,Yes,Timely,Good,Yes,No,No,Poor,Deceased,No,57
+403,84,Male,White,North America,Urban,Middle,No,No,I,Low,Yes,Irregular,Western,32.9,High,Former,Medium,Medium,Medium,No,Timely,Limited,No,No,No,Poor,Survived,No,23
+404,52,Male,White,Europe,Urban,Low,No,No,II,Low,Yes,Irregular,Traditional,25.1,Low,Never,Medium,High,Low,Yes,Timely,Limited,Yes,No,No,Good,Survived,No,6
+405,59,Male,White,Asia Pacific,Urban,Middle,No,No,IV,Medium,Yes,Irregular,Balanced,38.6,Low,Former,High,Low,Medium,Yes,Timely,Good,No,No,Yes,Poor,Survived,Yes,21
+406,62,Male,Asian,North America,Urban,Low,Yes,No,IV,Low,Yes,Irregular,Western,36.2,Medium,Never,Low,Low,Low,Yes,Delayed,Good,No,No,No,Good,Survived,No,25
+407,63,Male,Black,Europe,Urban,Middle,Yes,No,I,High,No,Regular,Traditional,25.3,Medium,Never,Low,Low,Medium,No,Timely,Limited,Yes,No,Yes,Good,Survived,No,58
+408,48,Female,Hispanic,North America,Urban,Middle,No,No,I,High,Yes,Irregular,Western,20.2,Medium,Current,Low,Low,Low,Yes,Timely,Good,Yes,No,No,Poor,Deceased,No,5
+409,32,Female,Black,North America,Urban,Middle,No,No,I,Medium,No,Never,Western,36.7,Medium,Never,Medium,Low,Low,Yes,Timely,Limited,Yes,Yes,No,Good,Survived,No,54
+410,31,Male,White,Europe,Urban,Low,No,No,III,Medium,Yes,Irregular,Balanced,39.2,Low,Current,Medium,Medium,Low,Yes,Delayed,Limited,Yes,No,Yes,Good,Survived,Yes,31
+411,65,Female,White,Europe,Urban,High,No,No,IV,Medium,Yes,Never,Traditional,36.6,Low,Current,Medium,Medium,Medium,Yes,Delayed,Good,Yes,No,No,Good,Survived,No,2
+412,21,Female,Black,North America,Urban,Low,No,No,II,High,Yes,Irregular,Western,33.5,High,Never,Medium,Medium,Low,Yes,Timely,Good,Yes,No,Yes,Good,Deceased,No,9
+413,54,Male,Asian,Asia Pacific,Urban,Low,No,No,I,High,Yes,Irregular,Western,34.4,Medium,Former,Medium,High,Low,Yes,Timely,Limited,Yes,No,Yes,Poor,Survived,No,58
+414,27,Male,Black,North America,Urban,High,No,No,III,Medium,Yes,Regular,Balanced,21.1,Medium,Never,Low,High,Low,Yes,Timely,Good,Yes,No,Yes,Good,Survived,No,27
+415,45,Male,Asian,Europe,Urban,Low,Yes,No,III,Low,Yes,Regular,Western,22.7,Low,Never,Low,Low,Medium,Yes,Delayed,Limited,No,Yes,Yes,Good,Survived,No,46
+416,53,Female,White,Europe,Rural,Low,No,No,IV,High,Yes,Irregular,Western,23.3,Low,Never,Low,Low,Low,Yes,Timely,Limited,No,No,Yes,Good,Survived,Yes,20
+417,26,Male,Other,North America,Urban,Middle,No,No,III,Medium,No,Regular,Balanced,37.3,Low,Current,Low,High,Medium,Yes,Timely,Good,Yes,No,Yes,Poor,Survived,Yes,50
+418,87,Male,Black,North America,Urban,High,No,Yes,I,High,No,Regular,Balanced,32.6,High,Current,Low,Low,Low,Yes,Timely,Good,No,No,Yes,Poor,Survived,Yes,26
+419,77,Female,Black,Asia Pacific,Rural,High,No,No,III,Medium,No,Regular,Western,25.5,Low,Current,Low,Medium,High,Yes,Timely,Good,Yes,No,Yes,Poor,Survived,Yes,8
+420,48,Female,White,North America,Rural,Middle,No,No,III,Low,Yes,Regular,Western,30.3,High,Former,Low,Medium,Low,Yes,Timely,Good,No,No,Yes,Good,Deceased,Yes,5
+421,55,Female,Asian,Europe,Rural,Low,No,No,II,Medium,Yes,Regular,Western,22.7,High,Never,Low,Low,Low,Yes,Delayed,Good,Yes,Yes,Yes,Good,Survived,Yes,7
+422,40,Male,White,North America,Urban,Low,No,No,I,Low,Yes,Regular,Balanced,35,Medium,Never,Low,Low,Low,No,Timely,Good,Yes,No,Yes,Poor,Survived,No,1
+423,55,Male,Black,Europe,Urban,Low,Yes,No,I,Low,No,Never,Traditional,36.5,Medium,Former,High,Low,Medium,No,Timely,Good,Yes,No,No,Good,Survived,No,39
+424,29,Female,Black,Europe,Urban,High,No,No,II,High,Yes,Regular,Balanced,39.8,Low,Never,High,Low,Medium,Yes,Timely,Limited,Yes,No,Yes,Poor,Survived,No,4
+425,43,Male,Black,North America,Rural,Middle,No,No,II,Low,Yes,Regular,Balanced,35.2,Low,Former,Medium,High,Medium,Yes,Delayed,Good,No,No,No,Good,Survived,No,29
+426,83,Female,Other,Europe,Urban,Low,No,Yes,IV,Medium,No,Regular,Western,30,Medium,Never,Low,Low,Medium,Yes,Timely,Limited,No,No,Yes,Good,Survived,No,46
+427,68,Male,Black,Europe,Urban,Middle,No,No,III,Medium,No,Regular,Balanced,30.9,Medium,Current,High,Low,Medium,No,Timely,Good,Yes,No,Yes,Poor,Survived,No,48
+428,55,Female,Black,Europe,Urban,Low,No,No,I,Low,Yes,Regular,Traditional,36.5,Low,Current,Low,Low,High,Yes,Timely,Good,Yes,No,Yes,Good,Survived,Yes,43
+429,43,Male,Asian,Europe,Urban,High,Yes,No,I,Low,No,Regular,Western,23.3,High,Current,Medium,Low,Medium,Yes,Delayed,Good,No,No,No,Good,Survived,Yes,29
+430,42,Female,Black,North America,Rural,Middle,No,No,II,High,Yes,Irregular,Western,19.9,Low,Never,Low,High,Low,Yes,Timely,Good,Yes,Yes,Yes,Good,Survived,No,30
+431,81,Male,White,Asia Pacific,Urban,Low,No,Yes,IV,Medium,Yes,Irregular,Western,30.7,Medium,Never,Medium,Medium,High,Yes,Delayed,Limited,No,No,Yes,Poor,Survived,Yes,32
+432,56,Male,Hispanic,Africa,Rural,Middle,No,No,IV,Low,No,Regular,Western,30,Low,Never,Low,High,Low,Yes,Timely,Limited,No,No,Yes,Good,Survived,No,34
+433,31,Male,Black,North America,Urban,Low,No,Yes,IV,Low,No,Irregular,Western,39,Medium,Never,High,Low,High,Yes,Timely,Limited,No,No,Yes,Poor,Survived,No,28
+434,74,Male,White,Asia Pacific,Urban,High,No,No,III,Low,Yes,Irregular,Traditional,21.7,Low,Former,High,Low,Medium,Yes,Timely,Good,No,Yes,No,Good,Survived,Yes,34
+435,32,Male,White,North America,Rural,Middle,No,No,II,Low,Yes,Never,Western,38.3,Medium,Never,Medium,Medium,Medium,Yes,Timely,Good,Yes,No,Yes,Poor,Survived,No,30
+436,42,Female,White,North America,Urban,Low,Yes,Yes,III,Medium,Yes,Regular,Balanced,25.5,High,Current,Low,Medium,Low,Yes,Timely,Limited,Yes,No,No,Good,Survived,Yes,32
+437,49,Male,Black,North America,Urban,High,No,No,IV,Medium,Yes,Regular,Western,34.1,Low,Former,High,Medium,Low,Yes,Timely,Good,Yes,Yes,Yes,Good,Survived,No,32
+438,36,Female,Black,Europe,Urban,Middle,No,No,IV,High,Yes,Regular,Western,32.8,High,Never,Medium,Low,High,Yes,Timely,Good,No,Yes,No,Good,Deceased,No,36
+439,81,Male,Asian,Latin America,Urban,Low,No,No,II,Medium,No,Regular,Western,34.6,Low,Former,Medium,Medium,Medium,Yes,Timely,Good,Yes,No,Yes,Poor,Survived,Yes,46
+440,32,Male,Asian,Latin America,Rural,Low,Yes,No,IV,Low,Yes,Never,Balanced,38.3,Low,Current,High,Low,High,Yes,Timely,Good,Yes,No,No,Poor,Deceased,Yes,29
+441,78,Female,Asian,Asia Pacific,Rural,Low,Yes,No,IV,Medium,Yes,Regular,Balanced,25.1,Medium,Never,Low,Low,Low,Yes,Delayed,Good,No,No,Yes,Poor,Survived,No,16
+442,38,Male,Asian,Europe,Rural,Middle,No,No,I,High,Yes,Regular,Western,21.5,Medium,Current,Medium,Medium,Medium,Yes,Timely,Good,No,No,No,Good,Survived,Yes,49
+443,68,Female,White,North America,Rural,Middle,Yes,No,III,Low,Yes,Regular,Western,36,Low,Never,Medium,High,Medium,Yes,Timely,Limited,No,No,No,Good,Survived,No,9
+444,31,Male,Hispanic,North America,Urban,Middle,No,No,IV,Low,No,Regular,Western,30.9,Low,Current,Low,High,Medium,Yes,Delayed,Good,Yes,No,No,Good,Deceased,No,36
+445,80,Female,White,Europe,Urban,Middle,No,No,I,Medium,Yes,Irregular,Traditional,28.5,Low,Never,Low,Low,Low,Yes,Timely,Good,No,No,Yes,Good,Survived,No,13
+446,38,Male,Asian,Asia Pacific,Urban,Low,Yes,Yes,IV,Low,No,Regular,Balanced,21.6,Low,Former,Low,Low,Low,No,Timely,Good,Yes,No,Yes,Poor,Survived,Yes,20
+447,28,Female,Hispanic,North America,Urban,Low,No,Yes,I,Low,Yes,Regular,Western,25.3,Medium,Current,Low,Medium,Medium,Yes,Delayed,Limited,No,No,No,Good,Survived,Yes,2
+448,47,Male,Asian,Africa,Urban,High,Yes,No,III,Low,Yes,Regular,Western,39.8,Medium,Never,Low,Low,Medium,Yes,Timely,Good,No,Yes,Yes,Good,Survived,No,24
+449,71,Male,Black,Asia Pacific,Urban,Middle,No,Yes,III,High,Yes,Irregular,Traditional,31.2,Low,Former,Low,Low,Medium,Yes,Timely,Limited,Yes,No,Yes,Good,Survived,No,21
+450,35,Male,Asian,North America,Rural,Low,No,No,III,Medium,Yes,Regular,Western,24.1,Low,Current,Low,Medium,High,Yes,Timely,Good,No,No,No,Poor,Deceased,No,18
+451,88,Male,Black,Africa,Urban,High,No,No,II,Low,Yes,Regular,Balanced,19.8,High,Never,Low,Medium,Medium,Yes,Delayed,Good,No,Yes,Yes,Good,Survived,Yes,1
+452,31,Female,Hispanic,Europe,Rural,High,No,No,I,Low,Yes,Never,Balanced,27.2,Medium,Former,Low,Medium,Medium,Yes,Timely,Limited,Yes,Yes,Yes,Poor,Survived,No,36
+453,44,Female,White,Europe,Rural,Low,No,Yes,II,Medium,Yes,Regular,Balanced,29.8,Low,Never,Medium,Low,High,Yes,Timely,Limited,Yes,No,Yes,Poor,Survived,No,48
+454,71,Male,Hispanic,Asia Pacific,Urban,Low,No,No,II,Low,No,Regular,Balanced,37,Low,Never,Low,Low,High,Yes,Timely,Good,Yes,No,Yes,Poor,Deceased,Yes,5
+455,72,Female,White,North America,Urban,Middle,No,No,III,High,Yes,Irregular,Western,19.9,Medium,Never,Low,Low,Medium,Yes,Timely,Good,No,Yes,No,Good,Survived,No,45
+456,42,Female,Asian,Europe,Urban,Low,No,No,I,Medium,Yes,Irregular,Western,21.2,Medium,Never,Medium,Low,Medium,Yes,Delayed,Good,No,No,Yes,Poor,Deceased,No,20
+457,35,Male,White,Europe,Urban,Middle,No,No,I,Medium,Yes,Regular,Balanced,35.8,High,Never,Low,High,Medium,Yes,Delayed,Good,Yes,No,No,Good,Deceased,No,11
+458,76,Female,Asian,Africa,Rural,Low,Yes,No,II,Low,Yes,Never,Western,37.5,Medium,Current,Low,Low,Medium,Yes,Delayed,Limited,Yes,No,No,Poor,Deceased,Yes,38
+459,58,Female,White,Asia Pacific,Urban,Middle,No,Yes,III,Medium,Yes,Regular,Western,22.1,Medium,Never,Medium,Low,Medium,Yes,Timely,Good,No,No,No,Poor,Survived,No,7
+460,72,Female,Other,Asia Pacific,Rural,Middle,No,No,II,Low,Yes,Never,Western,25.8,High,Former,Low,Low,Medium,No,Timely,Good,Yes,No,Yes,Poor,Survived,No,32
+461,61,Female,Black,North America,Rural,Middle,No,No,I,Low,Yes,Irregular,Western,27.8,High,Never,Low,Low,Low,Yes,Timely,Good,Yes,Yes,Yes,Good,Survived,No,2
+462,77,Male,Black,Europe,Urban,Middle,No,Yes,I,Medium,Yes,Irregular,Western,39.7,Low,Never,Low,Medium,Medium,No,Delayed,Limited,No,Yes,Yes,Poor,Deceased,No,47
+463,58,Female,White,Latin America,Urban,Middle,No,No,II,Low,Yes,Regular,Traditional,30.3,Medium,Former,High,Medium,High,Yes,Delayed,Limited,No,Yes,Yes,Good,Survived,No,40
+464,33,Female,White,North America,Urban,Low,No,No,IV,High,Yes,Regular,Traditional,27.9,Low,Current,Medium,Medium,Low,Yes,Timely,Good,No,Yes,Yes,Good,Survived,Yes,59
+465,24,Male,White,Europe,Urban,Low,No,No,I,Low,No,Irregular,Western,20.9,Medium,Former,Medium,Medium,High,Yes,Timely,Limited,No,No,No,Poor,Survived,No,9
+466,54,Male,Black,North America,Urban,Middle,No,No,I,Low,Yes,Never,Western,19.4,Medium,Current,High,Medium,Medium,Yes,Timely,Good,Yes,No,Yes,Good,Survived,Yes,59
+467,37,Male,White,Europe,Rural,Middle,No,No,I,Low,Yes,Irregular,Western,22.7,High,Former,Low,Low,Medium,No,Timely,Limited,Yes,Yes,Yes,Good,Survived,No,40
+468,28,Male,White,Europe,Urban,High,No,No,III,Medium,Yes,Never,Traditional,31,Medium,Never,High,Medium,Medium,Yes,Timely,Limited,Yes,No,Yes,Good,Survived,Yes,53
+469,77,Female,White,North America,Rural,Low,No,No,I,Low,Yes,Irregular,Traditional,25.1,Low,Never,Medium,Medium,Low,Yes,Delayed,Good,Yes,No,No,Poor,Survived,No,32
+470,36,Female,Hispanic,North America,Urban,Middle,Yes,No,II,Medium,No,Regular,Western,29.3,Low,Current,High,High,Low,Yes,Delayed,Limited,Yes,No,No,Good,Deceased,No,44
+471,26,Male,White,North America,Urban,Low,No,Yes,I,High,Yes,Regular,Balanced,23.2,Low,Never,Low,Low,Medium,Yes,Timely,Good,No,Yes,Yes,Poor,Survived,Yes,41
+472,65,Male,White,Latin America,Urban,Middle,Yes,No,II,Medium,Yes,Irregular,Traditional,28.4,Medium,Never,Low,Low,Low,Yes,Delayed,Good,Yes,No,Yes,Good,Survived,No,14
+473,32,Male,Black,North America,Urban,Middle,No,No,I,Medium,No,Regular,Balanced,35.8,Medium,Never,Low,Medium,High,Yes,Timely,Good,Yes,No,Yes,Good,Deceased,Yes,54
+474,59,Female,Black,Latin America,Rural,High,No,No,IV,High,Yes,Irregular,Balanced,35.4,High,Current,Medium,High,Medium,No,Delayed,Good,No,No,Yes,Good,Survived,Yes,44
+475,61,Female,Asian,North America,Urban,Middle,No,No,IV,Medium,Yes,Regular,Western,19.4,Low,Former,Low,Low,Medium,Yes,Timely,Limited,No,Yes,No,Poor,Survived,Yes,9
+476,28,Female,White,North America,Urban,Middle,No,Yes,II,Low,Yes,Irregular,Western,27.3,Medium,Former,Low,Low,Medium,Yes,Timely,Good,No,Yes,Yes,Good,Deceased,No,23
+477,69,Male,White,Europe,Urban,Middle,No,No,III,Low,Yes,Regular,Traditional,23.2,Medium,Former,Low,Medium,Medium,No,Delayed,Good,No,No,Yes,Good,Deceased,No,15
+478,46,Female,White,Europe,Urban,Middle,Yes,No,I,Medium,No,Regular,Traditional,25.8,Medium,Never,High,Medium,Low,Yes,Timely,Limited,Yes,Yes,No,Good,Survived,No,31
+479,85,Female,White,Europe,Urban,Middle,No,No,II,Medium,No,Regular,Western,30.8,Medium,Never,Medium,Medium,Medium,No,Delayed,Good,No,No,No,Good,Survived,No,17
+480,24,Male,White,North America,Urban,Middle,Yes,No,I,Low,No,Never,Traditional,37.2,Low,Never,Medium,Low,Medium,No,Delayed,Good,No,Yes,Yes,Good,Survived,No,14
+481,48,Female,White,Europe,Rural,Low,Yes,No,IV,Medium,No,Never,Balanced,33.3,Low,Former,Medium,Medium,Medium,Yes,Delayed,Good,No,No,Yes,Poor,Survived,No,34
+482,56,Male,Asian,North America,Urban,High,No,No,II,Low,Yes,Regular,Traditional,18.7,Low,Never,Medium,High,Medium,No,Delayed,Good,No,No,No,Good,Survived,No,53
+483,57,Female,White,North America,Rural,High,No,No,I,Medium,Yes,Regular,Western,38.9,Low,Never,High,Medium,Medium,Yes,Delayed,Good,No,Yes,Yes,Poor,Survived,Yes,21
+484,27,Female,Hispanic,North America,Urban,Middle,No,No,IV,High,Yes,Regular,Balanced,31.8,Medium,Never,High,Medium,Medium,No,Timely,Good,Yes,No,Yes,Good,Deceased,No,32
+485,84,Female,Hispanic,Europe,Urban,Middle,No,No,IV,Low,Yes,Irregular,Western,19.1,Medium,Never,Low,Medium,High,No,Timely,Good,No,Yes,No,Poor,Survived,No,51
+486,36,Female,White,Europe,Urban,Middle,No,No,IV,High,Yes,Never,Western,36.8,Medium,Former,High,Medium,Low,Yes,Timely,Good,No,No,No,Poor,Survived,Yes,56
+487,64,Male,Asian,Europe,Urban,Middle,No,No,I,Low,Yes,Irregular,Western,30.4,Low,Never,Low,Medium,Medium,Yes,Timely,Limited,No,Yes,No,Good,Survived,No,6
+488,23,Male,Black,Asia Pacific,Urban,Middle,No,No,I,Low,Yes,Irregular,Western,24.3,High,Never,Medium,High,High,Yes,Timely,Limited,Yes,Yes,Yes,Poor,Deceased,Yes,21
+489,55,Male,White,Asia Pacific,Urban,High,No,No,I,Low,Yes,Regular,Western,37.9,Low,Never,Medium,Low,High,Yes,Timely,Good,No,Yes,No,Poor,Survived,No,47
+490,89,Male,Black,Asia Pacific,Urban,Middle,No,No,IV,Low,Yes,Regular,Western,28.2,Medium,Former,Low,High,High,Yes,Delayed,Good,No,No,Yes,Poor,Survived,No,1
+491,50,Male,White,Europe,Urban,Low,No,No,IV,High,Yes,Irregular,Western,23.6,Low,Never,Medium,Low,Low,Yes,Delayed,Limited,No,No,Yes,Good,Survived,No,21
+492,38,Female,Other,North America,Urban,Middle,Yes,No,IV,Low,No,Never,Balanced,38,Low,Never,Low,Low,High,Yes,Delayed,Limited,Yes,No,No,Good,Survived,No,18
+493,80,Male,Asian,Europe,Urban,Middle,No,No,II,High,Yes,Never,Western,19,Low,Never,Low,Medium,High,Yes,Delayed,Good,Yes,Yes,Yes,Poor,Survived,Yes,12
+494,73,Female,Black,Europe,Rural,High,No,No,IV,Low,No,Never,Traditional,38.6,Low,Former,Medium,Low,Medium,No,Timely,Good,No,No,No,Good,Survived,Yes,3
+495,58,Male,Other,North America,Urban,Low,No,Yes,III,High,No,Regular,Traditional,34.2,Medium,Never,Low,High,Low,Yes,Timely,Good,Yes,No,Yes,Poor,Survived,No,46
+496,38,Female,Other,Africa,Urban,Low,No,No,I,Medium,Yes,Regular,Balanced,18.8,Low,Never,High,High,Medium,Yes,Delayed,Limited,Yes,No,Yes,Good,Survived,No,13
+497,58,Female,White,Europe,Urban,Middle,No,No,I,High,Yes,Regular,Traditional,30.5,Medium,Never,Medium,Low,Medium,Yes,Timely,Good,No,No,No,Poor,Survived,No,52
+498,86,Female,Black,North America,Urban,Low,No,No,IV,Low,No,Irregular,Western,23.3,High,Current,Low,Low,Low,Yes,Timely,Good,Yes,No,Yes,Good,Survived,No,35
+499,64,Male,White,North America,Rural,High,Yes,No,IV,Medium,No,Irregular,Western,34.6,Medium,Former,Medium,High,Low,Yes,Timely,Limited,No,Yes,No,Good,Survived,Yes,9
+500,32,Male,Hispanic,North America,Rural,Middle,Yes,No,II,Low,No,Irregular,Western,35.5,Low,Former,High,Medium,Low,Yes,Timely,Limited,Yes,No,Yes,Good,Survived,No,15
+501,77,Female,White,Europe,Urban,Middle,No,No,IV,Low,Yes,Irregular,Western,23.8,Medium,Former,Low,Low,Medium,Yes,Timely,Limited,Yes,Yes,Yes,Poor,Survived,No,16
+502,39,Male,Asian,Asia Pacific,Urban,Low,Yes,No,IV,Low,Yes,Regular,Western,22.8,Low,Never,Medium,High,Medium,Yes,Timely,Good,Yes,No,Yes,Good,Survived,No,41
+503,80,Male,Hispanic,North America,Urban,Middle,Yes,No,II,Low,No,Regular,Balanced,38.4,High,Current,Low,Medium,High,No,Timely,Good,Yes,No,Yes,Good,Survived,No,14
+504,58,Male,Asian,North America,Urban,Middle,No,No,II,Medium,Yes,Regular,Western,21.8,Low,Current,Low,Medium,High,Yes,Timely,Good,Yes,No,Yes,Poor,Survived,Yes,2
+505,20,Male,White,Europe,Urban,Middle,Yes,No,IV,Medium,Yes,Regular,Balanced,31,Low,Never,Low,High,Low,No,Timely,Limited,Yes,No,No,Good,Survived,No,23
+506,22,Female,White,Africa,Rural,Middle,No,No,II,Low,No,Irregular,Western,35.6,Medium,Former,Low,Medium,Medium,Yes,Timely,Good,Yes,Yes,Yes,Poor,Deceased,Yes,55
+507,81,Female,White,Latin America,Rural,Middle,No,No,III,Medium,No,Irregular,Western,35.2,Low,Never,Low,Medium,High,Yes,Timely,Good,Yes,No,Yes,Good,Deceased,Yes,19
+508,82,Male,White,Latin America,Urban,Middle,No,No,II,Medium,No,Regular,Western,37,High,Never,Medium,Low,Low,Yes,Timely,Good,No,No,Yes,Good,Deceased,No,14
+509,44,Male,Asian,North America,Rural,Middle,No,No,I,Medium,Yes,Regular,Balanced,37.9,Low,Former,Medium,Low,Low,No,Delayed,Good,Yes,No,Yes,Good,Survived,No,6
+510,75,Female,White,North America,Urban,Middle,No,No,II,High,Yes,Never,Western,28.5,Medium,Never,High,Medium,Medium,Yes,Timely,Limited,Yes,No,No,Poor,Deceased,No,28
+511,52,Male,White,Asia Pacific,Rural,Middle,Yes,No,II,Low,Yes,Irregular,Western,37,Medium,Current,High,Low,Low,Yes,Timely,Good,Yes,No,Yes,Good,Survived,No,21
+512,57,Male,White,Asia Pacific,Urban,Low,No,No,I,Low,No,Never,Western,28.9,Medium,Current,Medium,Medium,Medium,No,Delayed,Good,No,Yes,No,Good,Survived,Yes,40
+513,25,Male,Black,North America,Rural,Low,Yes,Yes,II,Medium,Yes,Regular,Western,20.5,Low,Former,Low,Medium,Medium,Yes,Delayed,Good,Yes,No,Yes,Good,Deceased,No,21
+514,77,Male,White,North America,Urban,Middle,No,No,IV,High,No,Regular,Western,27.7,Low,Never,Medium,Medium,High,No,Timely,Good,Yes,No,No,Poor,Survived,No,45
+515,63,Male,Black,North America,Urban,Middle,No,No,III,Low,Yes,Regular,Traditional,28,Medium,Never,Medium,Medium,Low,Yes,Delayed,Limited,No,No,No,Good,Survived,No,51
+516,64,Female,White,North America,Rural,High,No,No,I,Low,Yes,Regular,Western,37.2,High,Never,Low,Low,Medium,Yes,Delayed,Good,Yes,No,Yes,Good,Survived,Yes,49
+517,51,Female,Hispanic,Europe,Rural,Middle,No,No,III,Medium,Yes,Irregular,Western,32.5,High,Former,Medium,Medium,High,Yes,Delayed,Limited,No,Yes,Yes,Good,Survived,No,39
+518,64,Male,Asian,North America,Urban,Middle,No,No,II,High,Yes,Regular,Western,35.1,High,Former,Low,High,Medium,Yes,Delayed,Good,No,No,Yes,Good,Survived,No,37
+519,80,Male,Asian,Europe,Rural,Middle,No,No,IV,Medium,Yes,Regular,Traditional,37.4,Low,Current,High,Medium,Medium,No,Timely,Good,No,No,Yes,Good,Survived,Yes,1
+520,66,Female,Black,Europe,Rural,High,No,No,II,Low,No,Regular,Traditional,23.1,Low,Current,High,High,Low,Yes,Timely,Good,No,Yes,Yes,Good,Survived,No,40
+521,40,Female,Hispanic,Europe,Urban,Low,No,No,III,Low,Yes,Regular,Western,34.2,Medium,Never,Low,Medium,Low,Yes,Timely,Good,Yes,No,Yes,Good,Survived,No,33
+522,55,Male,Asian,Europe,Urban,Middle,No,No,I,High,Yes,Irregular,Western,35.4,Medium,Never,High,Low,Low,Yes,Delayed,Limited,No,Yes,Yes,Good,Deceased,No,51
+523,38,Male,White,Asia Pacific,Rural,Middle,Yes,No,I,Medium,Yes,Regular,Traditional,30.7,Medium,Former,Medium,Low,High,Yes,Delayed,Good,Yes,No,No,Poor,Survived,No,11
+524,39,Female,Asian,Latin America,Rural,Low,Yes,No,I,Low,No,Regular,Balanced,35.9,Medium,Current,High,Low,Medium,Yes,Timely,Good,Yes,Yes,Yes,Good,Survived,No,33
+525,76,Male,White,Europe,Urban,Middle,No,No,I,Low,Yes,Regular,Western,22.7,Medium,Former,Low,Medium,High,Yes,Timely,Limited,No,No,Yes,Good,Survived,No,52
+526,37,Male,White,Europe,Rural,Middle,No,No,I,Low,Yes,Never,Traditional,20.6,Medium,Former,Medium,Low,Medium,Yes,Timely,Limited,No,No,No,Poor,Deceased,No,5
+527,66,Male,Black,Asia Pacific,Urban,Middle,No,No,III,High,Yes,Regular,Balanced,39,Low,Never,Low,Low,Medium,Yes,Timely,Limited,Yes,No,Yes,Good,Survived,Yes,43
+528,68,Male,Asian,Asia Pacific,Rural,Middle,Yes,No,III,Low,No,Regular,Balanced,37,Low,Never,Low,Low,Low,Yes,Timely,Good,No,No,Yes,Poor,Survived,No,49
+529,33,Male,Asian,North America,Urban,Middle,No,No,IV,Medium,Yes,Regular,Western,36.7,Low,Never,Low,High,Low,Yes,Delayed,Good,Yes,No,Yes,Good,Survived,No,21
+530,34,Female,Asian,Europe,Rural,Middle,No,No,II,Medium,Yes,Regular,Traditional,21.6,Low,Former,High,Low,Medium,No,Delayed,Limited,Yes,No,Yes,Good,Deceased,No,55
+531,50,Female,White,Europe,Urban,High,No,No,II,Medium,Yes,Regular,Traditional,22,High,Never,Medium,Medium,Medium,Yes,Timely,Good,No,Yes,Yes,Good,Survived,No,29
+532,20,Male,White,North America,Rural,Middle,No,No,IV,Low,Yes,Regular,Balanced,19.2,Low,Current,Low,High,Medium,Yes,Timely,Good,No,No,Yes,Good,Deceased,No,5
+533,73,Male,Asian,North America,Urban,Middle,Yes,No,II,High,Yes,Never,Western,27.4,High,Former,High,Low,High,Yes,Timely,Limited,Yes,Yes,Yes,Good,Survived,Yes,45
+534,22,Male,Black,Europe,Urban,Middle,No,No,IV,Medium,No,Regular,Traditional,26.8,High,Current,Low,Medium,Medium,Yes,Delayed,Good,No,No,No,Good,Survived,No,16
+535,35,Female,White,Asia Pacific,Urban,Middle,No,Yes,I,Medium,Yes,Regular,Western,26.6,Low,Never,High,Low,High,Yes,Timely,Limited,Yes,No,Yes,Poor,Survived,No,42
+536,76,Male,White,North America,Urban,Low,No,No,IV,High,No,Regular,Western,22,Medium,Current,Medium,Low,High,Yes,Timely,Good,Yes,Yes,No,Good,Survived,Yes,41
+537,31,Female,Hispanic,North America,Rural,Middle,Yes,No,IV,High,Yes,Never,Traditional,26,Low,Former,Low,High,High,No,Delayed,Limited,Yes,Yes,Yes,Good,Deceased,No,52
+538,35,Male,Asian,Europe,Rural,Middle,No,Yes,IV,High,Yes,Never,Traditional,34.6,High,Current,Low,Medium,High,Yes,Delayed,Good,No,Yes,No,Poor,Survived,Yes,0
+539,43,Female,Black,Latin America,Rural,Low,No,No,I,High,No,Never,Balanced,37.5,Medium,Current,Low,Low,Low,Yes,Timely,Limited,Yes,No,Yes,Poor,Deceased,No,34
+540,47,Male,Other,North America,Rural,Low,No,No,I,Medium,Yes,Regular,Western,21.3,Medium,Never,Low,High,Low,No,Timely,Good,No,Yes,Yes,Good,Survived,No,35
+541,27,Female,White,North America,Urban,Low,No,No,I,Low,Yes,Irregular,Balanced,33.3,Low,Never,High,Medium,Low,Yes,Delayed,Limited,Yes,No,Yes,Good,Survived,No,55
+542,55,Male,Black,Europe,Rural,High,No,No,II,Low,Yes,Regular,Traditional,39.1,Low,Current,Medium,Medium,Medium,Yes,Timely,Limited,No,Yes,No,Good,Survived,No,43
+543,27,Male,Asian,North America,Urban,Middle,No,Yes,IV,Low,Yes,Regular,Balanced,31,Low,Former,Medium,Low,Low,Yes,Timely,Good,No,No,No,Poor,Deceased,No,56
+544,77,Male,Hispanic,Europe,Rural,High,No,No,I,High,Yes,Irregular,Balanced,25.4,Medium,Former,High,Low,Low,Yes,Timely,Good,Yes,No,Yes,Good,Survived,No,28
+545,79,Male,White,Asia Pacific,Urban,Low,Yes,No,IV,Medium,Yes,Regular,Balanced,38.1,Low,Former,Medium,High,Low,Yes,Timely,Good,No,No,Yes,Good,Survived,No,28
+546,69,Male,White,North America,Rural,Middle,No,No,III,Medium,Yes,Regular,Traditional,33.3,Low,Never,Medium,Medium,Low,Yes,Timely,Good,Yes,Yes,Yes,Good,Survived,No,17
+547,47,Female,Hispanic,Europe,Rural,High,No,No,III,Medium,Yes,Never,Balanced,26.7,Medium,Current,Medium,Medium,Low,Yes,Timely,Limited,No,No,No,Good,Survived,No,26
+548,60,Male,Asian,Europe,Rural,High,No,No,III,Low,Yes,Regular,Traditional,21,Low,Never,Medium,High,Medium,Yes,Delayed,Good,No,Yes,No,Good,Survived,No,39
+549,83,Male,Black,North America,Urban,Low,No,No,II,Medium,Yes,Irregular,Western,39,High,Never,Low,High,Medium,Yes,Timely,Good,No,Yes,Yes,Poor,Deceased,Yes,33
+550,46,Female,White,Asia Pacific,Rural,Low,No,No,IV,Medium,Yes,Never,Western,39.5,Low,Never,Low,Low,Low,Yes,Timely,Limited,No,No,Yes,Poor,Survived,Yes,32
+551,82,Male,White,Latin America,Urban,Low,No,No,IV,Medium,Yes,Regular,Western,38.6,High,Former,Medium,High,Low,Yes,Delayed,Limited,Yes,Yes,Yes,Good,Survived,No,32
+552,36,Female,Black,Asia Pacific,Urban,Middle,No,No,III,Medium,Yes,Regular,Traditional,19.9,High,Former,Medium,Medium,Low,Yes,Timely,Good,Yes,No,Yes,Good,Survived,No,40
+553,52,Female,White,North America,Urban,High,No,No,II,Low,Yes,Never,Traditional,21.4,Low,Current,Medium,Low,Medium,Yes,Timely,Good,Yes,Yes,Yes,Good,Survived,No,50
+554,48,Female,White,Asia Pacific,Urban,High,No,Yes,I,Low,No,Regular,Balanced,30.5,Medium,Never,Low,High,Medium,Yes,Delayed,Good,Yes,Yes,No,Poor,Deceased,No,37
+555,32,Male,White,Latin America,Rural,Low,No,No,III,Low,No,Regular,Western,36.6,Medium,Current,Low,Medium,Medium,Yes,Delayed,Limited,Yes,Yes,Yes,Good,Survived,No,0
+556,65,Female,Hispanic,Asia Pacific,Urban,Middle,No,No,IV,High,No,Regular,Balanced,32.6,Low,Never,Low,Medium,Medium,No,Delayed,Good,Yes,No,No,Poor,Survived,No,1
+557,54,Male,Black,North America,Urban,Middle,Yes,No,I,Medium,Yes,Irregular,Traditional,28.8,Low,Never,Low,Medium,Medium,Yes,Timely,Good,No,Yes,No,Poor,Survived,No,2
+558,25,Male,Asian,North America,Urban,Low,No,No,I,High,Yes,Regular,Western,26.2,Medium,Never,Low,High,High,Yes,Delayed,Limited,No,Yes,Yes,Good,Survived,No,14
+559,88,Male,Asian,North America,Urban,Middle,Yes,No,III,Low,Yes,Regular,Balanced,23.1,Low,Never,Low,High,High,Yes,Timely,Good,Yes,No,Yes,Poor,Survived,No,48
+560,66,Female,White,Europe,Urban,Low,No,No,II,Low,No,Regular,Traditional,27.2,Low,Former,High,Low,Medium,Yes,Delayed,Good,Yes,Yes,Yes,Good,Survived,No,37
+561,44,Male,Hispanic,Europe,Urban,Middle,No,No,IV,Low,Yes,Irregular,Western,31.5,High,Never,Medium,Medium,Medium,Yes,Timely,Limited,No,No,Yes,Good,Survived,Yes,45
+562,85,Male,Other,Europe,Urban,Low,No,Yes,IV,Low,Yes,Regular,Western,26.6,Low,Never,Medium,Medium,Low,Yes,Delayed,Limited,Yes,No,Yes,Good,Survived,No,25
+563,29,Male,Black,Asia Pacific,Urban,Middle,No,No,III,High,Yes,Regular,Western,30,High,Never,Low,Low,Low,Yes,Delayed,Good,Yes,No,Yes,Poor,Survived,No,26
+564,75,Male,Asian,Asia Pacific,Urban,High,No,No,II,Low,Yes,Regular,Balanced,34.4,Medium,Never,Medium,High,High,Yes,Delayed,Limited,Yes,No,Yes,Poor,Survived,No,20
+565,49,Female,Black,North America,Urban,High,Yes,Yes,I,Low,Yes,Regular,Western,22.9,Low,Former,Low,Low,Medium,No,Timely,Good,No,Yes,Yes,Good,Survived,Yes,29
+566,24,Female,Black,North America,Rural,Middle,No,No,IV,Medium,Yes,Regular,Western,19.3,Low,Never,Low,Medium,High,Yes,Timely,Good,No,No,Yes,Good,Survived,No,51
+567,52,Male,Black,North America,Urban,Low,No,Yes,III,Low,Yes,Irregular,Traditional,35.8,Low,Never,High,Medium,Low,Yes,Delayed,Good,Yes,No,Yes,Poor,Survived,No,15
+568,84,Female,White,Asia Pacific,Urban,High,Yes,No,IV,Medium,Yes,Irregular,Balanced,29.4,Medium,Current,Low,High,Medium,Yes,Delayed,Good,No,Yes,No,Poor,Survived,No,3
+569,37,Male,Asian,North America,Urban,Middle,Yes,No,II,Medium,Yes,Never,Western,36.1,Medium,Never,Low,High,Medium,No,Timely,Good,No,No,No,Good,Survived,No,35
+570,68,Male,Asian,Europe,Urban,High,Yes,No,II,High,No,Never,Balanced,24.6,Medium,Never,Medium,Medium,Medium,No,Delayed,Limited,No,No,No,Good,Deceased,No,29
+571,30,Male,White,North America,Urban,Low,No,No,I,High,No,Irregular,Balanced,33.1,Medium,Never,Low,High,Medium,No,Delayed,Good,Yes,No,Yes,Poor,Survived,No,16
+572,45,Male,White,Europe,Rural,High,No,No,III,High,Yes,Regular,Balanced,26.5,Medium,Former,Low,Medium,Low,Yes,Timely,Limited,Yes,No,Yes,Good,Survived,Yes,42
+573,82,Male,Black,Europe,Urban,Low,No,No,IV,Low,Yes,Irregular,Western,36.1,Low,Never,Low,Low,Medium,Yes,Timely,Good,Yes,Yes,Yes,Good,Survived,Yes,2
+574,78,Female,Black,Latin America,Urban,Low,No,No,III,High,Yes,Regular,Western,36.6,High,Current,Low,Medium,Low,Yes,Delayed,Limited,No,No,Yes,Poor,Survived,No,12
+575,46,Female,White,North America,Urban,Middle,No,No,I,Low,Yes,Irregular,Balanced,31.8,Low,Never,Low,Low,Low,Yes,Timely,Good,Yes,No,Yes,Poor,Deceased,No,40
+576,68,Male,Hispanic,North America,Urban,Middle,Yes,No,II,High,Yes,Never,Western,23.6,Low,Never,Low,High,Low,Yes,Delayed,Good,Yes,No,Yes,Good,Survived,No,46
+577,52,Male,Asian,Latin America,Urban,High,No,No,III,Medium,Yes,Regular,Western,19,Medium,Former,Low,Medium,Low,Yes,Timely,Good,No,No,Yes,Good,Deceased,No,22
+578,20,Female,White,North America,Urban,Low,No,No,II,Low,Yes,Never,Western,27,Medium,Never,High,Low,High,Yes,Timely,Good,No,No,Yes,Good,Survived,No,14
+579,40,Male,Hispanic,Africa,Rural,Middle,No,Yes,I,Medium,Yes,Regular,Western,28.3,Low,Former,Medium,Medium,Medium,Yes,Delayed,Good,No,Yes,Yes,Good,Survived,No,38
+580,74,Male,Other,Asia Pacific,Urban,High,Yes,No,IV,High,Yes,Never,Western,34.3,Medium,Never,Low,High,Medium,Yes,Delayed,Good,Yes,Yes,Yes,Poor,Deceased,No,40
+581,25,Male,White,Europe,Urban,Middle,No,Yes,IV,High,Yes,Regular,Traditional,34.9,Medium,Former,Medium,Medium,Medium,Yes,Timely,Good,No,No,Yes,Poor,Survived,No,43
+582,88,Male,Asian,North America,Rural,Middle,No,No,I,Low,No,Regular,Western,32.9,High,Never,Low,Medium,Medium,Yes,Timely,Good,Yes,No,Yes,Poor,Survived,No,15
+583,24,Male,Asian,Latin America,Urban,Middle,No,No,II,Low,Yes,Regular,Balanced,38.6,Medium,Never,Low,High,Medium,Yes,Timely,Good,Yes,Yes,Yes,Good,Deceased,No,57
+584,22,Female,White,Europe,Urban,High,Yes,No,I,Medium,Yes,Regular,Balanced,34.8,Medium,Never,Low,Medium,Low,Yes,Timely,Good,No,Yes,No,Good,Deceased,No,50
+585,72,Male,White,Asia Pacific,Urban,High,No,No,IV,Low,Yes,Regular,Western,25,Medium,Never,Medium,Low,Medium,No,Timely,Limited,No,Yes,No,Good,Deceased,No,34
+586,42,Male,White,North America,Urban,Low,Yes,No,I,Medium,Yes,Regular,Western,22.7,Medium,Former,Low,Medium,Medium,Yes,Timely,Good,No,Yes,Yes,Poor,Survived,Yes,33
+587,72,Female,Black,Asia Pacific,Urban,Low,No,No,II,Low,Yes,Regular,Western,35,Medium,Former,Medium,Low,High,Yes,Timely,Limited,Yes,No,Yes,Good,Survived,No,19
+588,56,Female,Asian,Europe,Urban,Low,No,No,IV,Medium,Yes,Regular,Balanced,22.9,Low,Never,Low,Medium,Low,Yes,Delayed,Good,Yes,No,No,Good,Survived,No,14
+589,36,Male,White,North America,Urban,Low,Yes,Yes,IV,Medium,No,Irregular,Western,39.6,Low,Never,Low,Low,Low,Yes,Timely,Good,No,No,Yes,Good,Deceased,No,29
+590,20,Male,White,Europe,Rural,Middle,No,No,IV,Low,Yes,Irregular,Balanced,39.3,Medium,Current,Medium,Medium,Medium,Yes,Timely,Good,No,No,Yes,Poor,Survived,Yes,49
+591,70,Male,Other,Europe,Urban,Low,No,No,I,Medium,Yes,Regular,Traditional,37.2,High,Current,Low,Medium,Medium,Yes,Timely,Good,Yes,No,Yes,Poor,Survived,Yes,11
+592,64,Male,White,North America,Urban,Low,No,No,III,Low,Yes,Irregular,Traditional,27.5,Low,Former,Low,Low,Medium,Yes,Timely,Limited,No,No,Yes,Good,Survived,Yes,39
+593,23,Male,Asian,Asia Pacific,Urban,Middle,No,No,III,Medium,Yes,Never,Western,19.8,High,Never,Low,Low,Low,Yes,Timely,Good,Yes,Yes,Yes,Poor,Survived,No,52
+594,81,Male,White,Europe,Rural,Low,No,No,II,Medium,Yes,Never,Balanced,25.7,Medium,Former,Low,Medium,High,Yes,Timely,Good,Yes,No,Yes,Good,Survived,No,10
+595,84,Female,White,Asia Pacific,Urban,Low,No,No,II,High,Yes,Regular,Western,25,High,Never,Medium,Low,Medium,Yes,Delayed,Good,Yes,No,No,Good,Survived,No,2
+596,51,Female,Black,Africa,Urban,Middle,Yes,Yes,II,Low,Yes,Regular,Western,25.1,Medium,Former,Low,Medium,High,No,Delayed,Good,No,No,No,Good,Survived,No,19
+597,53,Male,White,Europe,Rural,Middle,No,No,I,High,Yes,Irregular,Traditional,28.9,Low,Never,Medium,Low,Medium,No,Timely,Good,No,No,No,Poor,Survived,No,24
+598,58,Male,Black,Latin America,Urban,Low,No,No,III,Low,No,Regular,Traditional,32.3,Medium,Never,Medium,Low,Low,Yes,Timely,Good,No,Yes,Yes,Good,Survived,No,2
+599,45,Male,White,North America,Rural,Low,No,Yes,I,Medium,Yes,Never,Western,33,Low,Former,Low,Medium,Medium,Yes,Delayed,Limited,No,Yes,No,Good,Deceased,No,4
+600,53,Male,White,North America,Urban,Middle,Yes,No,III,High,No,Irregular,Western,28.1,Low,Current,Low,Medium,High,Yes,Timely,Good,No,Yes,Yes,Poor,Survived,No,30
+601,73,Female,Asian,North America,Rural,Middle,Yes,No,IV,High,Yes,Never,Western,29.1,Medium,Former,Low,Low,Medium,Yes,Delayed,Good,Yes,No,Yes,Good,Deceased,Yes,19
+602,22,Male,White,Latin America,Urban,Middle,No,No,II,Low,Yes,Regular,Balanced,19.2,Medium,Never,Low,High,Medium,Yes,Delayed,Good,Yes,No,Yes,Poor,Survived,No,30
+603,69,Female,White,Latin America,Urban,Middle,No,No,I,Low,Yes,Irregular,Western,29.2,High,Never,Low,Low,Low,Yes,Timely,Limited,No,Yes,No,Good,Survived,No,22
+604,31,Female,Asian,Asia Pacific,Urban,Middle,No,No,I,High,Yes,Regular,Western,21.5,Low,Former,Low,Medium,High,No,Delayed,Good,No,Yes,Yes,Good,Deceased,No,5
+605,84,Male,White,North America,Rural,Middle,No,No,I,Medium,Yes,Never,Traditional,27.6,Low,Never,Low,Medium,Medium,Yes,Timely,Good,No,Yes,No,Good,Survived,Yes,42
+606,73,Female,White,Europe,Urban,Middle,No,No,I,Medium,No,Regular,Balanced,33.7,Low,Former,Medium,Low,Medium,Yes,Timely,Good,No,Yes,No,Good,Survived,No,0
+607,24,Female,White,Europe,Urban,Middle,No,No,IV,Low,Yes,Regular,Traditional,28.3,Low,Current,Low,Low,Medium,Yes,Delayed,Good,No,No,No,Good,Survived,Yes,25
+608,76,Female,Hispanic,Latin America,Rural,Middle,No,No,III,Medium,Yes,Irregular,Balanced,29.2,High,Former,Low,Low,High,No,Delayed,Good,Yes,No,Yes,Poor,Survived,Yes,51
+609,36,Male,White,Latin America,Urban,Middle,Yes,No,III,Low,Yes,Regular,Western,23.9,Medium,Former,Low,Low,Medium,Yes,Timely,Good,Yes,No,Yes,Good,Deceased,Yes,18
+610,66,Female,White,North America,Urban,Middle,No,No,IV,Low,Yes,Irregular,Traditional,18.8,Medium,Former,Low,Low,Medium,Yes,Timely,Good,Yes,No,Yes,Good,Survived,No,27
+611,42,Female,Asian,Asia Pacific,Urban,Middle,No,No,I,Low,Yes,Irregular,Western,34.5,Medium,Former,Low,Medium,Low,No,Delayed,Limited,Yes,No,No,Good,Survived,No,11
+612,33,Female,White,Europe,Rural,Middle,No,No,II,Medium,Yes,Regular,Western,20,Medium,Current,Medium,Medium,Medium,No,Delayed,Good,Yes,No,No,Good,Deceased,Yes,42
+613,85,Female,Asian,North America,Rural,High,Yes,No,I,Low,Yes,Regular,Western,27.1,Low,Current,High,Medium,High,Yes,Timely,Limited,Yes,No,Yes,Good,Deceased,No,24
+614,70,Female,White,Asia Pacific,Urban,Middle,No,No,II,Low,Yes,Regular,Traditional,38.3,High,Former,Medium,Medium,Medium,No,Timely,Good,Yes,No,Yes,Good,Survived,No,49
+615,57,Female,White,North America,Urban,Middle,No,No,II,Low,No,Regular,Western,31.5,Low,Former,Medium,Low,Medium,Yes,Timely,Good,Yes,No,Yes,Good,Deceased,Yes,40
+616,83,Male,Black,North America,Urban,High,No,No,I,High,Yes,Regular,Western,39.9,Medium,Former,Low,Medium,Medium,Yes,Timely,Good,Yes,No,No,Good,Deceased,No,44
+617,57,Female,Asian,Asia Pacific,Urban,Middle,No,No,I,Medium,Yes,Never,Traditional,34.7,High,Never,High,Low,Low,Yes,Delayed,Good,Yes,No,Yes,Poor,Deceased,Yes,10
+618,69,Female,White,North America,Urban,Low,No,No,III,High,Yes,Regular,Western,30.2,Low,Former,Low,Medium,Low,Yes,Timely,Good,Yes,No,Yes,Good,Survived,No,48
+619,49,Male,White,Latin America,Urban,Low,No,No,I,Medium,Yes,Irregular,Balanced,25,Medium,Never,Medium,Medium,Low,Yes,Timely,Limited,Yes,Yes,Yes,Poor,Survived,No,4
+620,70,Male,White,Latin America,Rural,High,No,No,I,Medium,No,Regular,Traditional,32.9,Low,Former,Low,Low,Medium,Yes,Timely,Good,No,No,Yes,Good,Deceased,Yes,6
+621,82,Female,Other,Europe,Urban,Middle,No,No,III,Medium,No,Irregular,Traditional,33.8,Medium,Never,Low,Low,Low,Yes,Timely,Good,Yes,Yes,No,Poor,Survived,No,53
+622,71,Female,Asian,North America,Urban,Low,No,No,II,High,Yes,Regular,Western,22.8,Low,Current,Low,Medium,Medium,Yes,Timely,Good,No,No,No,Poor,Survived,No,15
+623,57,Male,White,Asia Pacific,Rural,High,No,No,IV,Low,Yes,Regular,Balanced,32.1,Medium,Never,Medium,Low,Medium,No,Timely,Good,Yes,No,Yes,Poor,Survived,No,55
+624,49,Female,White,North America,Rural,Middle,No,No,III,Low,Yes,Never,Traditional,32.4,Low,Never,Medium,Medium,Low,Yes,Delayed,Limited,No,Yes,No,Good,Survived,Yes,13
+625,70,Female,Black,Latin America,Urban,High,No,Yes,III,Low,No,Regular,Western,20.4,Medium,Current,Low,Medium,Low,Yes,Timely,Good,No,No,Yes,Good,Survived,No,4
+626,24,Female,Black,Latin America,Rural,Low,Yes,No,II,High,Yes,Regular,Western,36.5,Medium,Never,Low,Medium,Medium,Yes,Timely,Good,Yes,No,Yes,Poor,Deceased,Yes,43
+627,48,Male,Asian,North America,Rural,Middle,No,No,II,Medium,Yes,Regular,Western,19.5,Low,Current,Medium,Low,Medium,Yes,Delayed,Limited,Yes,No,Yes,Poor,Survived,No,15
+628,23,Female,Black,North America,Urban,Low,Yes,No,II,Medium,No,Regular,Balanced,21.3,Low,Never,Medium,Low,Medium,Yes,Timely,Good,Yes,No,Yes,Poor,Survived,No,43
+629,29,Male,White,North America,Rural,Low,No,No,III,Medium,Yes,Never,Traditional,37,Medium,Never,Medium,Medium,High,Yes,Timely,Limited,No,Yes,Yes,Poor,Survived,No,15
+630,75,Female,White,North America,Rural,Middle,No,No,III,Low,Yes,Never,Balanced,21.6,Low,Never,Low,Medium,High,Yes,Timely,Good,Yes,Yes,No,Good,Survived,No,6
+631,36,Female,White,North America,Rural,Low,Yes,No,II,Low,Yes,Irregular,Western,33.8,Low,Current,Low,Low,Low,No,Delayed,Good,Yes,No,Yes,Good,Survived,No,54
+632,36,Male,White,Latin America,Urban,High,No,No,III,Low,Yes,Irregular,Western,37.6,Low,Never,Low,High,Low,Yes,Timely,Limited,Yes,Yes,No,Good,Survived,No,19
+633,88,Female,White,Europe,Rural,High,No,No,I,Medium,Yes,Irregular,Western,34.1,Medium,Never,Medium,Low,Low,Yes,Delayed,Limited,No,No,Yes,Poor,Survived,Yes,41
+634,53,Male,Black,Europe,Rural,High,No,No,II,Low,Yes,Irregular,Traditional,20.7,Low,Never,Low,Medium,Medium,Yes,Timely,Limited,No,Yes,Yes,Good,Deceased,No,30
+635,25,Male,White,Europe,Rural,Middle,No,No,III,Medium,No,Regular,Traditional,34.6,Low,Former,Medium,Low,Low,No,Timely,Good,Yes,Yes,Yes,Poor,Survived,No,46
+636,72,Male,Hispanic,North America,Urban,Middle,No,No,II,Medium,Yes,Regular,Western,38.4,Medium,Never,Low,Low,Medium,Yes,Timely,Limited,Yes,No,Yes,Good,Deceased,No,28
+637,85,Female,Other,Europe,Urban,Middle,No,No,I,High,Yes,Regular,Western,33.9,Medium,Never,Low,Medium,Medium,Yes,Timely,Good,No,No,Yes,Good,Survived,No,4
+638,62,Female,Hispanic,North America,Urban,High,No,No,III,High,Yes,Regular,Western,39.6,Medium,Former,Low,Low,High,Yes,Delayed,Good,Yes,Yes,Yes,Good,Survived,No,35
+639,42,Female,Asian,Asia Pacific,Rural,Low,No,No,II,Low,Yes,Irregular,Western,32,Low,Never,High,High,Medium,Yes,Delayed,Good,Yes,Yes,Yes,Poor,Survived,Yes,18
+640,74,Male,Asian,Europe,Urban,High,No,Yes,I,Medium,No,Regular,Balanced,29.5,High,Never,Low,Medium,High,Yes,Timely,Good,No,No,Yes,Poor,Survived,No,1
+641,35,Male,Black,Asia Pacific,Urban,High,No,Yes,II,High,Yes,Never,Western,25.4,Medium,Never,Low,Low,Medium,Yes,Delayed,Good,No,Yes,Yes,Good,Survived,No,22
+642,27,Male,White,North America,Urban,Low,No,No,III,Medium,Yes,Regular,Western,22.7,Low,Current,Low,High,Medium,No,Delayed,Good,No,No,No,Poor,Survived,No,21
+643,23,Female,Hispanic,Europe,Rural,Low,No,No,II,Low,No,Regular,Traditional,30.3,Low,Current,High,Low,High,Yes,Timely,Good,No,No,Yes,Good,Deceased,No,49
+644,23,Female,White,Asia Pacific,Urban,Low,No,No,IV,Medium,Yes,Irregular,Western,28.4,Medium,Never,Medium,Low,Medium,Yes,Delayed,Limited,No,Yes,Yes,Poor,Survived,No,15
+645,75,Male,Black,North America,Urban,Low,Yes,No,III,Medium,Yes,Regular,Western,34.5,Low,Never,High,Medium,Medium,Yes,Timely,Good,No,No,No,Good,Survived,No,42
+646,44,Female,White,Asia Pacific,Urban,Middle,No,No,II,Medium,Yes,Regular,Western,21.6,Low,Former,Medium,Low,High,Yes,Timely,Limited,No,No,No,Good,Survived,Yes,24
+647,86,Male,White,Latin America,Urban,Low,Yes,No,I,Low,No,Regular,Western,30.4,Medium,Never,Medium,Medium,High,No,Timely,Good,Yes,No,Yes,Poor,Survived,Yes,12
+648,86,Female,Hispanic,Africa,Rural,Middle,Yes,No,II,High,Yes,Never,Traditional,24.6,Low,Never,Low,Low,Low,Yes,Delayed,Limited,Yes,No,Yes,Good,Survived,No,49
+649,46,Female,White,Latin America,Rural,Middle,Yes,No,IV,Medium,No,Never,Balanced,20,Low,Former,Low,Low,High,No,Delayed,Good,No,Yes,Yes,Good,Survived,No,59
+650,51,Male,Hispanic,Europe,Urban,High,No,No,II,Medium,No,Irregular,Western,27.5,Medium,Never,Medium,Medium,High,Yes,Timely,Limited,Yes,No,Yes,Poor,Survived,No,36
+651,69,Female,White,Latin America,Urban,High,No,No,IV,Medium,Yes,Irregular,Western,20.7,Medium,Never,Medium,Medium,Low,Yes,Delayed,Limited,Yes,No,No,Good,Deceased,No,31
+652,80,Female,White,Asia Pacific,Urban,Low,No,No,II,Low,Yes,Regular,Western,26.5,High,Never,Low,Medium,Medium,Yes,Delayed,Good,Yes,No,Yes,Poor,Deceased,Yes,4
+653,70,Female,Black,Asia Pacific,Urban,Middle,No,No,II,High,Yes,Never,Western,34.1,Medium,Never,Low,High,Medium,Yes,Delayed,Good,Yes,Yes,No,Poor,Deceased,No,51
+654,38,Male,White,North America,Urban,Middle,No,No,II,Medium,Yes,Irregular,Traditional,19.7,Medium,Current,High,Medium,High,Yes,Timely,Good,Yes,No,No,Poor,Deceased,No,42
+655,40,Male,Asian,Europe,Urban,High,Yes,No,I,High,No,Irregular,Western,31.1,Low,Never,Medium,Medium,Low,Yes,Timely,Good,Yes,Yes,No,Good,Deceased,No,55
+656,24,Male,White,Africa,Urban,Low,No,Yes,IV,Low,Yes,Regular,Balanced,28.7,High,Never,Low,Low,Medium,Yes,Timely,Limited,No,No,No,Good,Deceased,No,21
+657,61,Male,White,Europe,Rural,Middle,No,No,IV,Medium,Yes,Regular,Balanced,27.7,High,Former,Medium,Low,High,Yes,Timely,Good,Yes,No,Yes,Poor,Survived,No,58
+658,80,Male,White,Asia Pacific,Urban,Middle,No,No,II,Low,Yes,Never,Western,38.4,Medium,Never,Medium,High,Low,No,Timely,Good,No,Yes,Yes,Good,Survived,No,16
+659,41,Male,Black,Europe,Rural,Middle,No,No,I,High,Yes,Regular,Balanced,32.5,Medium,Never,Medium,Medium,Medium,Yes,Delayed,Limited,Yes,No,Yes,Good,Survived,Yes,30
+660,40,Male,White,Africa,Urban,High,Yes,No,III,High,Yes,Regular,Traditional,28.7,Medium,Never,Medium,Medium,Medium,Yes,Delayed,Limited,No,Yes,No,Good,Survived,Yes,34
+661,89,Female,Black,Latin America,Urban,Low,No,No,III,Medium,Yes,Regular,Traditional,39.8,Medium,Never,Low,High,Medium,Yes,Delayed,Good,Yes,No,Yes,Good,Survived,No,48
+662,20,Female,Asian,Europe,Urban,Middle,No,No,II,Medium,Yes,Regular,Balanced,26,Low,Current,Low,High,Low,No,Timely,Limited,No,Yes,Yes,Good,Deceased,No,13
+663,24,Male,Asian,Europe,Rural,Middle,No,No,II,Medium,Yes,Irregular,Traditional,23.7,Low,Current,Low,Medium,Medium,Yes,Timely,Good,No,Yes,Yes,Good,Deceased,Yes,18
+664,31,Female,Black,North America,Urban,Middle,No,No,IV,Low,Yes,Regular,Balanced,27.2,Medium,Former,Medium,High,Low,No,Timely,Good,Yes,No,Yes,Good,Survived,No,0
+665,65,Male,Hispanic,Asia Pacific,Rural,High,No,No,III,Low,Yes,Never,Western,23.4,Low,Former,Low,Medium,Low,Yes,Timely,Good,No,No,Yes,Good,Deceased,Yes,4
+666,53,Male,White,Europe,Urban,Low,No,No,II,Low,Yes,Irregular,Western,36,Medium,Former,Medium,Low,Medium,Yes,Delayed,Good,Yes,No,Yes,Poor,Deceased,Yes,9
+667,68,Female,White,Asia Pacific,Urban,Low,No,No,I,Low,Yes,Regular,Western,31.2,Medium,Former,Low,Low,Medium,Yes,Timely,Good,No,Yes,No,Good,Survived,Yes,55
+668,64,Female,Asian,North America,Urban,High,Yes,Yes,I,Low,Yes,Regular,Western,30,Low,Never,Medium,Low,Medium,No,Timely,Limited,No,No,Yes,Good,Survived,No,0
+669,46,Female,White,Africa,Urban,Low,No,Yes,I,Low,Yes,Regular,Western,19.4,Low,Current,Low,Medium,Medium,No,Delayed,Good,Yes,Yes,Yes,Good,Survived,No,12
+670,45,Female,Hispanic,Asia Pacific,Urban,Middle,No,No,I,Low,No,Regular,Balanced,20.2,Low,Current,Low,Low,High,Yes,Delayed,Good,Yes,No,No,Good,Survived,No,14
+671,66,Male,Asian,Europe,Urban,Middle,No,No,I,Low,Yes,Irregular,Western,26.9,Low,Former,Low,High,High,Yes,Timely,Limited,Yes,Yes,Yes,Good,Survived,No,29
+672,75,Male,White,Asia Pacific,Urban,Low,Yes,No,III,Low,No,Regular,Balanced,30.4,Medium,Current,High,High,Low,Yes,Timely,Good,Yes,Yes,Yes,Good,Survived,No,7
+673,82,Female,White,North America,Urban,Middle,No,No,I,Low,Yes,Regular,Western,21.7,Low,Never,Low,Medium,Medium,Yes,Delayed,Good,No,Yes,Yes,Poor,Deceased,No,27
+674,67,Male,Hispanic,Latin America,Rural,High,No,No,III,Medium,Yes,Regular,Western,20.7,Medium,Never,Medium,Medium,Medium,No,Delayed,Good,No,Yes,Yes,Good,Survived,No,51
+675,80,Female,Hispanic,Asia Pacific,Urban,Middle,Yes,No,I,Medium,Yes,Irregular,Western,27.4,Low,Never,Medium,Medium,Medium,Yes,Delayed,Limited,No,No,Yes,Good,Survived,No,26
+676,45,Male,White,Europe,Urban,Low,No,No,I,Medium,Yes,Irregular,Balanced,30.1,Medium,Current,Low,High,Medium,No,Timely,Good,No,Yes,Yes,Good,Survived,Yes,19
+677,55,Female,White,Europe,Urban,Low,No,No,III,Medium,Yes,Regular,Traditional,20.9,Low,Never,Low,Medium,Low,Yes,Timely,Limited,Yes,Yes,No,Good,Survived,Yes,42
+678,20,Female,White,North America,Urban,Middle,No,No,III,Medium,Yes,Irregular,Balanced,37,Low,Current,Low,Medium,High,Yes,Timely,Good,Yes,No,Yes,Poor,Survived,No,57
+679,27,Female,White,Asia Pacific,Urban,Middle,Yes,No,IV,Medium,Yes,Regular,Balanced,33.4,Low,Never,Medium,High,High,Yes,Timely,Good,No,Yes,Yes,Good,Deceased,No,42
+680,71,Female,Hispanic,Asia Pacific,Urban,Low,No,Yes,II,Low,No,Regular,Western,25.8,Low,Never,Low,Medium,Medium,Yes,Timely,Limited,No,No,Yes,Good,Deceased,Yes,21
+681,66,Male,Black,Asia Pacific,Urban,Low,No,No,II,Medium,Yes,Regular,Western,30.7,Medium,Never,Low,Medium,Low,Yes,Timely,Good,No,Yes,Yes,Good,Deceased,No,10
+682,75,Male,White,Asia Pacific,Urban,Middle,No,Yes,IV,Low,Yes,Irregular,Balanced,24.5,Medium,Never,High,Medium,Medium,No,Timely,Good,No,Yes,No,Good,Deceased,No,11
+683,33,Female,White,North America,Rural,Middle,No,Yes,I,Medium,No,Never,Western,27.8,High,Never,Medium,Low,High,Yes,Delayed,Limited,Yes,Yes,Yes,Poor,Deceased,No,19
+684,47,Male,White,North America,Urban,Middle,No,No,I,Medium,Yes,Regular,Western,38.2,Low,Never,Medium,Low,High,Yes,Timely,Good,Yes,Yes,Yes,Poor,Survived,Yes,23
+685,21,Female,White,Asia Pacific,Urban,High,No,No,III,Low,Yes,Irregular,Western,19,Low,Never,Low,Medium,Medium,Yes,Delayed,Good,No,No,Yes,Good,Survived,Yes,33
+686,45,Male,White,Latin America,Urban,Low,No,No,I,Medium,Yes,Regular,Balanced,20.9,Medium,Former,Medium,Medium,Medium,Yes,Delayed,Good,Yes,No,Yes,Good,Survived,Yes,50
+687,33,Male,Asian,North America,Urban,High,Yes,No,I,Medium,Yes,Irregular,Western,36,Medium,Never,Medium,Low,Medium,Yes,Delayed,Good,Yes,No,Yes,Poor,Survived,No,58
+688,78,Male,White,Europe,Urban,Middle,No,No,IV,Low,Yes,Irregular,Western,29.1,Low,Current,Low,Medium,Medium,No,Delayed,Good,No,No,Yes,Poor,Survived,No,17
+689,75,Male,Other,Asia Pacific,Urban,High,No,No,I,Medium,No,Irregular,Western,32.7,High,Never,Low,High,High,Yes,Timely,Good,No,No,Yes,Good,Survived,No,45
+690,26,Female,White,Asia Pacific,Urban,Middle,No,No,II,Medium,Yes,Never,Western,24.2,Medium,Former,Low,Low,Low,Yes,Timely,Good,Yes,No,Yes,Good,Survived,Yes,59
+691,22,Female,White,Europe,Urban,Middle,No,No,I,Low,No,Irregular,Traditional,33.3,Medium,Never,Medium,High,Medium,Yes,Timely,Good,Yes,No,Yes,Good,Survived,No,2
+692,42,Female,Asian,North America,Rural,Low,No,No,IV,Low,No,Regular,Western,29,Low,Former,Low,Low,Low,Yes,Delayed,Good,Yes,Yes,Yes,Poor,Survived,Yes,56
+693,37,Male,White,Europe,Urban,Middle,No,No,III,Low,No,Regular,Balanced,36,Low,Never,Low,Medium,Medium,Yes,Delayed,Good,Yes,No,No,Good,Survived,Yes,41
+694,57,Male,White,Europe,Urban,Middle,No,No,II,Medium,Yes,Regular,Western,27.3,Medium,Never,High,High,High,Yes,Delayed,Good,Yes,No,No,Good,Survived,No,21
+695,34,Female,White,Africa,Rural,Middle,No,Yes,I,Medium,Yes,Regular,Western,19.7,Low,Current,Low,Medium,Medium,Yes,Delayed,Good,No,Yes,Yes,Good,Deceased,No,11
+696,83,Male,White,Asia Pacific,Urban,Low,No,No,I,Medium,No,Never,Balanced,26.3,Medium,Former,Low,Medium,Medium,Yes,Timely,Good,No,No,Yes,Poor,Survived,No,11
+697,47,Female,Other,North America,Urban,High,No,No,IV,Low,Yes,Irregular,Western,27.8,High,Current,Low,High,Medium,No,Delayed,Good,No,No,Yes,Good,Survived,Yes,13
+698,58,Male,White,Europe,Urban,High,No,No,II,High,Yes,Irregular,Western,31.6,Medium,Current,Medium,Medium,Medium,No,Delayed,Limited,Yes,No,Yes,Good,Survived,No,28
+699,76,Female,Black,North America,Rural,Low,No,No,III,Low,No,Never,Western,31.4,Low,Never,Low,Low,Low,Yes,Delayed,Good,Yes,Yes,Yes,Good,Deceased,Yes,21
+700,36,Male,Asian,North America,Urban,Middle,Yes,No,II,Low,No,Irregular,Balanced,21.9,Low,Current,Medium,Low,Medium,Yes,Timely,Limited,No,No,Yes,Good,Survived,No,42
+701,63,Male,Asian,Europe,Urban,Low,No,No,II,High,Yes,Regular,Western,25.4,Medium,Never,Low,Medium,High,Yes,Delayed,Good,No,No,No,Good,Survived,No,51
+702,44,Male,White,Europe,Rural,Middle,Yes,No,III,Medium,Yes,Regular,Western,32.6,High,Current,Low,Medium,Low,No,Timely,Limited,Yes,No,No,Good,Survived,Yes,6
+703,36,Female,Other,Europe,Rural,Middle,Yes,No,II,Medium,Yes,Irregular,Western,23.1,Medium,Never,Low,Low,Medium,Yes,Delayed,Good,No,No,Yes,Poor,Survived,Yes,36
+704,32,Female,White,Asia Pacific,Urban,Middle,No,Yes,II,Low,No,Irregular,Western,35,High,Never,Low,Medium,Medium,Yes,Timely,Good,No,No,No,Good,Deceased,No,4
+705,44,Male,White,Asia Pacific,Urban,High,No,Yes,III,Medium,No,Irregular,Western,31.1,Medium,Former,Medium,Low,Medium,Yes,Delayed,Good,No,Yes,Yes,Poor,Deceased,Yes,2
+706,87,Male,White,North America,Rural,Low,No,Yes,IV,High,No,Irregular,Western,33.2,Low,Current,Medium,Medium,Medium,Yes,Delayed,Good,No,Yes,Yes,Good,Survived,No,6
+707,29,Female,White,Latin America,Rural,Middle,Yes,No,I,Medium,Yes,Regular,Balanced,29.9,Low,Never,Low,Medium,Low,Yes,Timely,Limited,No,No,Yes,Poor,Survived,No,28
+708,86,Female,White,North America,Rural,Middle,Yes,No,I,Medium,Yes,Regular,Balanced,23.1,High,Current,Low,Medium,Medium,No,Delayed,Good,No,No,Yes,Good,Survived,No,28
+709,37,Male,White,North America,Rural,Low,Yes,No,IV,High,Yes,Regular,Western,19.9,Medium,Former,Low,Medium,Low,Yes,Delayed,Good,Yes,No,No,Good,Survived,No,28
+710,53,Female,White,Asia Pacific,Urban,Middle,No,No,I,High,Yes,Irregular,Western,21.7,Low,Former,Medium,Low,Medium,Yes,Delayed,Good,No,Yes,Yes,Good,Survived,Yes,30
+711,27,Female,Black,North America,Urban,Middle,No,No,IV,Low,No,Never,Western,32.7,Low,Current,Low,Medium,Medium,Yes,Timely,Good,Yes,No,Yes,Good,Survived,No,45
+712,59,Female,Asian,North America,Urban,High,No,No,II,Low,Yes,Regular,Balanced,25.9,Low,Former,Low,Low,High,Yes,Timely,Good,Yes,No,No,Good,Survived,No,33
+713,61,Male,White,North America,Urban,Middle,No,No,IV,Medium,Yes,Irregular,Western,26.1,Low,Former,Low,Medium,Medium,Yes,Delayed,Good,No,Yes,No,Poor,Survived,No,56
+714,60,Male,Asian,North America,Urban,Low,No,Yes,I,Low,No,Regular,Western,32.2,Medium,Never,Low,High,Medium,Yes,Timely,Good,Yes,Yes,Yes,Good,Survived,No,6
+715,25,Female,White,Europe,Urban,Low,No,No,I,High,Yes,Irregular,Traditional,32.4,High,Never,Low,Low,Low,Yes,Delayed,Good,No,No,Yes,Poor,Survived,No,8
+716,71,Female,White,Asia Pacific,Rural,Low,Yes,No,III,Medium,Yes,Irregular,Western,21.3,Low,Current,Low,Low,Medium,No,Delayed,Good,No,No,No,Good,Survived,Yes,55
+717,45,Female,White,Europe,Rural,Middle,No,No,II,Medium,Yes,Regular,Balanced,33.2,Low,Never,Low,Medium,Low,No,Timely,Good,No,Yes,No,Poor,Survived,Yes,8
+718,83,Male,Hispanic,Asia Pacific,Urban,Low,No,Yes,II,Low,Yes,Regular,Traditional,28.6,Low,Former,Low,Medium,Low,Yes,Delayed,Good,Yes,Yes,Yes,Good,Survived,No,30
+719,78,Male,Other,Asia Pacific,Urban,Low,No,No,I,High,Yes,Never,Western,28.5,Low,Never,High,Medium,Medium,Yes,Timely,Good,Yes,Yes,Yes,Good,Survived,No,45
+720,75,Female,Black,North America,Urban,Middle,No,No,II,Low,Yes,Regular,Traditional,30.5,High,Never,High,Medium,Medium,Yes,Timely,Good,Yes,No,No,Poor,Survived,No,51
+721,78,Male,White,Europe,Rural,Low,No,No,I,Low,Yes,Regular,Balanced,19.5,Medium,Current,Low,High,Medium,Yes,Delayed,Good,Yes,No,Yes,Poor,Survived,Yes,21
+722,89,Female,White,Asia Pacific,Urban,Low,No,No,III,Low,No,Regular,Western,35.8,Medium,Former,Low,High,Low,Yes,Timely,Good,Yes,Yes,No,Good,Survived,No,36
+723,52,Male,Black,North America,Rural,Middle,No,No,IV,High,Yes,Regular,Western,24,Low,Current,Low,Low,Medium,Yes,Delayed,Good,No,Yes,Yes,Good,Survived,No,11
+724,72,Male,White,Asia Pacific,Urban,Middle,No,No,I,Low,Yes,Never,Western,33.4,Low,Former,Low,Medium,Medium,Yes,Delayed,Good,Yes,Yes,No,Good,Survived,Yes,32
+725,41,Female,White,North America,Urban,Middle,No,No,II,Low,No,Regular,Traditional,25,Medium,Former,Low,Medium,Medium,No,Delayed,Good,Yes,No,No,Good,Deceased,Yes,1
+726,40,Male,White,Europe,Urban,Middle,No,No,I,Low,Yes,Regular,Western,21,Low,Never,Low,Medium,Low,Yes,Timely,Limited,Yes,No,Yes,Good,Survived,No,7
+727,89,Male,Black,Europe,Urban,Middle,Yes,No,I,Low,Yes,Irregular,Western,24.4,Low,Never,Low,Medium,Medium,Yes,Delayed,Limited,Yes,Yes,Yes,Good,Survived,No,43
+728,89,Female,Black,Europe,Rural,Low,No,No,I,Low,Yes,Irregular,Balanced,30.6,Medium,Never,Low,Medium,Medium,Yes,Timely,Good,Yes,No,No,Good,Survived,No,16
+729,23,Male,Hispanic,Europe,Urban,Low,No,No,IV,High,Yes,Regular,Balanced,29.5,Low,Never,Low,Low,Medium,Yes,Timely,Good,Yes,No,No,Good,Survived,No,45
+730,81,Male,Hispanic,North America,Urban,Low,No,No,I,Low,No,Regular,Traditional,25.3,Medium,Never,Low,Medium,Medium,Yes,Timely,Good,Yes,No,No,Good,Deceased,Yes,53
+731,81,Male,White,North America,Urban,High,Yes,No,IV,Medium,Yes,Irregular,Balanced,19.4,Low,Never,High,High,Low,No,Delayed,Limited,Yes,Yes,No,Good,Survived,Yes,6
+732,43,Male,White,Europe,Urban,High,No,No,III,Low,Yes,Regular,Western,23.9,Medium,Never,Low,Medium,High,Yes,Timely,Limited,Yes,Yes,Yes,Good,Survived,No,5
+733,74,Male,White,North America,Urban,Low,No,No,I,Medium,Yes,Never,Traditional,30.5,Low,Never,High,Low,Low,No,Timely,Good,Yes,No,No,Good,Survived,Yes,26
+734,28,Male,White,North America,Urban,Middle,Yes,No,IV,Medium,Yes,Irregular,Western,31,Low,Former,Low,Low,Medium,Yes,Delayed,Good,No,No,Yes,Poor,Survived,No,40
+735,22,Male,White,Africa,Rural,Low,Yes,No,III,Medium,Yes,Irregular,Balanced,29.3,Low,Never,Medium,Medium,High,Yes,Timely,Good,No,Yes,Yes,Poor,Deceased,Yes,26
+736,50,Male,Asian,North America,Rural,Middle,No,No,IV,Low,Yes,Regular,Western,29,Medium,Current,Medium,Medium,Medium,No,Delayed,Good,No,Yes,No,Good,Survived,No,26
+737,59,Male,Hispanic,Latin America,Urban,Middle,Yes,No,II,Medium,Yes,Irregular,Traditional,28.8,Medium,Former,Low,Low,Low,No,Timely,Good,No,No,No,Poor,Survived,Yes,36
+738,55,Male,White,Asia Pacific,Urban,Middle,Yes,No,III,Medium,Yes,Never,Western,36.6,Medium,Former,Low,Medium,Medium,No,Timely,Good,Yes,Yes,Yes,Good,Survived,No,34
+739,43,Male,White,North America,Urban,Middle,No,No,II,High,Yes,Regular,Western,32.2,Medium,Current,Low,Medium,Medium,Yes,Timely,Limited,Yes,No,Yes,Good,Survived,Yes,9
+740,25,Female,White,North America,Urban,Middle,No,No,I,Medium,No,Regular,Traditional,22.1,Low,Never,Low,Medium,Medium,Yes,Timely,Good,Yes,No,Yes,Poor,Survived,No,20
+741,85,Male,Hispanic,Africa,Rural,Low,No,Yes,I,Medium,Yes,Regular,Balanced,23.7,High,Never,Low,High,High,Yes,Delayed,Limited,Yes,No,No,Good,Deceased,No,20
+742,23,Male,White,Europe,Urban,High,No,No,III,Medium,Yes,Regular,Western,22.5,Medium,Former,Medium,Low,Medium,Yes,Timely,Good,Yes,No,No,Poor,Deceased,No,5
+743,25,Female,Hispanic,North America,Urban,Middle,Yes,No,IV,High,Yes,Regular,Western,33.7,Medium,Current,Medium,Low,Medium,Yes,Delayed,Good,Yes,Yes,No,Good,Survived,No,9
+744,70,Female,White,Asia Pacific,Urban,Middle,No,No,II,Medium,No,Regular,Western,20.8,High,Never,Medium,Low,High,No,Delayed,Limited,Yes,No,No,Poor,Survived,No,5
+745,81,Male,Asian,Asia Pacific,Rural,Middle,No,No,IV,High,No,Never,Balanced,27.8,Low,Never,Medium,High,High,Yes,Timely,Good,Yes,No,Yes,Poor,Deceased,No,34
+746,76,Male,White,Europe,Urban,High,Yes,No,II,High,Yes,Never,Western,33.5,Low,Current,High,High,Medium,No,Timely,Good,Yes,No,Yes,Good,Survived,No,18
+747,85,Male,Asian,North America,Rural,Low,No,No,IV,Low,Yes,Regular,Western,22.2,High,Current,Low,Low,High,Yes,Timely,Good,Yes,Yes,Yes,Good,Survived,Yes,47
+748,27,Male,Hispanic,Europe,Urban,Middle,No,No,II,Low,No,Irregular,Balanced,33.6,Low,Current,Low,Medium,High,Yes,Timely,Good,Yes,No,Yes,Good,Survived,Yes,39
+749,45,Male,Black,Asia Pacific,Urban,Middle,No,No,I,Medium,Yes,Regular,Western,24.6,Low,Never,Medium,Low,Medium,No,Delayed,Good,Yes,No,Yes,Good,Survived,No,6
+750,70,Male,Hispanic,Asia Pacific,Urban,Middle,No,Yes,I,Low,Yes,Regular,Western,23.4,Medium,Never,Medium,Low,Medium,No,Timely,Limited,Yes,No,No,Good,Deceased,No,29
+751,64,Female,White,North America,Rural,Middle,No,No,I,Medium,Yes,Regular,Western,30.2,High,Never,Low,Medium,Low,Yes,Timely,Good,Yes,Yes,No,Poor,Survived,Yes,19
+752,63,Male,White,North America,Rural,Middle,No,Yes,II,High,Yes,Regular,Western,27.4,Low,Former,Low,High,High,Yes,Timely,Good,Yes,No,No,Good,Deceased,Yes,9
+753,24,Male,White,North America,Urban,Middle,No,No,I,Medium,Yes,Regular,Balanced,20.1,Low,Former,Medium,Medium,High,Yes,Delayed,Limited,No,No,Yes,Poor,Survived,No,9
+754,89,Female,Hispanic,Europe,Urban,Low,No,Yes,III,Medium,No,Irregular,Traditional,34.7,High,Never,Medium,Low,Low,No,Delayed,Good,Yes,No,No,Good,Survived,No,49
+755,45,Female,Black,Africa,Rural,High,No,No,I,High,Yes,Regular,Traditional,30.5,Medium,Former,Medium,High,Low,Yes,Delayed,Good,Yes,No,No,Good,Survived,Yes,38
+756,87,Male,White,Europe,Urban,Middle,No,No,II,Low,Yes,Irregular,Balanced,23.5,Medium,Former,Low,High,High,No,Timely,Good,Yes,No,Yes,Poor,Survived,No,40
+757,38,Male,White,Europe,Urban,Low,Yes,No,III,Low,No,Irregular,Western,30.5,Low,Former,Medium,High,High,Yes,Timely,Good,Yes,Yes,Yes,Good,Survived,No,53
+758,39,Male,Black,Asia Pacific,Rural,Middle,No,Yes,II,High,No,Regular,Western,29.4,Low,Current,Medium,High,Medium,No,Delayed,Limited,Yes,No,No,Good,Survived,No,51
+759,31,Male,White,North America,Rural,Low,Yes,No,I,Medium,Yes,Regular,Traditional,33.1,Medium,Current,Low,High,High,Yes,Timely,Good,No,No,Yes,Good,Survived,No,38
+760,66,Male,Black,Europe,Urban,Low,No,No,I,Low,Yes,Irregular,Balanced,38.2,Low,Never,High,Medium,Low,Yes,Delayed,Good,Yes,Yes,No,Good,Survived,No,50
+761,20,Male,White,Africa,Urban,Middle,No,No,I,Low,Yes,Regular,Balanced,39.5,Low,Never,Low,Medium,Low,Yes,Delayed,Good,No,No,No,Good,Deceased,No,22
+762,33,Female,White,Europe,Urban,High,No,No,III,Low,Yes,Never,Balanced,20,Low,Never,High,Low,Medium,Yes,Delayed,Good,Yes,No,Yes,Good,Survived,No,25
+763,83,Female,Hispanic,North America,Urban,Middle,No,No,II,Medium,Yes,Irregular,Western,32.7,Low,Current,Medium,Low,Medium,Yes,Timely,Good,Yes,No,Yes,Good,Deceased,No,38
+764,57,Male,Asian,Latin America,Urban,Low,No,No,III,Low,Yes,Regular,Western,31.9,Low,Former,Low,Medium,Medium,Yes,Timely,Good,Yes,No,Yes,Good,Deceased,No,48
+765,56,Male,Other,Europe,Rural,Middle,No,No,III,Medium,Yes,Regular,Western,29.1,Low,Never,Medium,Medium,Medium,No,Timely,Good,Yes,Yes,Yes,Poor,Survived,No,20
+766,30,Male,White,North America,Urban,Middle,No,No,II,Medium,Yes,Regular,Balanced,26.2,Low,Never,Low,High,Low,Yes,Timely,Good,No,No,Yes,Poor,Survived,No,54
+767,22,Male,White,North America,Urban,High,No,No,I,Medium,No,Regular,Western,31.1,Low,Former,High,Low,Medium,Yes,Timely,Good,No,No,Yes,Poor,Deceased,No,56
+768,52,Female,Black,Europe,Urban,Middle,No,No,II,Low,Yes,Irregular,Balanced,21.2,Low,Never,Medium,High,Medium,Yes,Timely,Good,No,No,No,Good,Survived,Yes,43
+769,25,Female,Black,North America,Urban,Middle,No,No,I,High,Yes,Regular,Traditional,19.8,Medium,Never,Low,Low,Low,Yes,Timely,Good,No,No,Yes,Good,Survived,Yes,45
+770,69,Female,Hispanic,Asia Pacific,Urban,Middle,Yes,No,I,Low,No,Regular,Balanced,28.7,Medium,Never,Low,Low,Medium,Yes,Timely,Limited,No,No,No,Good,Survived,No,15
+771,29,Female,White,Europe,Rural,Middle,No,No,IV,Low,Yes,Irregular,Western,39.5,Low,Never,Low,Medium,Medium,No,Delayed,Good,Yes,No,Yes,Good,Survived,Yes,29
+772,24,Male,White,North America,Rural,Middle,No,No,IV,Medium,Yes,Regular,Traditional,36.7,Low,Never,Medium,Medium,Medium,Yes,Timely,Limited,Yes,Yes,Yes,Good,Deceased,No,0
+773,42,Female,Black,Europe,Urban,Middle,Yes,No,III,High,No,Regular,Balanced,32.4,Low,Never,Low,Low,High,Yes,Delayed,Limited,Yes,No,Yes,Poor,Survived,Yes,25
+774,29,Female,White,Africa,Urban,Middle,Yes,No,III,High,Yes,Irregular,Traditional,22.2,Low,Former,High,Low,Medium,Yes,Delayed,Limited,No,No,Yes,Good,Survived,No,8
+775,63,Male,Hispanic,Africa,Rural,Low,No,No,II,High,Yes,Regular,Western,39.8,Medium,Never,Medium,Low,Medium,Yes,Timely,Good,No,Yes,Yes,Good,Survived,No,4
+776,21,Male,Black,North America,Rural,Middle,Yes,No,I,Medium,Yes,Irregular,Balanced,26.6,Low,Never,Low,Medium,Medium,Yes,Timely,Good,No,Yes,No,Good,Survived,No,4
+777,32,Male,Black,Europe,Urban,Middle,No,No,II,Low,Yes,Irregular,Western,25.4,Low,Never,Low,Low,Medium,Yes,Timely,Good,Yes,No,Yes,Good,Survived,Yes,28
+778,59,Female,White,Europe,Rural,Middle,No,No,I,High,Yes,Irregular,Western,30.8,Low,Never,Low,Low,Medium,No,Timely,Good,No,No,Yes,Poor,Deceased,No,34
+779,21,Male,White,Europe,Urban,High,Yes,No,IV,Medium,Yes,Never,Western,23.1,Low,Never,Medium,High,Medium,Yes,Timely,Good,Yes,No,No,Poor,Deceased,Yes,43
+780,84,Female,White,Europe,Urban,Middle,No,No,IV,High,No,Irregular,Western,22.1,Medium,Former,High,Medium,Medium,Yes,Timely,Limited,Yes,Yes,Yes,Good,Survived,No,6
+781,82,Male,Black,North America,Urban,Low,Yes,Yes,II,Medium,No,Regular,Balanced,38.4,Low,Never,Medium,Low,Medium,Yes,Delayed,Good,No,Yes,Yes,Good,Survived,No,59
+782,36,Male,Hispanic,Latin America,Rural,Middle,No,Yes,III,Low,No,Irregular,Western,39.4,Low,Never,High,Medium,Low,Yes,Timely,Good,No,No,Yes,Poor,Survived,No,8
+783,28,Male,White,Africa,Urban,High,No,No,I,Medium,Yes,Irregular,Traditional,21.2,Medium,Former,Low,Low,High,No,Timely,Good,No,No,Yes,Good,Survived,No,4
+784,34,Male,White,North America,Rural,Low,No,No,IV,Medium,Yes,Irregular,Western,19.6,Low,Never,Low,Medium,Medium,Yes,Timely,Good,No,No,No,Good,Deceased,No,29
+785,43,Male,Black,Europe,Rural,Middle,No,No,II,High,Yes,Regular,Balanced,37.5,Low,Never,Low,Medium,High,Yes,Delayed,Good,No,Yes,Yes,Good,Survived,No,1
+786,57,Female,White,Europe,Urban,Low,No,No,III,Low,No,Regular,Traditional,36.8,Low,Never,Low,Medium,High,Yes,Timely,Limited,Yes,No,Yes,Good,Survived,No,26
+787,54,Male,Black,Asia Pacific,Urban,Middle,Yes,No,II,Low,No,Regular,Balanced,27.9,Medium,Current,Medium,High,Low,Yes,Timely,Good,No,No,Yes,Poor,Survived,No,49
+788,68,Male,White,Europe,Rural,Middle,Yes,No,IV,Medium,No,Regular,Western,39.6,Low,Never,Low,High,High,Yes,Delayed,Good,No,Yes,Yes,Poor,Survived,Yes,12
+789,88,Male,Asian,Asia Pacific,Urban,Middle,No,No,III,Medium,Yes,Irregular,Western,21.4,Low,Never,High,High,Medium,No,Delayed,Limited,Yes,Yes,No,Poor,Survived,Yes,16
+790,81,Male,Asian,Asia Pacific,Urban,Middle,No,No,III,Medium,Yes,Regular,Western,23.3,Low,Former,High,Low,High,Yes,Timely,Good,No,Yes,Yes,Good,Deceased,No,15
+791,79,Female,Black,Europe,Rural,Low,No,No,I,Medium,Yes,Regular,Traditional,31,Low,Never,Low,Low,Low,Yes,Timely,Limited,Yes,Yes,Yes,Good,Survived,Yes,20
+792,69,Male,Black,North America,Rural,High,No,Yes,II,Medium,Yes,Never,Traditional,39.7,Low,Never,Medium,Low,Medium,No,Timely,Limited,Yes,No,Yes,Good,Survived,Yes,52
+793,28,Female,Black,North America,Rural,Low,No,No,II,Medium,Yes,Irregular,Balanced,27.2,High,Current,Low,High,Medium,No,Timely,Limited,No,No,Yes,Good,Deceased,No,8
+794,53,Female,Black,North America,Rural,High,No,No,III,Low,Yes,Never,Balanced,37,Medium,Current,Low,Medium,Low,Yes,Timely,Good,No,No,Yes,Good,Survived,No,37
+795,54,Male,White,Asia Pacific,Rural,Low,No,No,II,Low,No,Regular,Western,21.4,Medium,Never,Low,High,High,Yes,Delayed,Good,No,No,No,Good,Survived,Yes,49
+796,20,Male,Asian,North America,Urban,Low,No,No,I,Low,Yes,Never,Traditional,24.5,High,Current,Medium,Low,Low,No,Timely,Limited,No,No,Yes,Good,Deceased,No,19
+797,59,Female,Black,Latin America,Urban,Middle,No,No,I,Low,Yes,Never,Traditional,39.8,Low,Never,Medium,Low,Medium,Yes,Delayed,Good,Yes,No,No,Poor,Survived,Yes,19
+798,83,Male,Asian,North America,Urban,Low,No,No,II,Low,Yes,Irregular,Western,27.6,High,Never,Low,Low,Medium,Yes,Timely,Limited,Yes,No,Yes,Poor,Survived,No,1
+799,41,Male,Black,Europe,Rural,Middle,No,No,III,Medium,Yes,Irregular,Western,26.2,Medium,Never,Medium,High,Medium,Yes,Delayed,Limited,No,No,Yes,Good,Survived,No,37
+800,79,Female,White,North America,Urban,Middle,No,Yes,IV,Low,Yes,Irregular,Balanced,30.4,High,Former,Low,Low,Medium,Yes,Timely,Limited,Yes,No,Yes,Good,Survived,No,12
+801,83,Female,Black,Asia Pacific,Urban,Middle,No,No,II,Medium,Yes,Irregular,Western,30.6,Medium,Never,Low,Low,High,Yes,Timely,Good,No,Yes,Yes,Poor,Survived,Yes,43
+802,30,Male,Black,Asia Pacific,Rural,Low,No,No,II,High,No,Regular,Western,25.7,Low,Current,High,High,Medium,Yes,Timely,Limited,Yes,Yes,Yes,Good,Survived,Yes,48
+803,33,Male,White,North America,Urban,Low,No,No,II,High,Yes,Regular,Traditional,36.8,Low,Never,Medium,Medium,Medium,Yes,Timely,Good,No,Yes,No,Poor,Survived,Yes,18
+804,79,Female,Asian,North America,Urban,Middle,No,No,III,High,Yes,Regular,Western,19.3,Low,Current,High,Low,Low,Yes,Timely,Limited,Yes,Yes,Yes,Poor,Survived,Yes,17
+805,49,Male,Asian,North America,Rural,High,No,No,II,Low,No,Regular,Balanced,19.1,Low,Never,Low,High,Medium,No,Timely,Good,Yes,Yes,No,Poor,Survived,Yes,15
+806,54,Male,White,North America,Urban,Low,No,No,IV,Low,Yes,Regular,Traditional,29.5,Medium,Never,High,Low,High,Yes,Timely,Limited,No,Yes,Yes,Good,Survived,No,1
+807,56,Male,Hispanic,North America,Rural,Low,Yes,No,III,Low,Yes,Regular,Western,35.8,Low,Current,Low,Medium,Medium,Yes,Timely,Limited,Yes,No,Yes,Good,Survived,Yes,39
+808,24,Female,White,North America,Urban,Middle,Yes,No,II,Low,No,Regular,Western,31.5,High,Never,Medium,Low,Low,No,Timely,Good,No,No,No,Poor,Deceased,No,28
+809,45,Male,White,North America,Urban,Middle,No,Yes,II,Low,Yes,Regular,Western,35.7,High,Current,Medium,High,Low,Yes,Delayed,Limited,Yes,Yes,No,Good,Survived,No,36
+810,81,Male,White,Asia Pacific,Urban,Low,No,No,III,Low,Yes,Never,Western,31.1,High,Never,Medium,Low,Medium,No,Timely,Limited,No,No,Yes,Poor,Survived,No,56
+811,23,Male,White,North America,Rural,Low,No,No,I,Low,Yes,Irregular,Western,29.8,Low,Never,Low,Medium,Medium,No,Timely,Good,Yes,Yes,Yes,Good,Survived,No,31
+812,61,Male,Other,North America,Urban,High,Yes,No,II,Low,Yes,Irregular,Traditional,29.8,High,Never,Medium,High,Medium,Yes,Timely,Good,No,No,Yes,Good,Survived,No,51
+813,37,Male,Black,Asia Pacific,Urban,Middle,No,No,IV,Medium,Yes,Never,Traditional,38.9,Medium,Former,High,Medium,Medium,Yes,Timely,Good,No,No,Yes,Good,Deceased,No,54
+814,59,Female,White,Europe,Urban,Middle,No,No,I,Medium,No,Regular,Balanced,22.1,Low,Current,Low,High,Medium,Yes,Timely,Limited,No,Yes,No,Good,Survived,No,48
+815,58,Male,Hispanic,Asia Pacific,Urban,Middle,No,No,II,Medium,Yes,Never,Balanced,29,High,Never,High,Medium,Medium,Yes,Timely,Good,Yes,No,No,Good,Survived,No,7
+816,33,Male,Black,North America,Urban,Low,Yes,No,IV,High,No,Irregular,Western,26.9,Low,Former,Medium,Medium,Medium,Yes,Delayed,Good,No,No,Yes,Poor,Survived,Yes,32
+817,51,Male,Asian,North America,Urban,High,No,No,II,Medium,Yes,Irregular,Traditional,22.4,High,Current,Low,Medium,Low,Yes,Timely,Good,Yes,No,No,Poor,Survived,No,23
+818,70,Male,White,North America,Urban,Low,No,No,III,Medium,Yes,Regular,Balanced,21.4,Low,Current,Low,High,Low,Yes,Timely,Limited,No,Yes,No,Good,Deceased,No,14
+819,57,Male,Other,North America,Urban,Middle,Yes,No,III,Low,Yes,Regular,Traditional,18.6,Low,Never,Low,Medium,Medium,No,Delayed,Good,No,No,Yes,Good,Survived,No,57
+820,42,Male,Black,Latin America,Urban,Low,Yes,No,II,Low,Yes,Regular,Western,37.5,Low,Current,Low,Low,High,Yes,Timely,Good,Yes,No,Yes,Good,Survived,Yes,34
+821,82,Male,White,Africa,Rural,Low,Yes,No,IV,Low,Yes,Irregular,Traditional,27.7,Low,Former,Medium,Medium,Medium,No,Delayed,Limited,No,No,Yes,Good,Survived,No,2
+822,34,Male,Black,Africa,Rural,Middle,No,No,II,Medium,Yes,Regular,Balanced,33.7,Low,Former,High,Low,Medium,Yes,Delayed,Limited,Yes,Yes,No,Good,Survived,No,8
+823,44,Female,Black,Asia Pacific,Rural,Middle,Yes,No,III,High,Yes,Regular,Western,28.5,Medium,Never,High,Low,Medium,Yes,Timely,Good,No,No,Yes,Good,Survived,No,45
+824,36,Male,White,Asia Pacific,Urban,Low,No,No,I,High,No,Irregular,Western,30.6,Low,Current,Low,Medium,High,Yes,Timely,Good,No,No,No,Poor,Survived,No,21
+825,85,Male,White,Europe,Urban,High,No,Yes,I,High,No,Regular,Traditional,30.3,Medium,Never,Medium,High,Low,Yes,Timely,Good,Yes,No,Yes,Good,Survived,Yes,55
+826,72,Female,White,Europe,Urban,Low,No,No,III,Low,No,Irregular,Balanced,27.4,Low,Current,Low,Low,Medium,Yes,Timely,Good,No,No,Yes,Good,Survived,Yes,0
+827,70,Female,Hispanic,Europe,Urban,Low,Yes,No,I,High,No,Never,Balanced,30.2,Low,Never,Medium,High,Low,Yes,Timely,Limited,Yes,No,Yes,Poor,Survived,No,24
+828,58,Female,Black,Asia Pacific,Rural,Low,Yes,Yes,III,Low,Yes,Regular,Western,28.5,Medium,Current,High,Medium,High,Yes,Timely,Good,Yes,No,Yes,Poor,Survived,No,25
+829,70,Male,White,North America,Urban,Middle,No,No,III,High,Yes,Regular,Western,19.9,High,Current,Low,Medium,Medium,Yes,Delayed,Limited,No,Yes,Yes,Poor,Survived,No,33
+830,89,Male,Black,Latin America,Urban,High,No,No,I,High,Yes,Regular,Western,32.7,Low,Former,Low,Medium,Medium,Yes,Delayed,Limited,No,No,Yes,Good,Survived,No,2
+831,25,Female,White,North America,Urban,Middle,No,No,II,Low,Yes,Never,Traditional,36.7,Medium,Never,Medium,Low,High,Yes,Timely,Good,No,No,Yes,Poor,Survived,No,54
+832,86,Female,White,Africa,Rural,Low,Yes,No,I,Medium,Yes,Irregular,Balanced,30.7,Low,Former,Low,Low,High,Yes,Timely,Limited,No,No,Yes,Good,Survived,Yes,42
+833,26,Male,White,Asia Pacific,Urban,High,Yes,No,III,Medium,Yes,Regular,Western,20,Low,Former,Medium,High,Medium,Yes,Timely,Limited,No,Yes,Yes,Good,Survived,Yes,29
+834,70,Male,Hispanic,Europe,Urban,Low,No,No,I,High,Yes,Irregular,Traditional,19.5,Low,Current,Medium,Low,Low,No,Delayed,Good,Yes,No,No,Poor,Deceased,Yes,1
+835,61,Male,Asian,North America,Urban,Middle,No,No,IV,Low,Yes,Irregular,Western,33.2,Medium,Never,High,Medium,Low,No,Delayed,Limited,No,No,Yes,Good,Survived,No,15
+836,83,Male,White,Europe,Urban,Middle,No,No,II,Low,Yes,Irregular,Balanced,39.2,Low,Current,Medium,High,Low,Yes,Delayed,Limited,No,Yes,Yes,Good,Survived,No,24
+837,34,Male,White,Asia Pacific,Urban,Middle,No,No,II,Medium,Yes,Regular,Traditional,31.2,Low,Never,Low,Medium,Medium,Yes,Delayed,Limited,Yes,No,Yes,Good,Deceased,Yes,40
+838,48,Male,Black,Latin America,Urban,Low,No,No,III,High,Yes,Never,Western,24.5,Low,Former,High,Medium,Medium,Yes,Timely,Good,No,Yes,No,Good,Survived,No,24
+839,52,Male,Other,Asia Pacific,Urban,Low,No,No,IV,High,Yes,Regular,Western,37.8,Low,Former,Medium,Medium,Low,No,Timely,Good,No,No,Yes,Good,Survived,Yes,42
+840,46,Male,White,Europe,Urban,Middle,No,No,III,Medium,No,Never,Traditional,34.7,Low,Never,Medium,Medium,Medium,No,Timely,Good,No,Yes,Yes,Poor,Deceased,No,36
+841,55,Female,Black,Europe,Urban,Middle,No,No,IV,High,Yes,Regular,Traditional,33.7,Medium,Current,Medium,Low,Low,No,Delayed,Good,Yes,Yes,Yes,Poor,Survived,No,37
+842,48,Female,White,Asia Pacific,Rural,Middle,No,No,I,Medium,Yes,Regular,Western,27,Medium,Never,Medium,Low,Medium,Yes,Timely,Limited,No,Yes,Yes,Good,Survived,No,51
+843,57,Male,Asian,North America,Rural,Low,No,No,II,Medium,Yes,Never,Balanced,19.4,Medium,Never,Low,Medium,Low,Yes,Timely,Good,Yes,Yes,No,Poor,Survived,No,5
+844,76,Male,White,Asia Pacific,Urban,High,No,Yes,IV,Low,Yes,Regular,Traditional,23.3,Medium,Never,Low,Low,Medium,Yes,Delayed,Limited,No,No,Yes,Poor,Survived,No,35
+845,46,Male,White,Europe,Urban,Middle,No,No,II,Medium,Yes,Irregular,Western,22.7,Medium,Never,Medium,High,Low,No,Timely,Good,No,No,Yes,Good,Deceased,No,52
+846,74,Female,Hispanic,Asia Pacific,Urban,Low,No,No,IV,High,No,Regular,Western,27.2,Low,Former,Low,Low,Medium,Yes,Delayed,Good,No,No,Yes,Good,Survived,No,23
+847,52,Male,Asian,North America,Rural,Middle,No,No,III,Medium,Yes,Regular,Western,38.8,Low,Never,Medium,High,High,Yes,Delayed,Limited,Yes,No,No,Good,Survived,Yes,58
+848,87,Female,Black,North America,Urban,High,No,Yes,I,Medium,Yes,Regular,Balanced,27.4,Low,Current,Medium,Medium,Medium,No,Timely,Limited,No,No,Yes,Poor,Survived,No,57
+849,85,Male,White,Europe,Urban,Middle,No,No,III,Medium,Yes,Irregular,Western,36,High,Never,Low,Medium,High,Yes,Timely,Good,No,No,No,Good,Survived,No,27
+850,29,Male,Black,Asia Pacific,Urban,Middle,Yes,No,IV,High,Yes,Regular,Traditional,34.9,Low,Never,Low,Medium,Medium,Yes,Timely,Limited,Yes,No,Yes,Good,Survived,No,45
+851,24,Male,Black,North America,Urban,Low,No,No,II,Low,Yes,Regular,Western,29.9,Low,Current,High,Low,Low,No,Delayed,Good,No,No,Yes,Good,Survived,No,35
+852,57,Female,Asian,North America,Urban,Middle,Yes,No,II,Medium,Yes,Never,Balanced,28.4,Low,Former,Low,High,Medium,Yes,Timely,Good,Yes,No,Yes,Good,Survived,No,16
+853,32,Male,Black,North America,Rural,Low,No,No,III,High,No,Regular,Balanced,18.8,Low,Former,Low,High,High,Yes,Delayed,Limited,Yes,No,Yes,Good,Survived,No,34
+854,50,Female,White,Europe,Rural,High,No,No,IV,Medium,Yes,Never,Balanced,33.7,Low,Never,Medium,Low,Low,Yes,Timely,Good,Yes,No,No,Good,Survived,No,43
+855,66,Male,White,Europe,Urban,Low,No,No,I,High,Yes,Irregular,Balanced,33.5,Low,Never,Low,Medium,Low,Yes,Timely,Good,Yes,Yes,No,Good,Deceased,No,59
+856,71,Male,Black,Latin America,Rural,Middle,No,No,IV,Medium,Yes,Regular,Western,36.2,Low,Former,Low,Low,Medium,Yes,Timely,Limited,Yes,No,Yes,Poor,Survived,No,59
+857,75,Female,Black,Asia Pacific,Urban,Middle,No,No,I,Medium,Yes,Regular,Western,29.9,Medium,Former,Low,Medium,Low,Yes,Delayed,Good,Yes,Yes,No,Poor,Survived,No,38
+858,34,Female,White,North America,Rural,Middle,No,No,III,Medium,Yes,Regular,Western,36.7,High,Current,Low,High,Low,Yes,Timely,Limited,Yes,No,No,Good,Survived,Yes,26
+859,48,Male,Asian,North America,Urban,Middle,No,No,III,Low,Yes,Irregular,Balanced,34.4,Medium,Never,Low,Medium,Medium,No,Delayed,Good,Yes,Yes,Yes,Good,Deceased,No,28
+860,27,Male,White,Latin America,Rural,Middle,No,No,III,High,Yes,Regular,Western,38.8,Low,Former,High,Low,High,Yes,Timely,Good,Yes,No,No,Good,Deceased,No,35
+861,24,Female,White,North America,Rural,Low,Yes,No,III,Low,Yes,Irregular,Western,21.4,Medium,Current,High,High,Low,Yes,Timely,Good,No,No,Yes,Good,Survived,Yes,51
+862,48,Male,White,Asia Pacific,Urban,High,Yes,No,I,Medium,Yes,Regular,Traditional,35.6,High,Never,Medium,Low,Medium,Yes,Timely,Limited,No,No,Yes,Good,Survived,No,31
+863,66,Male,Black,Europe,Urban,Middle,Yes,No,III,Medium,Yes,Never,Balanced,24.4,Low,Never,Low,Medium,Low,Yes,Timely,Good,Yes,Yes,Yes,Good,Survived,No,39
+864,87,Male,Hispanic,Europe,Urban,Middle,No,No,II,High,Yes,Regular,Balanced,38.4,Medium,Former,Medium,Low,High,Yes,Delayed,Limited,Yes,Yes,Yes,Poor,Survived,No,48
+865,64,Male,Hispanic,Asia Pacific,Urban,Middle,No,No,III,Low,Yes,Regular,Western,23.2,Low,Never,Medium,Low,Low,Yes,Timely,Good,Yes,Yes,No,Good,Deceased,No,9
+866,21,Female,Asian,Africa,Urban,Middle,No,No,III,Medium,Yes,Regular,Balanced,29.4,Low,Current,High,Medium,Low,Yes,Delayed,Good,No,No,Yes,Poor,Survived,No,28
+867,46,Male,White,Asia Pacific,Rural,High,No,Yes,I,Medium,Yes,Regular,Balanced,37.5,Medium,Never,Low,Medium,Medium,No,Delayed,Good,Yes,Yes,Yes,Good,Survived,Yes,20
+868,55,Male,White,Europe,Rural,Low,Yes,No,IV,Medium,Yes,Regular,Balanced,20.7,Low,Never,High,Low,Low,Yes,Delayed,Limited,No,Yes,Yes,Poor,Survived,No,2
+869,55,Male,Black,North America,Urban,Middle,No,Yes,III,Medium,Yes,Regular,Western,21,Low,Former,Low,Medium,Medium,Yes,Delayed,Good,No,Yes,Yes,Poor,Survived,Yes,22
+870,45,Male,White,Europe,Rural,High,Yes,No,II,Medium,Yes,Irregular,Western,33.8,Medium,Former,Low,Low,High,Yes,Timely,Limited,No,No,No,Poor,Survived,Yes,9
+871,62,Female,Hispanic,Europe,Rural,Middle,No,No,I,Low,No,Regular,Western,32.9,Medium,Current,Low,Low,Medium,Yes,Delayed,Good,No,Yes,No,Good,Survived,No,41
+872,46,Female,Other,North America,Urban,Middle,No,No,IV,High,Yes,Irregular,Balanced,29.1,Low,Former,Medium,Low,Medium,Yes,Timely,Good,No,Yes,Yes,Poor,Survived,Yes,17
+873,88,Male,White,Latin America,Urban,Middle,No,Yes,I,Low,Yes,Irregular,Traditional,30.3,Medium,Former,Low,Low,High,Yes,Delayed,Limited,No,No,Yes,Poor,Survived,No,24
+874,39,Male,White,Europe,Urban,Middle,No,No,I,Medium,No,Never,Traditional,28.5,Low,Never,Low,Low,Low,Yes,Delayed,Good,Yes,No,Yes,Good,Survived,No,23
+875,30,Male,Asian,North America,Urban,Middle,No,No,IV,Low,No,Irregular,Western,28.9,Low,Never,Medium,Medium,Low,Yes,Delayed,Limited,No,No,No,Good,Deceased,No,26
+876,57,Female,White,Asia Pacific,Urban,Low,No,No,III,High,Yes,Regular,Western,31,Low,Never,Medium,Medium,Medium,No,Timely,Good,No,No,Yes,Good,Survived,Yes,20
+877,25,Male,Other,Asia Pacific,Urban,Middle,No,No,II,Low,Yes,Irregular,Western,20.2,High,Never,Medium,High,Medium,Yes,Timely,Good,Yes,No,Yes,Poor,Survived,No,23
+878,42,Male,White,Africa,Urban,Middle,Yes,No,IV,Low,Yes,Regular,Balanced,26.2,Low,Never,High,Medium,Low,Yes,Delayed,Good,No,No,Yes,Good,Survived,Yes,1
+879,66,Female,White,Latin America,Urban,Middle,No,No,III,Medium,No,Irregular,Western,34.8,Low,Former,Medium,High,High,Yes,Delayed,Limited,No,Yes,Yes,Poor,Survived,No,24
+880,65,Female,White,North America,Urban,High,No,Yes,II,Low,Yes,Regular,Western,34.4,Low,Never,Low,High,Low,Yes,Delayed,Limited,Yes,Yes,Yes,Poor,Survived,No,28
+881,31,Male,White,Africa,Urban,High,No,No,II,Low,Yes,Regular,Western,38.2,Medium,Never,Medium,High,High,Yes,Timely,Good,Yes,Yes,Yes,Poor,Survived,Yes,8
+882,32,Male,White,Europe,Rural,Middle,Yes,No,III,Low,Yes,Regular,Balanced,18.8,Medium,Current,Low,High,Medium,Yes,Timely,Good,No,No,Yes,Good,Survived,Yes,28
+883,81,Female,White,North America,Urban,Low,No,No,IV,Medium,No,Irregular,Western,22.1,Medium,Never,Medium,Medium,Low,Yes,Delayed,Good,No,No,No,Good,Deceased,No,1
+884,79,Male,Black,Latin America,Urban,Low,No,No,I,Medium,No,Regular,Western,31.7,High,Current,Low,Low,High,Yes,Timely,Limited,Yes,No,Yes,Poor,Survived,No,10
+885,62,Male,White,Asia Pacific,Urban,Low,No,No,III,Low,Yes,Regular,Balanced,24.5,High,Never,High,Medium,Low,No,Delayed,Limited,Yes,No,No,Good,Deceased,No,13
+886,87,Male,White,North America,Urban,Middle,No,No,II,Low,Yes,Regular,Balanced,28.2,Medium,Never,Medium,Medium,Low,Yes,Delayed,Good,Yes,Yes,Yes,Poor,Survived,No,51
+887,24,Female,White,North America,Urban,Low,No,No,I,Low,Yes,Regular,Balanced,31.1,Low,Current,Medium,Medium,Low,Yes,Delayed,Good,No,No,Yes,Poor,Survived,No,48
+888,56,Male,White,North America,Rural,Middle,Yes,No,I,High,Yes,Never,Balanced,36,Low,Former,Low,Medium,Medium,Yes,Delayed,Good,No,Yes,Yes,Poor,Deceased,No,11
+889,50,Male,Black,Asia Pacific,Urban,Low,No,No,I,Low,Yes,Never,Balanced,30.8,Low,Current,High,Low,Medium,No,Delayed,Limited,No,No,No,Good,Survived,No,2
+890,28,Female,White,North America,Urban,Low,No,No,II,High,Yes,Irregular,Balanced,29.1,Medium,Never,Medium,Medium,Low,Yes,Timely,Good,No,Yes,No,Good,Survived,No,23
+891,70,Male,White,Asia Pacific,Urban,Middle,Yes,No,IV,High,Yes,Never,Western,31.8,Low,Former,Low,Low,Medium,Yes,Timely,Limited,Yes,Yes,Yes,Poor,Survived,Yes,48
+892,48,Male,White,Asia Pacific,Urban,Middle,No,No,IV,Low,No,Regular,Balanced,22.6,Low,Former,Low,High,Low,No,Timely,Good,Yes,Yes,Yes,Good,Survived,No,17
+893,59,Female,Asian,Asia Pacific,Rural,Low,No,No,I,High,Yes,Regular,Western,37.1,Low,Current,Low,High,High,No,Timely,Good,No,No,Yes,Poor,Survived,No,8
+894,60,Male,White,Europe,Urban,Middle,No,No,I,Low,Yes,Regular,Western,25,Low,Current,Low,Low,Low,Yes,Timely,Good,Yes,Yes,No,Good,Survived,No,33
+895,30,Female,Black,North America,Urban,Middle,Yes,No,IV,High,Yes,Regular,Western,25.1,Low,Former,Medium,Medium,Medium,Yes,Timely,Good,Yes,No,No,Poor,Survived,No,25
+896,42,Female,White,North America,Urban,Middle,No,No,IV,Medium,No,Regular,Western,19.9,High,Never,Low,Low,Low,No,Timely,Limited,Yes,No,Yes,Poor,Survived,No,18
+897,20,Female,Asian,Asia Pacific,Urban,Middle,Yes,No,II,Low,Yes,Irregular,Balanced,34.6,High,Current,High,Medium,Medium,Yes,Timely,Good,Yes,No,No,Poor,Survived,No,8
+898,65,Female,White,Africa,Rural,High,No,No,II,Medium,Yes,Regular,Western,23.6,Medium,Former,Low,Medium,Low,Yes,Timely,Good,Yes,Yes,Yes,Good,Survived,No,15
+899,40,Male,White,Latin America,Urban,Middle,No,No,II,Low,Yes,Irregular,Balanced,20,High,Current,Low,Medium,Medium,No,Timely,Limited,No,No,No,Poor,Survived,No,41
+900,55,Male,White,Latin America,Rural,Middle,No,No,I,High,Yes,Regular,Western,19.8,Low,Former,Low,Low,High,Yes,Timely,Good,Yes,No,Yes,Poor,Survived,No,29
+901,73,Male,Hispanic,Asia Pacific,Rural,High,No,No,III,Low,Yes,Irregular,Traditional,33.5,Medium,Never,Low,High,Low,Yes,Delayed,Good,Yes,No,Yes,Poor,Survived,No,32
+902,76,Female,White,North America,Urban,Low,No,No,III,High,Yes,Never,Western,38.2,Medium,Current,Low,Low,Low,Yes,Timely,Limited,Yes,Yes,No,Good,Survived,No,33
+903,20,Male,Other,Asia Pacific,Urban,Middle,Yes,No,IV,Medium,Yes,Irregular,Balanced,31.3,Low,Never,Medium,Medium,Low,No,Delayed,Good,No,No,Yes,Good,Survived,No,29
+904,82,Male,Asian,North America,Urban,Middle,Yes,No,I,Low,Yes,Irregular,Western,34.1,Medium,Never,Low,Low,Medium,No,Timely,Good,Yes,No,No,Poor,Survived,No,26
+905,73,Female,Asian,Europe,Urban,Middle,No,No,II,Low,Yes,Never,Western,39.5,High,Former,Low,Low,Medium,Yes,Delayed,Good,No,Yes,No,Good,Survived,No,11
+906,74,Male,White,Africa,Urban,Low,No,No,III,Low,No,Regular,Western,35.3,Low,Former,Medium,Low,Medium,Yes,Delayed,Good,No,No,Yes,Good,Survived,No,49
+907,59,Female,Other,Europe,Urban,Low,No,Yes,III,Low,Yes,Irregular,Western,29.3,Low,Never,Medium,High,Medium,Yes,Delayed,Good,No,Yes,Yes,Good,Survived,Yes,38
+908,34,Female,White,North America,Urban,High,No,No,I,Medium,No,Regular,Balanced,34.4,Low,Never,Low,High,Medium,Yes,Timely,Good,Yes,No,Yes,Good,Survived,Yes,27
+909,40,Female,Asian,Asia Pacific,Urban,Low,No,No,I,Low,No,Regular,Balanced,21.5,High,Current,Low,Low,Medium,Yes,Timely,Good,No,Yes,Yes,Poor,Survived,No,43
+910,66,Female,Black,North America,Urban,Low,No,No,II,Low,Yes,Never,Balanced,20,Medium,Current,Medium,High,High,Yes,Timely,Good,Yes,Yes,Yes,Poor,Survived,No,51
+911,72,Male,Hispanic,North America,Urban,High,No,No,III,Low,Yes,Regular,Western,32.9,Low,Former,Low,Medium,Low,Yes,Delayed,Good,Yes,No,Yes,Good,Survived,No,16
+912,28,Female,White,North America,Urban,High,No,No,II,Low,Yes,Irregular,Traditional,23.9,Low,Current,High,High,Medium,Yes,Delayed,Limited,No,Yes,Yes,Poor,Deceased,Yes,2
+913,71,Male,White,Europe,Urban,Middle,No,No,II,Medium,Yes,Regular,Western,38.8,Low,Former,Low,Medium,High,Yes,Timely,Limited,No,Yes,No,Good,Survived,Yes,27
+914,76,Female,Hispanic,Africa,Urban,Low,No,No,II,Low,Yes,Regular,Western,20.3,Low,Never,Low,Low,Medium,No,Delayed,Good,Yes,Yes,Yes,Poor,Survived,No,16
+915,45,Male,Hispanic,Europe,Urban,High,No,No,IV,Low,Yes,Never,Western,25.7,Low,Never,Medium,Low,Low,No,Timely,Good,Yes,No,Yes,Good,Deceased,No,58
+916,60,Male,White,Asia Pacific,Rural,High,No,No,I,Low,Yes,Irregular,Western,20.8,Low,Never,Low,Low,Low,Yes,Timely,Limited,Yes,Yes,Yes,Poor,Survived,Yes,18
+917,54,Female,Black,North America,Urban,Low,No,No,IV,Medium,No,Regular,Balanced,20.6,High,Current,Low,Low,High,Yes,Timely,Limited,No,Yes,Yes,Good,Survived,No,56
+918,82,Female,Black,North America,Rural,Low,No,No,II,High,Yes,Irregular,Balanced,21.2,High,Former,Low,Low,High,No,Timely,Good,Yes,No,No,Good,Survived,Yes,19
+919,44,Male,Hispanic,Europe,Urban,Low,No,No,I,Medium,Yes,Never,Balanced,38.3,High,Never,Low,Low,Low,Yes,Timely,Good,Yes,No,No,Poor,Survived,No,34
+920,57,Female,Black,Asia Pacific,Urban,Middle,No,No,III,Low,Yes,Never,Traditional,36.5,Low,Never,Low,Medium,Medium,Yes,Timely,Limited,No,No,No,Poor,Survived,No,4
+921,21,Female,Hispanic,Europe,Urban,Middle,Yes,No,II,Low,No,Regular,Balanced,34.8,Low,Former,Medium,High,Medium,Yes,Timely,Good,Yes,Yes,Yes,Poor,Survived,No,31
+922,26,Female,White,Europe,Urban,Middle,No,No,II,Medium,Yes,Regular,Balanced,36.6,High,Former,Low,Medium,Low,Yes,Timely,Good,No,Yes,Yes,Poor,Deceased,Yes,33
+923,53,Female,Black,Africa,Urban,Low,No,No,III,Medium,Yes,Regular,Western,25.9,Low,Former,Low,High,Medium,Yes,Timely,Good,No,Yes,Yes,Good,Survived,No,16
+924,36,Female,White,North America,Rural,High,No,Yes,II,Medium,Yes,Regular,Traditional,35.2,Low,Current,Low,Low,Medium,No,Timely,Good,Yes,No,Yes,Good,Survived,No,31
+925,62,Female,White,North America,Urban,Middle,No,No,IV,Medium,No,Irregular,Balanced,22.2,Low,Former,High,Low,Low,Yes,Timely,Good,Yes,Yes,No,Poor,Survived,No,6
+926,78,Male,White,Europe,Rural,Low,Yes,No,I,High,Yes,Never,Traditional,22.7,Medium,Never,Low,Low,Medium,Yes,Timely,Good,Yes,No,Yes,Poor,Survived,No,54
+927,70,Male,White,North America,Urban,Middle,No,No,I,High,Yes,Regular,Western,36.7,Medium,Never,Medium,Low,High,Yes,Delayed,Good,No,No,Yes,Poor,Survived,No,8
+928,73,Male,White,Europe,Rural,High,No,No,IV,Medium,No,Never,Balanced,31.6,Medium,Current,High,Medium,Medium,Yes,Timely,Good,Yes,No,Yes,Poor,Survived,No,45
+929,43,Male,Asian,Europe,Urban,Middle,Yes,No,III,Low,Yes,Regular,Balanced,25,Low,Former,High,Medium,Medium,Yes,Timely,Limited,No,Yes,Yes,Poor,Survived,No,33
+930,44,Female,Asian,Asia Pacific,Urban,Low,No,No,I,Medium,Yes,Never,Western,32.2,High,Never,Low,Medium,Medium,Yes,Timely,Limited,No,No,Yes,Good,Survived,No,14
+931,71,Male,White,North America,Rural,Middle,Yes,No,II,High,Yes,Regular,Western,20.4,High,Former,Low,Medium,Medium,Yes,Delayed,Good,No,No,Yes,Good,Survived,No,6
+932,89,Male,White,Latin America,Urban,High,No,No,II,Medium,Yes,Regular,Western,25.9,Low,Former,Medium,Low,Medium,Yes,Timely,Good,Yes,Yes,Yes,Good,Deceased,No,13
+933,52,Female,Hispanic,Europe,Urban,Middle,No,No,IV,High,Yes,Regular,Balanced,23.5,Low,Former,Low,Medium,Low,Yes,Delayed,Good,No,Yes,No,Poor,Survived,No,26
+934,68,Male,White,Asia Pacific,Urban,High,No,No,I,Medium,Yes,Irregular,Western,29,Medium,Former,High,High,Medium,No,Timely,Good,Yes,Yes,No,Good,Survived,Yes,8
+935,48,Male,Black,Latin America,Rural,Middle,No,No,II,Low,Yes,Never,Western,38.7,High,Never,High,Medium,Low,Yes,Delayed,Good,Yes,No,Yes,Good,Deceased,No,30
+936,82,Female,Black,North America,Urban,Middle,No,No,III,Medium,Yes,Regular,Western,25.1,Medium,Former,Low,Low,Medium,Yes,Timely,Good,Yes,Yes,No,Good,Survived,No,44
+937,41,Female,White,Europe,Rural,High,No,No,I,Medium,No,Irregular,Traditional,39.8,Medium,Never,Low,Medium,Low,Yes,Delayed,Good,No,Yes,Yes,Good,Survived,No,59
+938,45,Male,White,North America,Urban,High,No,No,I,High,Yes,Irregular,Western,25,Medium,Current,High,High,Low,Yes,Timely,Good,No,No,No,Poor,Survived,No,3
+939,47,Female,Hispanic,North America,Urban,High,No,No,I,High,Yes,Never,Balanced,28.4,Medium,Never,High,Low,Medium,Yes,Delayed,Good,Yes,No,Yes,Good,Deceased,No,52
+940,68,Male,Black,North America,Rural,Middle,No,No,I,Low,Yes,Regular,Western,30,Medium,Never,Medium,Medium,Medium,Yes,Timely,Good,No,No,Yes,Good,Deceased,No,10
+941,68,Male,Other,North America,Urban,High,No,Yes,I,Medium,Yes,Never,Balanced,20.4,Medium,Never,High,Medium,Low,Yes,Delayed,Good,Yes,No,Yes,Good,Survived,No,49
+942,39,Male,White,North America,Rural,Low,Yes,No,I,Low,Yes,Regular,Balanced,19.8,Low,Never,Low,Medium,Medium,Yes,Timely,Good,No,No,Yes,Poor,Survived,No,22
+943,82,Female,White,Europe,Urban,Middle,No,No,II,Low,Yes,Regular,Western,38.8,Low,Former,High,Medium,Low,Yes,Delayed,Good,Yes,No,Yes,Good,Deceased,No,53
+944,80,Female,White,North America,Urban,High,Yes,No,III,High,Yes,Irregular,Balanced,31.9,Medium,Former,Low,High,Low,Yes,Timely,Limited,No,No,Yes,Poor,Survived,Yes,49
+945,68,Female,Black,Asia Pacific,Urban,High,No,No,I,Medium,No,Regular,Western,22.4,Medium,Never,Low,Medium,Low,Yes,Timely,Good,No,Yes,No,Good,Deceased,No,54
+946,20,Female,Hispanic,North America,Urban,Low,No,No,I,Medium,No,Irregular,Balanced,30.5,Low,Never,Medium,High,Medium,Yes,Timely,Limited,No,No,Yes,Good,Deceased,No,4
+947,32,Male,White,Latin America,Urban,Low,No,No,II,Low,Yes,Regular,Traditional,28.6,Medium,Never,Medium,Low,High,Yes,Timely,Good,No,No,Yes,Good,Survived,No,15
+948,70,Female,Black,North America,Urban,Low,No,No,IV,Medium,Yes,Regular,Western,37.6,Medium,Former,Medium,Low,Medium,Yes,Delayed,Limited,No,Yes,Yes,Good,Deceased,Yes,56
+949,75,Female,White,North America,Rural,Low,No,No,I,Low,Yes,Never,Western,35.2,Low,Never,Low,Medium,Medium,Yes,Timely,Limited,No,No,Yes,Poor,Deceased,No,51
+950,81,Male,White,North America,Rural,Middle,No,Yes,I,Low,Yes,Irregular,Western,30.3,Low,Never,Medium,Low,Low,Yes,Delayed,Good,Yes,No,Yes,Good,Deceased,Yes,27
+951,51,Male,White,Africa,Urban,High,No,No,II,Medium,Yes,Regular,Traditional,30.2,Medium,Never,Medium,Low,Medium,No,Timely,Good,No,No,No,Good,Survived,No,54
+952,49,Female,Other,North America,Urban,Low,No,No,III,Low,Yes,Regular,Western,36.7,Medium,Never,Medium,Medium,High,Yes,Timely,Limited,Yes,No,Yes,Good,Deceased,Yes,13
+953,48,Male,Asian,Asia Pacific,Rural,Middle,No,No,II,High,Yes,Regular,Western,27.1,Low,Never,Low,Medium,Medium,Yes,Delayed,Limited,Yes,Yes,No,Poor,Survived,Yes,4
+954,68,Male,Asian,North America,Urban,Middle,No,No,IV,High,Yes,Irregular,Western,29.5,Low,Never,Low,Medium,Medium,No,Delayed,Good,Yes,No,Yes,Good,Survived,Yes,27
+955,64,Female,Other,North America,Urban,High,No,No,II,High,Yes,Regular,Western,20.7,Medium,Never,Medium,High,Medium,Yes,Timely,Limited,Yes,Yes,No,Good,Survived,Yes,42
+956,49,Male,Black,Europe,Urban,High,No,No,IV,High,Yes,Never,Western,21.4,High,Never,Low,Low,Low,Yes,Delayed,Limited,No,No,Yes,Poor,Survived,No,53
+957,35,Female,White,Europe,Urban,Low,Yes,No,IV,High,Yes,Regular,Western,24.4,Low,Former,Low,High,High,No,Timely,Good,Yes,No,No,Poor,Survived,No,23
+958,59,Female,Asian,Africa,Rural,High,No,No,III,High,Yes,Irregular,Traditional,27.8,High,Never,Medium,Low,Low,No,Timely,Good,Yes,No,No,Poor,Survived,No,57
+959,38,Female,Hispanic,Asia Pacific,Urban,Middle,No,No,I,Medium,Yes,Never,Traditional,21.1,Low,Never,Low,High,Medium,Yes,Delayed,Good,Yes,Yes,No,Good,Survived,Yes,51
+960,37,Male,White,Asia Pacific,Rural,Low,No,No,III,Medium,Yes,Regular,Western,25.8,Low,Former,Low,Low,Low,No,Timely,Limited,No,Yes,Yes,Good,Survived,No,51
+961,20,Male,Asian,North America,Rural,High,No,No,I,Low,Yes,Irregular,Balanced,19.1,Medium,Never,Medium,High,Medium,Yes,Timely,Good,No,No,Yes,Poor,Deceased,No,11
+962,66,Female,Black,North America,Urban,Middle,Yes,No,III,High,Yes,Never,Traditional,23.1,Low,Former,Medium,Medium,Medium,Yes,Delayed,Good,Yes,Yes,Yes,Good,Survived,No,23
+963,85,Female,White,Europe,Urban,Middle,No,No,I,High,Yes,Regular,Traditional,34.8,Medium,Never,Low,Medium,Medium,No,Timely,Good,Yes,No,Yes,Good,Survived,Yes,16
+964,57,Female,White,Asia Pacific,Urban,Low,Yes,No,III,Low,Yes,Irregular,Western,31.6,High,Never,Low,Medium,Medium,Yes,Timely,Good,Yes,No,Yes,Good,Survived,Yes,23
+965,70,Female,White,Europe,Urban,High,No,No,II,Low,Yes,Irregular,Balanced,25.2,High,Never,Medium,Low,Low,Yes,Timely,Good,No,Yes,No,Poor,Deceased,Yes,8
+966,82,Male,Hispanic,North America,Rural,High,No,No,II,Medium,No,Regular,Balanced,28.8,Medium,Never,Low,High,Medium,Yes,Timely,Good,Yes,Yes,Yes,Poor,Deceased,No,57
+967,23,Female,White,Asia Pacific,Urban,Middle,No,No,IV,Medium,Yes,Regular,Western,30,Medium,Never,Medium,Low,Medium,Yes,Delayed,Good,Yes,No,No,Good,Survived,No,58
+968,20,Female,White,Europe,Urban,Middle,No,No,III,Low,Yes,Irregular,Western,28.8,Low,Former,Low,Low,High,Yes,Delayed,Good,No,No,No,Poor,Survived,No,57
+969,27,Female,Black,Latin America,Urban,High,No,No,II,High,No,Regular,Balanced,20,Medium,Former,High,High,Low,No,Delayed,Good,No,No,Yes,Poor,Deceased,No,20
+970,48,Male,White,Europe,Urban,High,No,No,II,Low,No,Regular,Western,25.3,Medium,Current,High,Medium,Medium,Yes,Timely,Good,Yes,Yes,Yes,Poor,Deceased,Yes,22
+971,74,Female,Black,Asia Pacific,Urban,Low,No,No,I,Low,Yes,Regular,Western,35.3,Medium,Never,Low,High,Medium,Yes,Timely,Limited,No,No,No,Good,Survived,Yes,2
+972,22,Female,Black,Europe,Urban,Middle,No,No,I,Low,Yes,Irregular,Traditional,24,Medium,Never,Low,Low,Medium,Yes,Timely,Good,Yes,No,Yes,Poor,Survived,Yes,39
+973,51,Male,Black,North America,Urban,Low,No,No,II,Medium,Yes,Irregular,Western,30.3,Medium,Current,Medium,Low,Medium,Yes,Timely,Limited,Yes,Yes,Yes,Good,Deceased,No,26
+974,29,Male,Asian,North America,Urban,Middle,No,No,IV,Medium,Yes,Irregular,Western,27,Medium,Current,Low,High,Low,Yes,Delayed,Good,Yes,No,Yes,Poor,Survived,No,13
+975,53,Female,White,Africa,Urban,Low,No,No,I,High,No,Regular,Western,20.3,Medium,Current,Medium,Medium,Low,Yes,Timely,Limited,Yes,No,Yes,Poor,Survived,Yes,40
+976,74,Male,White,Asia Pacific,Urban,Low,Yes,No,III,High,Yes,Irregular,Western,34.2,Low,Current,Low,Low,Medium,Yes,Timely,Limited,Yes,No,Yes,Poor,Deceased,No,48
+977,51,Female,White,Europe,Urban,High,No,No,I,Medium,Yes,Regular,Traditional,38.3,Medium,Former,High,Medium,Medium,Yes,Delayed,Limited,Yes,No,Yes,Good,Survived,No,58
+978,69,Female,Asian,Asia Pacific,Urban,Middle,Yes,No,II,Medium,Yes,Regular,Western,23.6,Low,Never,Low,Medium,Low,Yes,Delayed,Good,No,No,Yes,Good,Deceased,No,45
+979,26,Male,Other,Europe,Rural,Middle,No,No,IV,High,Yes,Regular,Balanced,34.1,Medium,Former,Low,Medium,High,Yes,Delayed,Good,Yes,No,Yes,Poor,Survived,No,13
+980,27,Female,White,Asia Pacific,Urban,Low,No,No,IV,Medium,No,Never,Balanced,20.6,Low,Never,High,Low,Low,No,Delayed,Good,Yes,Yes,Yes,Good,Deceased,No,39
+981,84,Male,White,Europe,Urban,Low,No,No,II,Low,No,Regular,Traditional,26.5,Low,Never,High,Low,Medium,Yes,Delayed,Good,No,No,Yes,Good,Survived,Yes,31
+982,76,Male,Black,North America,Urban,Middle,No,Yes,III,Medium,Yes,Regular,Traditional,37.2,Medium,Never,Low,Medium,Medium,Yes,Timely,Good,Yes,Yes,Yes,Good,Survived,No,51
+983,86,Male,White,Europe,Rural,High,No,No,III,Low,No,Regular,Western,30.2,Low,Never,Low,High,Medium,Yes,Timely,Limited,No,Yes,Yes,Good,Survived,Yes,8
+984,78,Male,White,Asia Pacific,Rural,Middle,Yes,No,III,High,Yes,Irregular,Western,23.4,Low,Never,Medium,Medium,Low,Yes,Timely,Good,Yes,No,Yes,Good,Survived,No,57
+985,73,Male,White,Europe,Urban,Middle,No,No,II,High,Yes,Regular,Western,19,Medium,Former,Medium,High,High,Yes,Delayed,Good,Yes,No,Yes,Good,Deceased,No,22
+986,86,Female,Asian,Latin America,Urban,Low,No,Yes,III,Medium,No,Irregular,Traditional,37.4,High,Never,Medium,Low,Medium,Yes,Delayed,Good,Yes,No,Yes,Good,Survived,No,29
+987,70,Male,Asian,North America,Rural,High,No,No,II,Low,Yes,Never,Western,27.4,Low,Current,Medium,Low,Medium,Yes,Timely,Good,No,No,Yes,Good,Deceased,Yes,40
+988,27,Male,Asian,North America,Rural,Low,No,No,IV,High,Yes,Regular,Western,34.2,Low,Never,Low,High,Medium,Yes,Delayed,Good,Yes,Yes,Yes,Poor,Survived,No,53
+989,53,Male,Black,Latin America,Urban,Middle,No,No,IV,Medium,Yes,Never,Balanced,32.3,Low,Former,High,Low,Medium,No,Timely,Good,No,No,Yes,Poor,Survived,No,11
+990,54,Female,Asian,North America,Urban,High,No,No,I,Medium,Yes,Irregular,Western,27,Medium,Never,Medium,Low,High,Yes,Timely,Good,No,Yes,Yes,Good,Survived,No,28
+991,51,Female,Black,Europe,Rural,Middle,No,No,IV,Medium,No,Regular,Traditional,23.5,Medium,Never,Low,High,Medium,Yes,Timely,Limited,No,Yes,No,Good,Survived,No,28
+992,65,Male,Hispanic,Latin America,Urban,Middle,No,No,I,Low,No,Irregular,Traditional,31.9,Low,Never,High,High,Medium,Yes,Delayed,Limited,No,Yes,Yes,Good,Deceased,No,49
+993,35,Female,White,Latin America,Urban,Middle,No,No,II,Low,Yes,Regular,Traditional,35.6,High,Never,Medium,High,Medium,Yes,Delayed,Good,Yes,Yes,Yes,Good,Survived,Yes,51
+994,87,Female,Other,Europe,Urban,Low,Yes,Yes,I,Low,Yes,Irregular,Traditional,37.1,Low,Never,High,Medium,Medium,Yes,Timely,Limited,Yes,No,Yes,Good,Survived,No,57
+995,56,Male,Other,Asia Pacific,Rural,Middle,No,No,IV,Medium,Yes,Never,Balanced,24.3,Low,Former,Medium,Medium,High,No,Delayed,Good,No,No,Yes,Good,Survived,No,9
+996,73,Male,Asian,Europe,Urban,Low,No,No,II,Medium,Yes,Never,Western,38.3,Low,Former,High,High,Medium,Yes,Timely,Good,No,No,Yes,Good,Survived,Yes,45
+997,33,Male,Asian,Asia Pacific,Rural,Low,No,No,III,Medium,Yes,Regular,Traditional,37.3,Low,Current,Low,Medium,Medium,Yes,Timely,Good,Yes,No,Yes,Poor,Deceased,No,21
+998,74,Male,Hispanic,Europe,Rural,Middle,No,No,I,High,Yes,Regular,Western,21.9,Low,Former,Low,Medium,Medium,Yes,Delayed,Good,Yes,No,Yes,Good,Deceased,Yes,49
+999,67,Female,Black,North America,Urban,Low,No,No,III,Low,Yes,Irregular,Western,26.1,Low,Current,Medium,Low,Medium,Yes,Delayed,Good,Yes,Yes,Yes,Good,Deceased,Yes,54
+1000,26,Male,White,Europe,Rural,Middle,Yes,Yes,II,Medium,No,Irregular,Traditional,32.1,High,Never,Low,High,Low,Yes,Delayed,Limited,No,Yes,Yes,Good,Deceased,No,31

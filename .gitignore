@@ -1,0 +1,22 @@
+# Java junk
+*.class
+*.jar
+*.war
+*.ear
+.project
+.classpath
+.settings/
+bin/
+
+# Python junk
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+.vscode/
+.idea/
+
+# Large OS files
+Thumbs.db
+.DS_Store
